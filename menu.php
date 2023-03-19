@@ -11,26 +11,23 @@
 <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;500&family=Poppins:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="menu">
 
-        <div class="esq">
-            <img src="imgs/logoofc.png" alt="" width="140px" heigth="120px">
-        </div>
-        <div class="cent">
-            <ul>
-                <li><a href="">Modalidades</a></li>
-                <li><a href="">Quem somos</a></li>
-                <li><a href="">Contato</a></li>
-                <li><a href="">Divulgue seu local</a></li>
-                
-            </ul>
-
-        </div>
-        <div class="dir">
-            <a href="">LOGIN</a>
-        </div>
-
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="#">Home</a>
+        <a class="nav-link" href="#">Features</a>
+        <a class="nav-link" href="#">Pricing</a>
+        <a class="nav-link disabled">Disabled</a>
+      </div>
     </div>
+  </div>
+</nav>
     
 </body>
 </html>

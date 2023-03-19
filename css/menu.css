@@ -4,7 +4,9 @@
     height: 60px;
     display: flex;
     background-color: #268516;
-    position: fixed;
+    justify-content: center;
+    align-items: center;
+    /* position: fixed; */
 }
 .esq{
     width: 15%;
@@ -18,18 +20,13 @@
 .cent{
     width: 70%;
     height: 100%;
-    position: relative;
+    /* position: relative; */
     align-items: center;
     justify-content: center;
     display: flex;
-    
-    
 }
-
 .cent ul{
     display: flex;
-
-    
 }
 .cent li{
     margin: 40px;
