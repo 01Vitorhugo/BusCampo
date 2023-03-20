@@ -1,35 +1,301 @@
 *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
     font-family: 'M PLUS 1p', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
-#carouselExampleInterval{
-    margin-top: 40px;
-
-}
-.carousel-item{
-    height: 500px;
-}
-.redes{
-    width: 100%;
-    height: 30px;
-    margin-top: 10px;
-    background-color: #FFD704;
-    display: flex;
-}
-
-.quadras{
-    width: 100%;
-    height: 261px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.carousel{
     margin-top: 50px;
+    height: 600px;
+    width: 100%;
 }
-.quadras img{
-    width: 25%;
-    height: 80%;
-    margin: 2%;
+.carousel img{
+    height: 600px;
 }
+.content-prin{
+    height: 2570px;
+    width: 90%;
+    margin-left: 5%;
+    /* background-color: blue;  */
+}
+.img-content{
+    background-image: url("../imgs/img-comeco.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    border-radius: 20px;
+    margin-top: 50px;
+    height: 200px;
+    width: 100%;
+}
+.text-locais{
+    /* background-color: black; */
+    height: 100px;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.locais{
+    /* background-color: black; */
+    height: 300px;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.locais .campo{
+    width: 400px;
+    height: 100%;
+    text-align: center;
+    border-radius: 30px;
+
+}
+.campo .box-campo{
+    height: 86%;
+    width: 100%;
+    background-image: url('../imgs/campo.jpg');
+    background-size: cover;
+    border-radius: 30px;
+}
+.locais .quadra{
+    width: 400px;
+    height: 100%;
+    text-align: center;
+}
+.quadra .box-quadra{
+    height: 86%;
+    width: 100%;
+    background-image: url('../imgs/quadra.jpg');
+    background-size: cover;
+    border-radius: 30px;
+}
+.locais .areia{
+    width: 400px;
+    height: 100%;
+    text-align: center;
+}
+.areia .box-areia{
+    height: 86%;
+    width: 100%;
+    background-image: url('../imgs/areia.jpg');
+    background-size: cover;
+    border-radius: 30px;
+}
+#locais-hover:hover{
+    transition: 500ms linear;
+    margin: 20px auto;
+    cursor: pointer;
+
+}
+.cont-locais{
+    margin-top: 30px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.cont-locais .modalidades{
+    height: 100%;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.modalidades a{
+    text-decoration: none;
+}
+.trabalhe-conosco{
+    height: 700px;
+    width: 100%;
+    margin-top: 40px;
+    background-color: black;
+}
+.saopedro{
+    margin-top: 50px;
+    width: 100%;
+    height: 500px;
+    background-image: url('../imgs/SaoPedro.png');
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #ffd704;
+    border-bottom: none;
+}
+.saopedro .saopedro-texto{
+    width: 100%;
+    height: 200px;
+    /* background-color: aqua;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+}
+.saopedro-texto {
+    height: 500px;
+    width: 100%;
+    background-color: #31a53d;    
+    border: solid 1px #ffd704;
+    border-top: none;
+}
+.saopedro-texto1{
+    /* background-color: aliceblue; */
+    padding-top: 30px;
+    width: 100%;
+    height: 100px;
+}
+.saopedro-texto1 h1{
+    text-align: center;
+}
+.saopedro-texto2{
+    /* background-color: rgb(5, 130, 240); */
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.saopedro-texto2 span{
+    color: #ffd704;
+    font-size: 35px;
+}
+.saopedro-texto3{
+    /* background-color: rgb(199, 46, 25); */
+    width: 100%;
+    height: 200px;
+    display: flex;
+}
+.saopedro-texto3 .projeto{
+    width: 50%;
+    height: 100%; 
+    /* background-color: #000; */
+    display: flex;
+   justify-content: center;
+    
+
+}
+.projeto ul{
+    height: 100%;
+   /* background-color: #ced6cf; */
+   
+}
+.projeto ul li{
+    padding-top: 10px;
+    font-size: 30px;
+}
+.saopedro-texto3 .redes-sociais{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.saopedro-texto3 .redes-sociais a{
+    font-size: 30px;
+    text-decoration: underline;
+    color: #000;
+    height: 60%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.7s ease-in;
+}
+.saopedro-texto3 .redes-sociais a:hover{
+    background-color: #ffd704;
+    color: #31a53d;
+    border-radius: 50px;
+    transition: 0.3s ease-in;
+}
+.since-saopedro{
+    background-color: #ffd50481;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.since-saopedro p{
+    font-size: 30px;
+}
+.since-saopedro span{
+    padding-left: 50px;
+}
+
+footer{
+    border: solid 2px #ffd704;
+    background-color: #31a53d; 
+    color: #ffd504cb;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+hr{
+    color: black;
+}
+.conteudo-footer{
+    /* background-color: aliceblue; */
+    width: 90%;
+    height: 450px;
+}
+.conteudo-footer .boxPai-footer{
+    height: 50%;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-around;
+}
+.conteudo-footer #box-footer{
+    width: 30%;
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conteudo-footer-box3 img{
+    height: 60px;
+}
+.conteudo-footer-box2 p{
+    font-size: 30px;
+}
+.conteudo-footer-box3 img:hover{
+    cursor: pointer;
+    padding-top: 10px;
+}
+.conteudo-footer-box1 img{
+    height: 150px;
+    width: 73%;
+}
+.footer-servicos{
+    height: 45%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    color: #ffd704;
+}
+.footer-servicos #footer-servicos{
+    height: 100%;
+    width: 30%; 
+}
+#footer-servicos p{
+    font-size: 25px;
+}
+#footer-servicos a{
+    text-decoration: none;
+    color: #ffd704;
+}
+#footer-servicos a:hover{
+    text-decoration: underline;
+    color: #000;
+}
+
+
+
+
