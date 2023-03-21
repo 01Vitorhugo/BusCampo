@@ -17,6 +17,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 25px;
 }
 .navbar-nav{
     width: 90%;

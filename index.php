@@ -15,16 +15,17 @@ include('menu.php');
     <title>Principal</title>
 </head>
 <body>
+    <!-- Start carousel -->
     <div class="carousel">
         <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="1900">
+                <div class="carousel-item active" data-bs-interval="3000">
                     <img src="imgs/fotocerta.png" class="d-block w-100" alt="">
                 </div>
-                <div class="carousel-item" data-bs-interval="1900">
+                <div class="carousel-item" data-bs-interval="3000">
                     <img src="imgs/fotocerta2.png" class="d-block w-100" alt="">
                 </div>
-                <div class="carousel-item" data-bs-interval="1900">
+                <div class="carousel-item" data-bs-interval="3000">
                     <img src="imgs/3d22.png" class="d-block w-100" alt="">
                 </div>
             </div>
@@ -38,6 +39,9 @@ include('menu.php');
             </button>
         </div>
     </div>
+    <!-- End carousel -->
+    
+    <!-- Start content-prin -->
     <div class="content-prin">
         <div class="img-content"></div>
         <div class="text-locais">
@@ -60,13 +64,51 @@ include('menu.php');
         <div class="cont-locais">
             <div class="modalidades">
                 <a href="#">
-                    <h3>Pesquisar modalidades</h3>
+                    <h3>-> Pesquisar modalidades <-</h3>
                 </a>
             </div>
         </div>
+        <!-- End content-prin -->
 
-        <div class="trabalhe-conosco"></div>
+        <!-- Start sugestao-content -->
+        <div class="sugestao-content">
+            <div class="text-sugestao">
+                <h1>Sugestões pra você</h1>
+            </div>
+        </div>
+        <!-- End sugestao-content -->
 
+        <!-- Start trabalhe-conosco -->
+        <div class="trabalhe-conosco">
+            <div class="trabalhe-conosco-box1">
+                <div class="trabalhe-box-left">
+                    <img src="imgs/divulga-img.png" alt="">
+                </div>
+
+                <div class="trabalhe-box-right">
+                    <div class="trabalhe-box-right-box1">
+                    <h1>Quer divulgar seu local?</h1>
+                    </div>
+
+                    <div class="trabalhe-box-right-box2">
+                    <h2>Em alguns instantes 
+                                 <span class="span-1">seu local estará no</span>
+                                           <span class="span-2">BusCampo</span></h2>
+                                           <div class="link-trabalhe">
+                                           <a href="#">-> Divulgue seu local <-</a>
+                                           </div>
+                    </div>
+                </div>
+            </div>
+            <div class="trabalhe-conosco-box2">
+                <img src="imgs/imagem-divulgue-esporte.png" alt="">
+            </div>
+                
+        </div>
+        <!-- End trabalhe-conosco -->
+
+
+        <!-- Star content Sao Pedro -->
         <div class="saopedro"></div>
         <div class="saopedro-texto">
             <div class="saopedro-texto1">
@@ -85,7 +127,7 @@ include('menu.php');
                 </div>
                 <div class="redes-sociais">
                     <a href="https://www.instagram.com/jd.saopedro_oficial/">
-                        <p>Conheça o projeto</p>
+                        <p>-> Conheça o projeto <-</p>
                     </a>
                 </div>
             </div>
@@ -94,7 +136,9 @@ include('menu.php');
             </div>
         </div>
     </div>
+    <!-- End content Sao Pedro -->
 
+    <!-- Start footer -->
     <footer>
         <div class="conteudo-footer">
             <div class="boxPai-footer">
@@ -124,6 +168,7 @@ include('menu.php');
             </div>
         </div>
     </footer>
+    <!-- End footer -->
 
 
 

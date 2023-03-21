@@ -2,6 +2,9 @@
     font-family: 'M PLUS 1p', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
+body{
+    background-color: #edf2f4;
+}
 .carousel{
     margin-top: 50px;
     height: 600px;
@@ -11,7 +14,7 @@
     height: 600px;
 }
 .content-prin{
-    height: 2570px;
+    height: 4000px;
     width: 90%;
     margin-left: 5%;
     /* background-color: blue;  */
@@ -36,16 +39,20 @@
     align-items: center;
 }
 .locais{
-    /* background-color: black; */
-    height: 300px;
+    /* background-color: black;  */
+    height: 500px;
     width: 100%;
     margin-top: 50px;
     display: flex;
     justify-content: space-evenly;
 }
+.locais h3{
+    font-size: 35px;
+    padding-bottom: 30px;
+}
 .locais .campo{
-    width: 400px;
-    height: 100%;
+    width: 32%;
+    height: 90%;
     text-align: center;
     border-radius: 30px;
 
@@ -58,8 +65,8 @@
     border-radius: 30px;
 }
 .locais .quadra{
-    width: 400px;
-    height: 100%;
+    width: 32%;
+    height: 90%;
     text-align: center;
 }
 .quadra .box-quadra{
@@ -70,8 +77,8 @@
     border-radius: 30px;
 }
 .locais .areia{
-    width: 400px;
-    height: 100%;
+    width: 32%;
+    height: 90%;
     text-align: center;
 }
 .areia .box-areia{
@@ -96,7 +103,7 @@
 }
 .cont-locais .modalidades{
     height: 100%;
-    width: 400px;
+    width: 500px;
     display: flex;
     justify-content: center;
     align-items: center;   
@@ -104,12 +111,110 @@
 .modalidades a{
     text-decoration: none;
 }
-.trabalhe-conosco{
+.modalidades a:hover{
+    text-decoration: underline;
+    color: #31a53d;
+}
+.sugestao-content{
     height: 700px;
     width: 100%;
     margin-top: 40px;
     background-color: black;
 }
+.sugestao-content .text-sugestao{
+    background-color: #edf2f4;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.trabalhe-conosco{
+    height: 1100px;
+    width: 100%;
+    margin-top: 40px;
+    /* background-color: #f1faee; */
+}
+.trabalhe-conosco .trabalhe-conosco-box1{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    /* background-color: #15b7f7; */
+}
+.trabalhe-conosco-box1 .trabalhe-box-left{
+    width: 50%;
+    height: 100%;
+    /* background-color: #31a53d; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.trabalhe-conosco-box1 .trabalhe-box-right{
+    width: 50%;
+    height: 100%;
+    /* background-color: #31a53d;  */
+}
+.trabalhe-conosco-box1 h1{
+    font-size: 40px;
+}
+.trabalhe-conosco-box1 .trabalhe-box-right{
+    width: 50%;
+    height: 100%;
+    /* background-color: #31a53d;  */
+}
+
+.trabalhe-box-right .trabalhe-box-right-box1{
+    height: 30%;
+    width: 100%;
+    /* background-color: #edf2f4; */
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+.trabalhe-box-right .trabalhe-box-right-box2{
+    /* background-color: #000; */
+    height: 70%;
+}
+.trabalhe-conosco-box1 h2{
+    font-size: 35px;
+    padding-top: 50px;
+}
+.trabalhe-conosco-box1 span{
+    display: block;
+}
+.trabalhe-conosco-box1 .span-1{
+    padding-left: 200px;
+}
+.trabalhe-conosco-box1 .span-2{
+    padding-left: 500px;
+    color: #31a53d;
+}
+.trabalhe-conosco-box1 .link-trabalhe{
+    height: 70px;
+    width: 100%;
+    /* background-color: #ffd504; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.link-trabalhe a{
+    font-size: 30px;
+    text-decoration: none;
+}
+.trabalhe-conosco .trabalhe-conosco-box2{
+    height: 50%;
+    width: 100%;
+    /* background-color: #0eb3f5; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.trabalhe-conosco-box2 img{
+    width: 70%;
+}
+
 .saopedro{
     margin-top: 50px;
     width: 100%;
@@ -120,8 +225,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: solid 1px #ffd704;
-    border-bottom: none;
 }
 .saopedro .saopedro-texto{
     width: 100%;
@@ -135,9 +238,7 @@
 .saopedro-texto {
     height: 500px;
     width: 100%;
-    background-color: #31a53d;    
-    border: solid 1px #ffd704;
-    border-top: none;
+    background-color: #f1faee;    
 }
 .saopedro-texto1{
     /* background-color: aliceblue; */
@@ -158,7 +259,7 @@
     align-items: center;
 }
 .saopedro-texto2 span{
-    color: #ffd704;
+    color: #31a53d;
     font-size: 35px;
 }
 .saopedro-texto3{
@@ -195,8 +296,7 @@
 }
 .saopedro-texto3 .redes-sociais a{
     font-size: 30px;
-    text-decoration: underline;
-    color: #000;
+    text-decoration: none;
     height: 60%;
     width: 60%;
     display: flex;
@@ -211,7 +311,7 @@
     transition: 0.3s ease-in;
 }
 .since-saopedro{
-    background-color: #ffd50481;
+    background-color: #ffd504;
     width: 100%;
     height: 100px;
     display: flex;
