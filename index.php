@@ -20,7 +20,7 @@ include('menu.php');
         <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="3000">
-                    <img src="imgs/fotocerta.png" class="d-block w-100" alt="">
+                   <a href="https://01vitorhugo.github.io/Deep-Code/index.html"><img src="imgs/fotocerta.png" class="d-block w-100" alt=""></a>
                 </div>
                 <div class="carousel-item" data-bs-interval="3000">
                     <img src="imgs/fotocerta2.png" class="d-block w-100" alt="">
@@ -101,7 +101,7 @@ include('menu.php');
                 </div>
             </div>
             <div class="trabalhe-conosco-box2">
-                <img src="imgs/imagem-divulgue-esporte.png" alt="">
+                <img src="imgs/imagem-divulgue-esporte.jpg" alt="">
             </div>
                 
         </div>
@@ -132,7 +132,7 @@ include('menu.php');
                 </div>
             </div>
             <div class="since-saopedro">
-                <p><i>Guaianazes - Zona Leste <span>Since 1968</span></i></p>
+                <p><i>Guaianases - Zona Leste <span>Since 1968</span></i></p>
             </div>
         </div>
     </div>
