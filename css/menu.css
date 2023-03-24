@@ -3,6 +3,13 @@
     padding: 0;
     border: 0;
 }
+.nav-fixed{
+    z-index: 1000;
+    width: 100%;
+    position: fixed;  
+    top: 3%;
+    margin-top: -2.5em; 
+ }
 .container-fluid{
     background-color: #268516;   
     height: auto; 

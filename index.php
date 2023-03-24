@@ -12,6 +12,7 @@ include('menu.php');
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;500&family=Poppins:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/query-index.css">
     <title>Principal</title>
 </head>
 <body>
@@ -44,6 +45,7 @@ include('menu.php');
     <!-- Start content-prin -->
     <div class="content-prin">
         <div class="img-content"></div>
+        
         <div class="text-locais">
             <h1>Qual combina mais com você?</h1>
         </div>
@@ -80,29 +82,7 @@ include('menu.php');
 
         <!-- Start trabalhe-conosco -->
         <div class="trabalhe-conosco">
-            <div class="trabalhe-conosco-box1">
-                <div class="trabalhe-box-left">
-                    <img src="imgs/divulga-img.png" alt="">
-                </div>
-
-                <div class="trabalhe-box-right">
-                    <div class="trabalhe-box-right-box1">
-                    <h1>Quer divulgar seu local?</h1>
-                    </div>
-
-                    <div class="trabalhe-box-right-box2">
-                    <h2>Em alguns instantes 
-                                 <span class="span-1">seu local estará no</span>
-                                           <span class="span-2">BusCampo</span></h2>
-                                           <div class="link-trabalhe">
-                                           <a href="#">-> Divulgue seu local <-</a>
-                                           </div>
-                    </div>
-                </div>
-            </div>
-            <div class="trabalhe-conosco-box2">
-                <img src="imgs/imagem-divulgue-esporte.jpg" alt="">
-            </div>
+           
                 
         </div>
         <!-- End trabalhe-conosco -->
