@@ -11,6 +11,11 @@ include('menu.php');
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;500&family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;1,400&family=Roboto+Mono:wght@100&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/query-index.css">
     <title>Principal</title>
@@ -89,7 +94,12 @@ include('menu.php');
 
 
         <!-- Star content Sao Pedro -->
-        <div class="saopedro"></div>
+        
+    </div>
+    <!-- End content Sao Pedro -->
+
+    <div class="saopedro-content-end">
+    <div class="saopedro"></div>
         <div class="saopedro-texto">
             <div class="saopedro-texto1">
                 <h1>A.A. Jardim São Pedro</h1>
@@ -115,8 +125,8 @@ include('menu.php');
                 <p><i>Guaianases - Zona Leste <span>Since 1968</span></i></p>
             </div>
         </div>
+
     </div>
-    <!-- End content Sao Pedro -->
 
     <!-- Start footer -->
     <footer>
@@ -149,7 +159,9 @@ include('menu.php');
         </div>
     </footer>
     <!-- End footer -->
+    
 
+    
 
 
 

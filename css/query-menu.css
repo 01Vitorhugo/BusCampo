@@ -12,19 +12,41 @@
     .login-span a{
         color: #000;
     }
-    a:hover{
+    .nav-link:hover{
         background-color: #ffd504;
     }
     .navbar-nav{
         height: 110px;
     }
+    .nav-fixed{
+        z-index: 1000;
+        width: 100%;
+        position: fixed;  
+        top: 3.7%;
+        margin-top: -2.5em; 
+     }
+}
 
     @media (max-width: 1665px){
         .navbar-nav{
             width: 100%;
         }
+        a.nav-link{
+            font-size: 15px;
     }
+    .nav-fixed{
+        z-index: 1000;
+        width: 100%;
+        position: fixed;  
+        top: 3.7%;
+        margin-top: -2.5em; 
+     }
+}
+    
     @media (max-width: 1300px){
+       .navbar-nav a.nav-link{
+            font-size: 18px;
+        }
         .container-fluid{
             width: 100%;
         }
@@ -35,22 +57,28 @@
             font-size: 25px;
 
         }
+        .nav-fixed{
+            z-index: 1000;
+            width: 100%;
+            position: fixed;  
+            top: 3.7%;
+            margin-top: -2.5em; 
+         }
     }
     @media (max-width: 1155px){
-        .navbar-nav a{
-            font-size: 20px;
-
+        .navbar-nav a.nav-link{
+            font-size: 16px;
         }
 
     }
     @media (max-width: 1020px){
-        .navbar-nav a{
-            font-size: 20px;
+        .navbar-nav a.nav-link{
+            font-size: 14px;
         }
     }
     @media (max-width: 1005px){
-        .navbar-nav a{
-            font-size: 17px;
+        .navbar-nav a.nav-link{
+            font-size: 14px;
         }
     }
     @media (max-width: 1000px){
@@ -59,8 +87,8 @@
         }
     }
     @media (max-width: 995px){
-        .navbar-nav a{
-            font-size: 17px;
+        .navbar-nav a.nav-link{
+            font-size: 14px;
         }
     }
     @media (max-width: 990px){
@@ -80,4 +108,9 @@
         .login-span{
             background-color: transparent;
         }
+        a.nav-link{
+            font-size: 20px;
+        }
     }
+
+   
