@@ -109,10 +109,32 @@ body{
 }
 .modalidades a{
     text-decoration: none;
+    color: #000;
+    position: relative;
+    transition: 1s ease-in-out;
 }
+.modalidades a::before{
+    content: "";
+    position: absolute;
+    width: 150px;
+    top: 15px;
+    left: -170px;
+    display: block;
+    border: solid 1px black;
+}
+.modalidades a::after{
+    content: "";
+    position: absolute;
+    width: 150px;
+    top: 15px;
+    left: 310px;
+    display: block;
+    border: solid 1px black;
+}
+
 .modalidades a:hover{
-    text-decoration: underline;
-    color: #31a53d;
+    transform: scale(1.1);
+    transition: 1s ease-in-out;
 }
 .sugestao-content{
     height: 700px;
@@ -221,6 +243,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+   
     
 }
 .saopedro-texto3 .redes-sociais a{
@@ -231,10 +254,9 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.saopedro-texto3 .redes-sociais a:hover{
-    text-decoration: underline;
-    color: #31a53d;
+    color: #ffff;
+    position: relative;
+
 }
 
 .since-saopedro{

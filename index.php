@@ -71,7 +71,7 @@ include('menu.php');
         <div class="cont-locais">
             <div class="modalidades">
                 <a href="#">
-                    <h3>-> Pesquisar modalidades <-</h3>
+                    <h3> Pesquisar modalidades </h3>
                 </a>
             </div>
         </div>
@@ -117,7 +117,7 @@ include('menu.php');
                 </div>
                 <div class="redes-sociais">
                     <a href="https://www.instagram.com/jd.saopedro_oficial/">
-                        <p>-> Conheça o projeto <-</p>
+                        <p>Conheça o projeto</p>
                     </a>
                 </div>
             </div>
