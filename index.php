@@ -84,6 +84,36 @@ include('menu.php');
             <div class="text-sugestao">
                 <h1>Sugestões pra você</h1>
             </div>
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="1000">
+                        <div class="BD-element">
+                            <h1>Elementos</h1>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="1000">
+                    <div class="BD-element">
+                            <h1>Elementos 2</h1>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="1000">
+                    <div class="BD-element">
+                            <h1>Elementos 3</h1>
+
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
         </div>
         <!-- End sugestao-content -->
 

@@ -29,7 +29,7 @@
         <a class="nav-link" href="#">Modalidades</a>
         <a class="nav-link" href="#">Contato</a>
         <a class="nav-link" href="#">Divulgue seu local</a>
-       <span class="login-span"><a class="nav-link" id="dif" href="#"> Login</a></span>
+       <span class="login-span"><a class="nav-link" id="dif" href="login.php"> Login</a></span>
       </div>
     </div>
   </div>

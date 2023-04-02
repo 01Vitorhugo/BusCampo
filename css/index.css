@@ -149,6 +149,22 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+#carouselExampleInterval{
+    margin: 0;
+}
+.sugestao-content .carousel-item{
+   margin-left: 25%;
+   margin-top: 100px;
+   height: 400px;
+}
+.carousel-item .BD-element{
+    background-color: #edf2f4;
+    height: 100%;
+    width: 50%;
+    
+   
+}
 .trabalhe-conosco{
     height: 1000px;
     width: 100%;

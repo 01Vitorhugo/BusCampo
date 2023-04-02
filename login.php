@@ -16,4 +16,5 @@
         <p><input type="submit" id="botao" value="Entrar"></p>
     </form>
 </body>
+<a href="cadastro.php">Cadastro</a>
 </html>
