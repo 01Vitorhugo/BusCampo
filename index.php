@@ -92,27 +92,20 @@ include('menu.php');
 
                         </div>
                     </div>
-                    <div class="carousel-item" data-bs-interval="1000">
+                    <div class="carousel-item" data-bs-interval="2000">
                     <div class="BD-element">
                             <h1>Elementos 2</h1>
 
                         </div>
                     </div>
-                    <div class="carousel-item" data-bs-interval="1000">
+                    <div class="carousel-item" data-bs-interval="3000">
                     <div class="BD-element">
                             <h1>Elementos 3</h1>
 
                         </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+               
             </div>
         </div>
         <!-- End sugestao-content -->
