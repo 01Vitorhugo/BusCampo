@@ -201,7 +201,8 @@ body{
     color: #ffff;
 }
 .saopedro-texto2{
-    /* background-color: rgb(5, 130, 240); */
+    margin-top: 50px;
+    color: #fff;
     width: 100%;
     height: 100px;
     text-align: center;
@@ -213,65 +214,28 @@ body{
     color: #ffd704;
     font-size: 35px;
 }
-.saopedro-texto3{
-    /* background-color: rgb(199, 46, 25); */
-    width: 100%;
+ .redes-sociais{
     height: 200px;
-    display: flex;
-}
-.saopedro-texto3 .projeto{
-    width: 50%;
-    height: 100%; 
-    /* background-color: #000; */
-    display: flex;
-   justify-content: center;
-    
-
-}
-.projeto ul{
-    height: 100%;
-   /* background-color: #ced6cf; */
-   
-}
-.projeto ul li{
-    padding-top: 10px;
-    font-size: 30px;
-}
-.saopedro-texto3 .redes-sociais{
-    height: 100%;
-    width: 50%;
+    width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
-   
-    
+    align-items: center;    
 }
-.saopedro-texto3 .redes-sociais a{
+ .redes-sociais a{
     font-size: 30px;
     text-decoration: none;
-    height: 60%;
-    width: 60%;
+    height: 50%;
+    width: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #ffff;
-    position: relative;
-
+    color: #ffd704;
+}
+.redes-sociais a:hover{
+    text-decoration: underline;
+  
 }
 
-.since-saopedro{
-    width: 100%;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.since-saopedro p{
-    font-size: 30px;
-}
-.since-saopedro span{
-    padding-left: 50px;
-}
 
 footer{
     border: solid 2px #ffd704;

@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box div p{
+    text-align: center;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+.sc{
+    background-color: white;
+    font-size: 23px;
+    display: flex;
+    width: 350px;
+    height: 400px;
+    margin-top: 100px;
+    margin: 10px;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    border: black solid 10px;
+    border-radius: 15px;
+}
+.sc p{
+    padding: 5px;
+    overflow-y: hidden;
+}
+img{
+    width: 300px;
+}
