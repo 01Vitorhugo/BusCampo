@@ -34,7 +34,7 @@ if(!isset($_SESSION['login']) || $_SESSION['login'] != true){
         echo "<p id= pag>$quadra[estado] </p>";
         echo "<p><img src=$quadra[img1]></p>";
         echo "<p><img src=$quadra[img2]></p>";
-        if($_SESSION['id'] == $quadra['id_cliente']){
+        if($_SESSION['tipo'] == true && $_SESSION['id'] == $quadra['id_cliente']){
             echo"<p><a href=alterar.php?id_local=$quadra[id_local]>Alterar</a></p>";
         }
         echo "</div>";
