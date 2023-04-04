@@ -1,7 +1,5 @@
 <?php
 include('menu.php');
-?>
-<?php
 session_start();
 ?>
 <!DOCTYPE html>

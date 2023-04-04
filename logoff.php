@@ -1,6 +1,6 @@
 <?php
 @session_start();
-unset($_SESSION['login']);
+$_SESSION['login'] = false;
 unset($_SESSION['nome']);
 unset($_SESSION['id']);
 $login['nome'] = "";
