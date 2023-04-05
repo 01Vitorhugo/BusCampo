@@ -17,12 +17,12 @@
     background-color: #268516;   
      height: auto;  
 }
-#navbarNavAltMarkup{
+/* #navbarNavAltMarkup{
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100%; 
-} 
+}  */
 .navbar-nav a{
     color: #ffff;
     display: flex;

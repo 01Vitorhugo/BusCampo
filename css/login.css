@@ -94,6 +94,33 @@ form p{
     width: 50%;
     border: none;
     background-color: #ffd704;
+    transition: 1s;
+    border-radius: 10px;
 
+}
+#botao:hover{
+    border-radius: 20px;
+    transition: 1s;
+}
+.logar{
+    height: 100px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.msg{
+    width: 50%;
+    height: 100px;
+    color: red;
+    display: flex;
+    /* background-color: #ffd704; */
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+}
+.msg .msg-error{
+    animation: backInUp;
+    animation-duration: 1s;
 
 }

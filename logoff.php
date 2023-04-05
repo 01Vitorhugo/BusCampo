@@ -4,5 +4,5 @@ $_SESSION['login'] = false;
 unset($_SESSION['nome']);
 unset($_SESSION['id']);
 $login['nome'] = "";
-header("location:login.php");
+header("location:index.php");
 ?>

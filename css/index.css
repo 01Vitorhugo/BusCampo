@@ -13,7 +13,7 @@ body{
     height: 600px;
 }
 .content-prin{
-    height: 3000px;
+    height: 2700px;
     width: 90%;
     margin-left: 5%;
     /* background-color: blue;   */
@@ -106,35 +106,22 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;   
+    background-color: #31a53d9a;
+    border-radius: 20px;
+    transition: 1s;
+}
+.modalidades:hover{
+    background-color: #154704;
+    transition: 1s;
+    border-radius: 30px;
 }
 .modalidades a{
     text-decoration: none;
-    color: #000;
-    position: relative;
-    transition: 1s ease-in-out;
-}
-.modalidades a::before{
-    content: "";
-    position: absolute;
-    width: 150px;
-    top: 15px;
-    left: -170px;
-    display: block;
-    border: solid 1px black;
-}
-.modalidades a::after{
-    content: "";
-    position: absolute;
-    width: 150px;
-    top: 15px;
-    left: 310px;
-    display: block;
-    border: solid 1px black;
+    color: #fff;
 }
 
 .modalidades a:hover{
-    transform: scale(1.1);
-    transition: 1s ease-in-out;
+    text-decoration: underline;
 }
 .sugestao-content{
     height: 700px;
@@ -148,6 +135,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 200px;
 }
 
 #carouselExampleInterval{
@@ -166,7 +154,7 @@ body{
    
 }
 .trabalhe-conosco{
-    height: 1000px;
+    height: 600px;
     width: 100%;
     margin-top: 40px;
      background-color: #154704; 
@@ -176,7 +164,7 @@ body{
     /* background-color: #000; */
     height: 1000px;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 .saopedro{
@@ -262,7 +250,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 200px;
+    margin-top: 300px;
 }
 hr{
     color: black;

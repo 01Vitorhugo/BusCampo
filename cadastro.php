@@ -1,6 +1,6 @@
 <?php
 include('menu.php');
-session_start();
+// session_start();
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -32,24 +32,17 @@ session_start();
         </div>
         
             <form action="cadastro.act.php" method="post">
-            <p>Nome: <input type="text" name="nome"></p>
-            <p>Email: <input type="text" name="email"></p>
-            <p>Cpf/cnpj: <input type="text" name="doc"></p>
-            <p>Telefone: <input type="text" name="tel"></p>
-            <p>Senha: <input type="password" name="senha"></p>
+            <p>Nome: <input type="text" name="nome"  required></p>
+            <p>Email: <input type="text" name="email"  required></p>
+            <p>Cpf/cnpj: <input type="text" name="doc"  required></p>
+            <p>Telefone: <input type="text" name="tel"  required></p>
+            <p>Senha: <input type="password" name="senha"  required></p>
             <p><input type="submit" id="botao" value="Cadastrar"></p>
             </form>
         </div>
         </div>
     </div>
-        <div class="msg">
-            <?php
-                if(isset($_SESSION['msg'])){
-                    echo $_SESSION['msg'];
-                    unset($_SESSION['msg']);
-                }
-            ?>
-        </div>
+     
     </div>
 
 

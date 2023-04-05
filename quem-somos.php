@@ -12,6 +12,8 @@
 <?php 
 @include('menu.php');
 ?>
-    
+    <div class="text-quem-somos">
+        
+    </div>
 </body>
 </html>

@@ -87,6 +87,7 @@ form p{
     width: 80%;
     flex-direction: column;
 }
+
 .formula input{
     width: 100%;
     background-color: rgba(255, 255, 255, 0);
@@ -101,6 +102,10 @@ form p{
     width: 50%;
     border: none;
     background-color: #ffd704;
-
-
+    border-radius: 10px;
+    transition: 1s;
+}
+#botao:hover{
+    border-radius: 20px;
+    transition: 1s;
 }

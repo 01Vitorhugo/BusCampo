@@ -10,6 +10,9 @@
 
     }
     .login-span a{
+        color: #268516;
+    }
+    .login-span a:hover{
         color: #000;
     }
     .nav-link:hover{
