@@ -3,24 +3,39 @@
     padding: 0;
     margin: 0;
 }
-.text-quem-somos{
-     height: 100px;
-     width: 100%;
-     margin-top: 150px;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-}
+
 .texto-apresentacao{
-    background-color: black;
-    height: 400px;
+    height: 300px;
     width: 100%;
-    margin-bottom: 30px;
+    margin-top: 220px;
+    text-align: center;
+}
+.texto-apresentacao h1{
+    font-size: 30px;
+}
+.texto-apresentacao .texto-p{
+    height: 70%;
+    width: 50%;
+    margin-left: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    margin-top: 30px;
+
+}
+.membros{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
 }
 .vitor{
     background-color: rgb(23, 228, 255);
     height: 400px;
     width: 100%;
+    margin-top: 50px;
     margin-bottom: 30px;
     display: flex;
     justify-content: space-between;
@@ -95,4 +110,11 @@
     height: 100%;
     width: 30%;
     background-color: black;
+}
+
+.footer-quem-somos{
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
