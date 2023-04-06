@@ -20,15 +20,37 @@
     <div class="texto-apresentacao">
 
     </div>
-    <div class="apresentacao" >
-    <img src="imgs/carro.jpg" class="img-thumbnail" alt="...">
-    <img src="imgs/carro.jpg" class="img-thumbnail" alt="...">
-    <img src="imgs/carro.jpg" class="img-thumbnail" alt="...">
-    <img src="imgs/carro.jpg" class="img-thumbnail" alt="...">
-    <img src="imgs/carro.jpg" class="img-thumbnail" alt="...">
-    <img src="imgs/carro.jpg" class="img-thumbnail" alt="...">
+    <div class="vitor">
+        <div class="img-vitor">
+
+        </div>
     </div>
-   
+    <div class="gustavo">
+        <div class="img-gustavo">
+
+        </div>
+    </div>
+    <div class="henrique">
+        <div class="img-henrique">
+
+        </div>
+    </div>
+    <div class="carlos">
+        <div class="img-carlos">
+
+        </div>
+    </div>
+    <div class="igor">
+        <div class="img-igor">
+
+        </div>
+    </div>
+    <div class="breno">
+        <div class="img-breno">
+
+        </div>
+    </div>
+
 </body>
 
 </html>

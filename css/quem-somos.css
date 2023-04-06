@@ -17,14 +17,82 @@
     width: 100%;
     margin-bottom: 30px;
 }
-.apresentacao{
-    background-color: rgba(0, 0, 0, 0.295);
+.vitor{
+    background-color: rgb(23, 228, 255);
     height: 400px;
     width: 100%;
     margin-bottom: 30px;
     display: flex;
     justify-content: space-between;
 }
-.apresentacao img{
-    width: 300px;
+.vitor .img-vitor{
+    height: 100%;
+    width: 30%;
+    background-color: black;
+}
+.gustavo{
+    background-color: rgb(170, 23, 255);
+    height: 400px;
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.gustavo .img-gustavo{
+    height: 100%;
+    width: 30%;
+    background-color: black;
+}
+
+.henrique{
+    background-color: rgba(255, 23, 23, 0.973);
+    height: 400px;
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.henrique .img-henrique{
+    height: 100%;
+    width: 30%;
+    background-color: black;
+}
+.carlos{
+    background-color: rgb(255, 182, 23);
+    height: 400px;
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.carlos .img-carlos{
+    height: 100%;
+    width: 30%;
+    background-color: black;
+}
+.igor{
+    background-color: rgb(23, 65, 255);
+    height: 400px;
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.igor .img-igor{
+    height: 100%;
+    width: 30%;
+    background-color: black;
+}
+.breno{
+    background-color: rgba(23, 255, 81, 0.986);
+    height: 400px;
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.breno .img-breno{
+    height: 100%;
+    width: 30%;
+    background-color: black;
 }
