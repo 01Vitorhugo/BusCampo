@@ -34,6 +34,10 @@
         <?php
 @session_start();
 // @var_dump($_SESSION);
+if( !isset($_SESSION['login']) ){
+  $_SESSION['login'] = false;
+}
+
 if($_SESSION['login'] == true){
   echo "<span class=login-span><a class=nav-link id=dif href=logoff.php>Sair</a></span>";
 }else{

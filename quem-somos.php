@@ -41,6 +41,7 @@
     </div>
     <div class="gustavo">
         <div class="img-gustavo">
+            <img src="imgs/gustavo.jpeg" alt="" width="100%" height="100%">
 
         </div>
     </div>
@@ -51,16 +52,20 @@
     </div>
     <div class="carlos">
         <div class="img-carlos">
+        <img src="imgs/carlos.jpeg" alt="" width="100%" height="100%">
+            
 
         </div>
     </div>
     <div class="igor">
         <div class="img-igor">
+        <img src="imgs/igor.jpeg" alt="" width="100%" height="100%">
 
         </div>
     </div>
     <div class="breno">
         <div class="img-breno">
+        <img src="imgs/breno.jpeg" alt="" width="100%" height="100%">
 
         </div>
     </div>

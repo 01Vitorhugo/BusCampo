@@ -33,7 +33,7 @@
 }
 .vitor{
     background-color: rgb(23, 228, 255);
-    height: 400px;
+    height: 330px;
     width: 100%;
     margin-top: 50px;
     margin-bottom: 30px;
@@ -42,12 +42,12 @@
 }
 .vitor .img-vitor{
     height: 100%;
-    width: 30%;
-    background-color: black;
+    width: 20%;
+    /* background-color: black; */
 }
 .gustavo{
     background-color: rgb(170, 23, 255);
-    height: 400px;
+    height: 330px;
     width: 100%;
     margin-bottom: 30px;
     display: flex;
@@ -55,13 +55,13 @@
 }
 .gustavo .img-gustavo{
     height: 100%;
-    width: 30%;
-    background-color: black;
+    width: 20%;
+    /* background-color: black; */
 }
 
 .henrique{
     background-color: rgba(255, 23, 23, 0.973);
-    height: 400px;
+    height: 330px;
     width: 100%;
     margin-bottom: 30px;
     display: flex;
@@ -69,12 +69,12 @@
 }
 .henrique .img-henrique{
     height: 100%;
-    width: 30%;
-    background-color: black;
+    width: 20%;
+    /* background-color: black; */
 }
 .carlos{
     background-color: rgb(255, 182, 23);
-    height: 400px;
+    height: 330px;
     width: 100%;
     margin-bottom: 30px;
     display: flex;
@@ -82,12 +82,12 @@
 }
 .carlos .img-carlos{
     height: 100%;
-    width: 30%;
-    background-color: black;
+    width: 20%;
+    /* background-color: black; */
 }
 .igor{
     background-color: rgb(23, 65, 255);
-    height: 400px;
+    height: 330px;
     width: 100%;
     margin-bottom: 30px;
     display: flex;
@@ -95,12 +95,12 @@
 }
 .igor .img-igor{
     height: 100%;
-    width: 30%;
-    background-color: black;
+    width: 20%;
+    /* background-color: black; */
 }
 .breno{
     background-color: rgba(23, 255, 81, 0.986);
-    height: 400px;
+    height: 330px;
     width: 100%;
     margin-bottom: 30px;
     display: flex;
@@ -108,8 +108,8 @@
 }
 .breno .img-breno{
     height: 100%;
-    width: 30%;
-    background-color: black;
+    width: 20%;
+    /* background-color: black; */
 }
 
 .footer-quem-somos{
