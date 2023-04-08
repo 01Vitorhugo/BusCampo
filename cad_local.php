@@ -19,18 +19,20 @@
         </div>
         <div class="formu">
             <form action="cad_local.act.php" method="post" enctype="multipart/form-data">
-            <p>Nome do local <input type="text" name="nome_local"></p>
+            <p>Nome do local <input type="text" name="nome_local" required></p>
             <p>Categoria <select name="id_categoria">
+            <option>Escolher</option>
                 <option value="1">Futebol</option>
                 <option value="2">Futsal</option>
                 <option value="3">Vôlei</option>
                 <option value="4">Basquete</option>
                 <option value="5">Poliesportiva</option>
             </select></p>
-            <p>Descrição <input type="text" name="desc"></p>
-            <p>Telefone do local <input type="text" name="tel"></p>
-            <p>CEP <input type="text" name="cep"></p>
+            <p>Descrição <input type="text" name="desc" required></p>
+            <p>Telefone do local <input type="text" name="tel" required></p>
+            <p>CEP <input type="text" name="cep" required></p>
             <p>Estado <select name="id_estado">
+                <option>Escolher</option>
                 <option value="1">Acre</option>
                 <option value="2">Alagoas</option>
                 <option value="3">Amapá</option>
@@ -59,9 +61,9 @@
                 <option value="26">Tocantins</option>
                 <option value="27">Distrito Federal</option>
             </select></p>
-            <p>Imagem 1 <input type="file" name="imagem1"></p>
-            <p>Imagem 2 <input type="file" name="imagem2"></p>
-            <p><input type="submit" id="botao" value="Cadastrar-Se"></p>
+            <p>Imagem 1 <input type="file" name="imagem1" required></p>
+            <p>Imagem 2 <input type="file" name="imagem2" required></p>
+            <p><input type="submit" id="botao" value="Cadastrar-Se" required></p>
             </form>
         </div>
         <div class="msg">
