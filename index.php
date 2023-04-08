@@ -111,8 +111,15 @@ include('menu.php');
 
         <!-- Start trabalhe-conosco -->
         <div class="trabalhe-conosco">
+            <?php
+            if($_SESSION['login'] == true){
+               echo "<a href=cadastro.php><img src=imgs/anuncio.png height=100% width=100%></a>";
+            }else{
+                echo "<a href=login.php><img src=imgs/anuncio.png height=100% width=100%></a>";
+            }
+            ?>
 
-       <a href="login.php"><img src="imgs/anuncio.png" alt="" height="100%" width="100%"></a>
+       
 
         </div>
         <!-- End trabalhe-conosco -->

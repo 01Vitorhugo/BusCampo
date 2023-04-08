@@ -29,7 +29,7 @@
       </span>
         <a class="nav-link" href="#">Modalidades</a>
         <a class="nav-link" href="#">Contato</a>
-        <a class="nav-link" href="#">Divulgue seu local</a>
+        
 
         <?php
 @session_start();
@@ -39,7 +39,9 @@ if( !isset($_SESSION['login']) ){
 }
 
 if($_SESSION['login'] == true){
+  echo "<a class=nav-link href=#>Divulgue seu local</a>";
   echo "<span class=login-span><a class=nav-link id=dif href=logoff.php>Sair</a></span>";
+  
 }else{
   echo "<span class=login-span><a class=nav-link id=dif href=login.php>Login</a></span>";
 
