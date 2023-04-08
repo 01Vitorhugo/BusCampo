@@ -27,7 +27,7 @@ include('menu.php');
         <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="3000">
-                    <a href="https://01vitorhugo.github.io/Deep-Code/index.html"><img src="imgs/fotocerta.png" class="d-block w-100" alt=""></a>
+                   <img src="imgs/fotocerta.png" class="d-block w-100" alt="">
                 </div>
                 <div class="carousel-item" data-bs-interval="3000">
                     <img src="imgs/fotocerta2.png" class="d-block w-100" alt="">
@@ -113,7 +113,7 @@ include('menu.php');
         <div class="trabalhe-conosco">
             <?php
             if($_SESSION['login'] == true){
-               echo "<a href=cadastro.php><img src=imgs/anuncio.png height=100% width=100%></a>";
+               echo "<a href=divulgue.php><img src=imgs/anuncio.png height=100% width=100%></a>";
             }else{
                 echo "<a href=login.php><img src=imgs/anuncio.png height=100% width=100%></a>";
             }

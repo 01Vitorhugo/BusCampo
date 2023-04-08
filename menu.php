@@ -28,7 +28,7 @@
         <a class="nav-link " aria-current="page" href="quem-somos.php">Quem somos</a>
       </span>
         <a class="nav-link" href="#">Modalidades</a>
-        <a class="nav-link" href="#">Contato</a>
+        <a class="nav-link" href="contato.php">Contato</a>
         
 
         <?php
@@ -39,7 +39,7 @@ if( !isset($_SESSION['login']) ){
 }
 
 if($_SESSION['login'] == true){
-  echo "<a class=nav-link href=#>Divulgue seu local</a>";
+  echo "<a class=nav-link href=cad_local.php>Divulgue seu local</a>";
   echo "<span class=login-span><a class=nav-link id=dif href=logoff.php>Sair</a></span>";
   
 }else{
