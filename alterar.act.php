@@ -22,7 +22,7 @@
       move_uploaded_file($imagem2['tmp_name'],$endereco2);
     }
 
-    if(mysqli_query($con, "UPDATE `tb_local` SET `nome_local` = '$nome_local', `desc_local` = '$desc', `telefone` = '$tel', `cep` = '$cep', `estado` = '$estado' , `img1` = '$endereco1' , `img2` = '$endereco2' WHERE `tb_local`.`id_local` = '$id_local';")){
+    if(mysqli_query($con, "UPDATE `tb_local` SET `nome_local` = '$nome_local', `desc_local` = '$desc', `telefone` = '$tel', `cep` = '$cep', `id_estado` = '$id_estado' , `img1` = '$endereco1' , `img2` = '$endereco2' WHERE `tb_local`.`id_local` = '$id_local';")){
       $msg = "Alterado com sucesso";
     }else{
       $msg = "Erro na alteração";

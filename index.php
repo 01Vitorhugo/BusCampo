@@ -1,8 +1,10 @@
 <?php
 include('menu.php');
+require('query_index.php');
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -27,7 +29,7 @@ include('menu.php');
         <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="3000">
-                   <img src="imgs/fotocerta.png" class="d-block w-100" alt="">
+                    <img src="imgs/fotocerta.png" class="d-block w-100" alt="">
                 </div>
                 <div class="carousel-item" data-bs-interval="3000">
                     <img src="imgs/fotocerta2.png" class="d-block w-100" alt="">
@@ -87,24 +89,79 @@ include('menu.php');
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="1000">
                         <div class="BD-element">
-                            <h1>Elementos</h1>
+                            <div class="BD-box-left">
+                            <div class="BD-box-left-text">
+                                    <?php
+                                      echo "<h1 id= pag>$quadra1[nome_local] </h1>";
+                                    ?>
+                                </div>
+                                <div class="conteudo-BD-left">
+                                    <?php
+                                    echo "<h3 id= pag>Proprietário: $quadra1[nome_cliente] </h3>";
+                                    echo "<h3 id= pag>$quadra1[desc_local] </h3>";
+                                    echo "<h3 id= pag>$quadra1[nome_estado] </h3>";
+                                    ?>
+                                 <a href="#">Contato</a>
+                                </div>
+
+                            </div>
+
+                            <div class="BD-box-right">
+                                <div class="BD-box-right-img1">
+                                <?php
+                                 echo "<p><img src=$quadra2[img1]></p>";
+                                ?>
+
+                                </div>
+                                <!-- <div class="BD-box-right-img2">
+                                </div> -->
+
+                            </div>
 
                         </div>
                     </div>
-                    <div class="carousel-item" data-bs-interval="2000">
-                    <div class="BD-element">
-                            <h1>Elementos 2</h1>
+
+
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <div class="BD-element">
+                            <div class="BD-box-left">
+                            <div class="BD-box-left-text">
+                                    <?php
+                                      echo "<h1 id= pag>$quadra2[nome_local] </h1>";
+                                    ?>
+                                </div>
+                                <div class="conteudo-BD-left">
+                                    <?php
+                                    echo "<h3 id= pag>Proprietário: $quadra2[nome_cliente] </h3>";
+                                    echo "<h3 id= pag>$quadra2[desc_local] </h3>";
+                                    echo "<h3 id= pag>$quadra2[nome_estado] </h3>";
+                                    ?>
+                                 <a href="#">Contato</a>
+                                </div>
+
+                                
+                            </div>
+
+                            <div class="BD-box-right">
+
+                            </div>
 
                         </div>
                     </div>
                     <div class="carousel-item" data-bs-interval="3000">
-                    <div class="BD-element">
-                            <h1>Elementos 3</h1>
+                        <div class="BD-element">
+                            <div class="BD-box-left">
+
+                            </div>
+
+                            <div class="BD-box-right">
+
+                            </div>
 
                         </div>
                     </div>
                 </div>
-               
+
             </div>
         </div>
         <!-- End sugestao-content -->
@@ -112,14 +169,14 @@ include('menu.php');
         <!-- Start trabalhe-conosco -->
         <div class="trabalhe-conosco">
             <?php
-            if($_SESSION['login'] == true){
-               echo "<a href=divulgue.php><img src=imgs/anuncio.png height=100% width=100%></a>";
-            }else{
+            if ($_SESSION['login'] == true) {
+                echo "<a href=divulgue.php><img src=imgs/anuncio.png height=100% width=100%></a>";
+            } else {
                 echo "<a href=login.php><img src=imgs/anuncio.png height=100% width=100%></a>";
             }
             ?>
 
-       
+
 
         </div>
         <!-- End trabalhe-conosco -->

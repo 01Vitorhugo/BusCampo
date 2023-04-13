@@ -142,17 +142,56 @@ body{
     margin: 0;
 }
 .sugestao-content .carousel-item{
-   margin-left: 25%;
-   margin-top: 100px;
-   height: 400px;
+   height: 600px;
 }
 .carousel-item .BD-element{
     background-color: #edf2f4;
     height: 100%;
-    width: 50%;
-    
-   
+    width: 100%;
+    display: flex;
 }
+
+
+.BD-element .BD-box-left{
+    width: 50%;
+    height: 100%;
+
+}
+.BD-box-left .BD-box-left-text {
+    text-align: center;
+}
+.BD-box-left .conteudo-BD-left{
+    height: 400px;
+    width: 100%;
+    margin-top: 70px;
+    padding-top: 40px;
+    text-align: center;
+}
+.conteudo-BD-left h3{
+    padding-bottom: 50px;
+    
+}
+.BD-element .BD-box-right{
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    background-color: #ffd704;
+}
+.BD-box-right .BD-box-right-img1{
+    height: 50%;
+}
+.BD-box-right-img1 img{
+    height: 100%;
+    width: 100%;
+}
+.BD-box-right .BD-box-right-img2{
+    height: 50%;
+}
+.BD-box-right-img2 img{
+    height: 100%;
+    width: 100%;
+}
+
 .trabalhe-conosco{
     height: 600px;
     width: 100%;
