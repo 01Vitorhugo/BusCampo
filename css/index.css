@@ -128,6 +128,7 @@ body{
     width: 100%;
     margin-top: 40px;
     background-color: black;
+    box-shadow: 3px 3px 8px  black;
 }
 .sugestao-content .text-sugestao{
     background-color: #edf2f4;

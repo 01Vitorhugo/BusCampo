@@ -87,7 +87,7 @@ require('query_index.php');
             </div>
             <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="1000">
+                    <div class="carousel-item active" data-bs-interval="3000">
                         <div class="BD-element">
                             <div class="BD-box-left">
                             <div class="BD-box-left-text">
@@ -109,7 +109,7 @@ require('query_index.php');
                             <div class="BD-box-right">
                                 <div class="BD-box-right-img1">
                                 <?php
-                                 echo "<p><img src=$quadra2[img1]></p>";
+                                 echo "<p><img src=$quadra1[img1]></p>";
                                 ?>
 
                                 </div>
@@ -122,7 +122,7 @@ require('query_index.php');
                     </div>
 
 
-                    <div class="carousel-item" data-bs-interval="3000">
+                    <div class="carousel-item" data-bs-interval="3500">
                         <div class="BD-element">
                             <div class="BD-box-left">
                             <div class="BD-box-left-text">
@@ -143,19 +143,40 @@ require('query_index.php');
                             </div>
 
                             <div class="BD-box-right">
+                            <?php
+                                 echo "<p><img src=$quadra2[img1]></p>";
+                                ?>  
 
                             </div>
 
                         </div>
                     </div>
+
+                    
                     <div class="carousel-item" data-bs-interval="3000">
                         <div class="BD-element">
                             <div class="BD-box-left">
+                            <div class="BD-box-left-text">
+                                    <?php
+                                      echo "<h1 id= pag>$quadra3[nome_local] </h1>";
+                                    ?>
+                                </div>
+                                <div class="conteudo-BD-left">
+                                    <?php
+                                    echo "<h3 id= pag>Proprietário: $quadra3[nome_cliente] </h3>";
+                                    echo "<h3 id= pag>$quadra3[desc_local] </h3>";
+                                    echo "<h3 id= pag>$quadra3[nome_estado] </h3>";
+                                    ?>
+                                 <a href="#">Contato</a>
+                                </div>
+                                
 
                             </div>
 
                             <div class="BD-box-right">
-
+                            <?php
+                                 echo "<p><img src=$quadra3[img2]></p>";
+                                ?> 
                             </div>
 
                         </div>
@@ -170,7 +191,7 @@ require('query_index.php');
         <div class="trabalhe-conosco">
             <?php
             if ($_SESSION['login'] == true) {
-                echo "<a href=divulgue.php><img src=imgs/anuncio.png height=100% width=100%></a>";
+                echo "<a href=cad_local.php><img src=imgs/anuncio.png height=100% width=100%></a>";
             } else {
                 echo "<a href=login.php><img src=imgs/anuncio.png height=100% width=100%></a>";
             }
