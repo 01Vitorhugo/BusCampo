@@ -123,75 +123,83 @@ body{
 .modalidades a:hover{
     text-decoration: underline;
 }
+
+/* Carousel sugestao  */
 .sugestao-content{
     height: 700px;
     width: 100%;
     margin-top: 40px;
-    background-color: black;
+    background-color: #31a53d; 
     box-shadow: 3px 3px 8px  black;
 }
+
 .sugestao-content .text-sugestao{
-    background-color: #edf2f4;
+    background-color: #ffd704;
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 200px;
 }
-
 #carouselExampleInterval{
-    margin: 0;
+    /* background-color: #ffd704; */
+    margin: 0px;
 }
-.sugestao-content .carousel-item{
-   height: 600px;
-}
-.carousel-item .BD-element{
-    background-color: #edf2f4;
+#carouselExampleInterval .carousel-inner{
+    /* background-color: #31a53d; */
     height: 100%;
     width: 100%;
+}
+
+.carousel-inner .BD-element{
+    height: 100%;
+    width: 100%;
+    /* background-color: #ffd704; */
     display: flex;
 }
-
-
-.BD-element .BD-box-left{
-    width: 50%;
+.BD-box-left-text{
+    text-align: center;
+}
+.BD-box-left{
     height: 100%;
-
-}
-.BD-box-left .BD-box-left-text {
-    text-align: center;
-}
-.BD-box-left .conteudo-BD-left{
-    height: 400px;
-    width: 100%;
-    margin-top: 70px;
-    padding-top: 40px;
-    text-align: center;
+    width: 50%;
+    /* background-color: aqua; */
 }
 .conteudo-BD-left h3{
-    padding-bottom: 50px;
-    
+    text-align: center;
+    margin-top: 80px;
+
+
 }
-.BD-element .BD-box-right{
+.conteudo-BD-left .link-contato-BD{
+    text-align: center;
+    margin-top: 90px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.link-contato-BD a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffd704;
+}
+.BD-box-right{
+    height: 100%;
     width: 50%;
+    /* background-color: #000; */
+}
+.BD-box-right-img1{
     height: 100%;
-    display: inline-block;
-    background-color: #ffd704;
+    width: 100%;
 }
-.BD-box-right .BD-box-right-img1{
-    height: 50%;
-}
+
 .BD-box-right-img1 img{
-    height: 100%;
     width: 100%;
+    height: 700px;
 }
-.BD-box-right .BD-box-right-img2{
-    height: 50%;
-}
-.BD-box-right-img2 img{
-    height: 100%;
-    width: 100%;
-}
+/* Fim carousel sugestao */
+
 
 .trabalhe-conosco{
     height: 600px;

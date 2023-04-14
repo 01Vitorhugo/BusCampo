@@ -42,7 +42,16 @@
     <div class="gustavo">
         <div class="img-gustavo">
             <img src="imgs/gustavo.jpeg" alt="" width="100%" height="100%">
-
+        </div>
+        <div class="info-gustavo">
+            <div class="nome-gustavo">
+            <h1>Gustavo Henrique</h1>
+            </div>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem dolorum, accusantium, 
+                quibusdam provident animi et molestias soluta nam natus aut aspernatur modi 
+                debitis quos iste quaerat voluptas? Nisi, quam impedit?
+            </p>
         </div>
     </div>
     <div class="henrique">

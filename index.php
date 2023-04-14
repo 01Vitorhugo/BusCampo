@@ -26,8 +26,10 @@ require('query_index.php');
 <body>
     <!-- Start carousel -->
     <div class="carousel">
-        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+
             <div class="carousel-inner">
+       
                 <div class="carousel-item active" data-bs-interval="3000">
                     <img src="imgs/fotocerta.png" class="d-block w-100" alt="">
                 </div>
@@ -38,14 +40,7 @@ require('query_index.php');
                     <img src="imgs/3d22.png" class="d-block w-100" alt="">
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+           
         </div>
     </div>
     <!-- End carousel -->
@@ -85,10 +80,11 @@ require('query_index.php');
             <div class="text-sugestao">
                 <h1>Sugestões pra você</h1>
             </div>
+           
             <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="3000">
-                        <div class="BD-element">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="2500">
+    <div class="BD-element">
                             <div class="BD-box-left">
                             <div class="BD-box-left-text">
                                     <?php
@@ -101,7 +97,9 @@ require('query_index.php');
                                     echo "<h3 id= pag>$quadra1[desc_local] </h3>";
                                     echo "<h3 id= pag>$quadra1[nome_estado] </h3>";
                                     ?>
+                                    <div class="link-contato-BD">
                                  <a href="#">Contato</a>
+                                 </div>
                                 </div>
 
                             </div>
@@ -109,7 +107,7 @@ require('query_index.php');
                             <div class="BD-box-right">
                                 <div class="BD-box-right-img1">
                                 <?php
-                                 echo "<p><img src=$quadra1[img1]></p>";
+                                 echo "<p><img src=$quadra1[img1] height=100%></p>";
                                 ?>
 
                                 </div>
@@ -119,11 +117,9 @@ require('query_index.php');
                             </div>
 
                         </div>
-                    </div>
-
-
-                    <div class="carousel-item" data-bs-interval="3500">
-                        <div class="BD-element">
+    </div>
+    <div class="carousel-item" data-bs-interval="2500">
+    <div class="BD-element">
                             <div class="BD-box-left">
                             <div class="BD-box-left-text">
                                     <?php
@@ -136,25 +132,29 @@ require('query_index.php');
                                     echo "<h3 id= pag>$quadra2[desc_local] </h3>";
                                     echo "<h3 id= pag>$quadra2[nome_estado] </h3>";
                                     ?>
+                                  <div class="link-contato-BD">
                                  <a href="#">Contato</a>
+                                 </div>
                                 </div>
 
-                                
                             </div>
 
                             <div class="BD-box-right">
-                            <?php
+                                <div class="BD-box-right-img1">
+                                <?php
                                  echo "<p><img src=$quadra2[img1]></p>";
-                                ?>  
+                                ?>
+
+                                </div>
+                                <!-- <div class="BD-box-right-img2">
+                                </div> -->
 
                             </div>
 
                         </div>
-                    </div>
-
-                    
-                    <div class="carousel-item" data-bs-interval="3000">
-                        <div class="BD-element">
+    </div>
+    <div class="carousel-item" data-bs-interval="2500">
+    <div class="BD-element">
                             <div class="BD-box-left">
                             <div class="BD-box-left-text">
                                     <?php
@@ -167,23 +167,38 @@ require('query_index.php');
                                     echo "<h3 id= pag>$quadra3[desc_local] </h3>";
                                     echo "<h3 id= pag>$quadra3[nome_estado] </h3>";
                                     ?>
+                                  <div class="link-contato-BD">
                                  <a href="#">Contato</a>
+                                 </div>
                                 </div>
-                                
 
                             </div>
 
                             <div class="BD-box-right">
-                            <?php
-                                 echo "<p><img src=$quadra3[img2]></p>";
-                                ?> 
+                                <div class="BD-box-right-img1">
+                                <?php
+                                 echo "<p><img src=$quadra3[img1]></p>";
+                                ?>
+
+                                </div>
+                                <!-- <div class="BD-box-right-img2">
+                                </div> -->
+
                             </div>
 
                         </div>
-                    </div>
-                </div>
-
-            </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+            
         </div>
         <!-- End sugestao-content -->
 

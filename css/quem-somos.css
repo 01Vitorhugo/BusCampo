@@ -58,6 +58,18 @@
     width: 20%;
     /* background-color: black; */
 }
+.gustavo .info-gustavo{
+    width: 80%;
+    height: 100%;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+}
+.info-gustavo .nome-gustavo{
+    width: 100%;
+    text-align: center;
+}
+
 
 .henrique{
     background-color: rgba(255, 23, 23, 0.973);
