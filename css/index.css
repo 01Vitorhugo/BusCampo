@@ -124,16 +124,12 @@ body{
     color: #fff;
 }
 
-.modalidades a:hover{
-    text-decoration: underline;
-}
-
 /* Carousel sugestao  */
 .sugestao-content{
     height: 700px;
     width: 100%;
     margin-top: 40px;
-    background-color: #31a53d; 
+    background-color: #268516; 
     box-shadow: 3px 3px 8px  black;
 }
 
@@ -160,9 +156,11 @@ body{
     width: 100%;
     /* background-color: #ffd704; */
     display: flex;
+    color: #fff;
 }
 .BD-box-left-text{
     text-align: center;
+    padding-top: 50px;
 }
 .BD-box-left{
     height: 100%;
@@ -209,7 +207,7 @@ body{
     height: 600px;
     width: 100%;
     margin-top: 40px;
-     background-color: #154704; 
+     /* background-color: #154704;  */
 }
 
 .saopedro-content-end{
