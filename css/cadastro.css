@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    font-family: 'Jura', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+.menu{
+    width: 100%;
+    height: 11%;
+}
+.form{
+    width: 100%;
+    height: 89%;
+    display: flex;
+    background-image: url(../imgs/pexels-anastasia-shuraeva-9519543.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+.txt{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+    justify-content: center;
+    position: relative;
+    text-align: left;
+    position: relative;
+    left: 5%;
+    bottom: 10%;
+    color:aliceblue;
+  
+}
+.txt h3{
+    font-size: 5vh;
+    width: 60%;
+}
+.txt h1{
+    font-size: 20vh;
+    color: #ffd704;
+    width: 60%;
+}
+
+.dados{
+    width: 60%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.formula{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.671);
+    border-radius: 20px;
+    width: 80%;
+    height: 80%;
+}
+.name-formu{
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: 1005;
+    
+}
+
+form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form p{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+}
+.formula input{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    border-bottom: 1px solid black;
+
+}
+#botao{
+    position: relative;
+    top: 40%;
+    left: 25%;
+    height: 50px;
+    width: 50%;
+    border: none;
+    background-color: #ffd704;
+
+
+}

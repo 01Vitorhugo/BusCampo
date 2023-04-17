@@ -1,17 +1,14 @@
-
 *{
     font-family: jura;
     border: 0;
     margin: 0;
     box-sizing: border-box;
-    
+    font-size: 18px;
 }
 
 body{
     background-color: yellow;
-    height: 88vh;
-    position: relative;
-    top: 94px;
+    height: 100vh;
     
 }
 @font-face {
@@ -23,9 +20,11 @@ body{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-background-image: url(../imgs/pexels-anastasia-shuraeva-9519543.jpg);
+    background-image: url(../imgs/pexels-anastasia-shuraeva-9519543.jpg);
+
     width: 100%;
     height: 100%;
+    background-color: violet;
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -35,22 +34,22 @@ background-image: url(../imgs/pexels-anastasia-shuraeva-9519543.jpg);
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    width: 60%;
-    height: 89%;
+    width: 40%;
+    height: 90%;
     margin: 30px;
     border-radius: 30px;
-    background-color: #ffffff9c;
+    background-color: #ffffffc9;
 }
 .formu input{
     width: 250%;
-  
+    height: 30px;
     border-bottom: #000000 solid 0.5px;
- 
+
 }
 p{
     position: relative;
     right: 5%;
-  
+    margin: 15px;
     width: 40%;
     
 
@@ -66,6 +65,15 @@ p{
     background-color: yellow;
     height: 40px;
     border: none;
+}
+button{
+    
+    border: none;
+
+   
+    right: 1%;
+    color: red;
+background-color: rgba(255, 255, 0, 0);
 }
 select{
     width: 250%;

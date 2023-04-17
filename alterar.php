@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="css/alterar.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,12 +25,16 @@
             <input type="hidden" name="id_local" value="<?php echo $id_local?>">
             <input type="hidden" name="old_img1" value="<?php echo $quadra['img1']?>">
             <input type="hidden" name="old_img2" value="<?php echo $quadra['img2']?>">
-            <p>nome do local<input type="text" name="nome_local" value="<?php echo $quadra['nome_local']?>"></p>
-            <p>descrição <input type="text" name="desc" value="<?php echo $quadra['desc_local']?>"></p>
-            <p>telefone do local <input type="text" name="tel" value="<?php echo $quadra['telefone']?>"></p>
-            <p>cep <input type="text" name="cep" value="<?php echo $quadra['cep']?>"></p>
-            <p>estado <select name="id_estado">
-                <option value="<?php echo $quadra['id_estado']?>" selected>Estado Atual</option>
+            <p>Nome do local:</p>
+            <p><input type="text" name="nome_local" value="<?php echo $quadra['nome_local']?>"></p>
+            <p>Descrição:</p>
+            <p> <input type="text" name="desc" value="<?php echo $quadra['desc_local']?>"></p>
+            <p>Telefone do local: </p>
+            <p><input type="text" name="tel" value="<?php echo $quadra['telefone']?>"></p>
+            <p>Cep: </p>
+            <p><input type="text" name="cep" value="<?php echo $quadra['cep']?>">
+            <p>Estado: <select name="id_estado">
+                <option value="<?php echo $quadra['id_estado']?>" selected></option>
                 <option value="1">Acre</option>
                 <option value="2">Alagoas</option>
                 <option value="3">Amapá</option>
@@ -58,8 +63,10 @@
                 <option value="26">Tocantins</option>
                 <option value="27">Distrito Federal</option>
             </select></p>
-            <p>Imagem 1 <input type="file" name="imagem1"></p>
-            <p>Imagem 2 <input type="file" name="imagem2"></p>
+            <p>Imagem 1 </p>
+            <p><input type="file" name="imagem1"></p>
+            <p>Imagem 2 </p>
+            <p><input type="file" name="imagem2"></p>
             <p><input type="submit" id="botao" value="Alterar"></p>
             </form>
             <button onclick="confirmar(<?php echo $id_local?>)" >Deletar</button>
