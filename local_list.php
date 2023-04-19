@@ -33,8 +33,10 @@ if(!isset($_SESSION['login']) || $_SESSION['login'] != true){
         echo "<p id= pag>Telefone: $quadra[telefone] </p>";
         echo "<p id= pag>Cep: $quadra[cep] </p>";
         echo "<p id= pag>Estado: $quadra[nome_estado] </p>";
-        echo "<p><img src=$quadra[img1]></p>";
-        echo "<p><img src=$quadra[img2]></p>";
+        if($quadra['img1'] != ""){
+        echo "<p><img src=$quadra[img1]></p>";}
+        if($quadra['img2'] != ""){
+        echo "<p><img src=$quadra[img2]></p>";}
         if($_SESSION['tipo'] == true && $_SESSION['id'] == $quadra['id_cliente']){
             echo"<p><a href=alterar.php?id_local=$quadra[id_local]>Alterar</a></p>";
         }

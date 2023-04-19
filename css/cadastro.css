@@ -3,7 +3,16 @@
     padding: 0;
     box-sizing: border-box;
     border: 0;
-    font-family: 'Jura', sans-serif;
+    font-family: 'Jura' !important;
+}
+@font-face {
+    font-family: jura;
+    src: url(../JuraDemiBold.ttf);
+}
+
+@font-face {
+    font-family: jura;
+    src: url(../JuraDemiBold.ttf);
 }
 
 body{

@@ -9,18 +9,10 @@ require('query_index.php');
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;500&family=Poppins:wght@500&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;1,400&family=Roboto+Mono:wght@100&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/query-index.css">
-    <title>Principal</title>
+    <title>BusCampo</title>
 </head>
 
 <body>
@@ -30,12 +22,17 @@ require('query_index.php');
 
             <div class="carousel-inner">
 
-                <div class="carousel-item active" data-bs-interval="3000">
-                    <img src="imgs/fotocerta.png" class="d-block w-100" alt="">
+                <div class="carousel-item active" data-bs-interval="1500">
+                <a href="cad_local.php"><img src="imgs/fotocerta.png" class="d-block w-100" alt=""></a> 
+                    
+                
                 </div>
-                <div class="carousel-item" data-bs-interval="3000">
-                    <img src="imgs/fotocerta2.png" class="d-block w-100" alt="">
+
+                <div class="carousel-item" data-bs-interval="2000">
+                    <a href="local_list.php"><img src="imgs/fotocerta2.png" class="d-block w-100" alt=""></a> 
+                  
                 </div>
+
                 <div class="carousel-item" data-bs-interval="3000">
                     <img src="imgs/3d22.png" class="d-block w-100" alt="">
                 </div>
@@ -47,7 +44,18 @@ require('query_index.php');
 
     <!-- Start content-prin -->
     <div class="content-prin">
-        <div class="img-content"></div>
+        <div class="img-content">
+            <div class="img-lupa-content">
+                <div class="input-lupa">
+                    <input type="text" placeholder="Procurar local">
+
+                </div>
+                <div class="img-lupa">
+                    <img src="imgs/lupa.png" alt="">
+
+                </div>
+            </div>
+        </div>
 
         <div class="text-locais">
             <h1>Qual combina mais com você?</h1>
@@ -218,10 +226,10 @@ require('query_index.php');
         <!-- End trabalhe-conosco -->
 
 
-        <!-- Star content Sao Pedro -->
-
     </div>
-    <!-- End content Sao Pedro -->
+    
+
+        <!-- Star content Sao Pedro -->
 
     <div class="saopedro-content-end">
         <div class="saopedro"></div>
@@ -239,6 +247,8 @@ require('query_index.php');
             </div>
         </div>
     </div>
+    
+    <!-- End content Sao Pedro -->
 
     <!-- Start footer -->
     <footer>
