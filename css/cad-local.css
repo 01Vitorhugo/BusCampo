@@ -8,10 +8,9 @@
 }
 
 body{
-    background-color: yellow;
-    height: 88vh;
     position: relative;
-    top: 94px;
+    top: 100px;
+    height: 870px;
     
 }
 @font-face {
@@ -29,6 +28,7 @@ background-image: url(../imgs/pexels-anastasia-shuraeva-9519543.jpg);
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
+    margin-top: 5px;
 }
 .formu{
     display: flex;

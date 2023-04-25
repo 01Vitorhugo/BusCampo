@@ -31,53 +31,80 @@
         </p>
         </div>
     </div>
-    <div class="membros">
-        <h1>Membros e habilidades</h1>
+    <div class="conteudo-membros">
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="1000">
+    <div class="card" style="width: 25rem;">
+  <img src="imgs/gustavo.jpeg" class="card-img-top" alt="..." >
+  <div class="card-body">
+    <h5 class="card-title">Gustavo Henrique</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
     </div>
-    <div class="vitor">
-        <div class="img-vitor">
 
-        </div>
+    <div class="carousel-item" data-bs-interval="2000">
+    <div class="card" style="width: 25rem;">
+  <img src="imgs/carlos.jpeg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Carlos Manoel</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
     </div>
-    <div class="gustavo">
-        <div class="img-gustavo">
-            <img src="imgs/gustavo.jpeg" alt="" width="100%" height="100%">
-        </div>
-        <div class="info-gustavo">
-            <div class="nome-gustavo">
-            <h1>Gustavo Henrique</h1>
-            </div>
-            <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem dolorum, accusantium, 
-                quibusdam provident animi et molestias soluta nam natus aut aspernatur modi 
-                debitis quos iste quaerat voluptas? Nisi, quam impedit?
-            </p>
-        </div>
+    <div class="carousel-item" data-bs-interval="2000">
+    <div class="card" style="width: 25rem;">
+  <img src="imgs/henrique.jpeg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Henrique Batista</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
     </div>
-    <div class="henrique">
-        <div class="img-henrique">
 
-        </div>
+    <div class="carousel-item">
+    <div class="card" style="width: 25rem;">
+  <img src="imgs/igor.jpeg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Igor</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
     </div>
-    <div class="carlos">
-        <div class="img-carlos">
-        <img src="imgs/carlos.jpeg" alt="" width="100%" height="100%">
-            
+    <div class="carousel-item">
+    <div class="card" style="width: 25rem;">
+  <img src="imgs/breno.jpeg" class="card-img-top" alt="..." >
+  <div class="card-body">
+    <h5 class="card-title">Breno</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+    </div>
+    <div class="carousel-item">
+    <div class="card" style="width: 25rem;">
+  <img src="imgs/vitor.jpeg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Vitor Hugo</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
 
-        </div>
     </div>
-    <div class="igor">
-        <div class="img-igor">
-        <img src="imgs/igor.jpeg" alt="" width="100%" height="100%">
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
 
-        </div>
+   
     </div>
-    <div class="breno">
-        <div class="img-breno">
-        <img src="imgs/breno.jpeg" alt="" width="100%" height="100%">
 
-        </div>
-    </div>
 
     <div class="footer-quem-somos">
         <h3>Agradecemos sua visita à nossa página Quem-Somos</h3>

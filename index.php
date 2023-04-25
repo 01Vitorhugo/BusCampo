@@ -276,13 +276,13 @@ require('query_index.php');
                     </a>
                 </div>
                 <div class="servicos-links" id="footer-servicos">
-                    <a href="#">
+                    <a href="contato.php">
                         <p>Contato</p>
                     </a>
-                    <a href="#">
+                    <a href="cad_local.php">
                         <p>Divulgue seu local</p>
                     </a>
-                    <a href="#">
+                    <a href="quem-somos.php">
                         <p>Quem somos</p>
                     </a>
                     <a href="#">
