@@ -29,9 +29,9 @@
    font-size: larger;
 }
 .navbar-nav{
-    width: 75%;
+    width: 90%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     
 }
@@ -43,6 +43,11 @@
 }
 .login-span{
     background-color: black;
+}
+.nome-cliente{
+    color: #ffd704;
+    animation: backInRight 2s;
+
 }
 
 

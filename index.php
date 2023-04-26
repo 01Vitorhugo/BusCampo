@@ -9,9 +9,14 @@ require('query_index.php');
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/scrollreveal"></script>
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/query-index.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <title>BusCampo</title>
 </head>
 
@@ -29,7 +34,7 @@ require('query_index.php');
                 </div>
 
                 <div class="carousel-item" data-bs-interval="2000">
-                    <a href="local_list.php"><img src="imgs/fotocerta2.png" class="d-block w-100" alt=""></a> 
+                    <img src="imgs/fotocerta2.png" class="d-block w-100" alt=""> 
                   
                 </div>
 
@@ -45,15 +50,8 @@ require('query_index.php');
     <!-- Start content-prin -->
     <div class="content-prin">
         <div class="img-content">
-            <div class="img-lupa-content">
-                <div class="input-lupa">
-                    <input type="text" placeholder="Procurar local">
-
-                </div>
-                <div class="img-lupa">
-                    <img src="imgs/lupa.png" alt="">
-
-                </div>
+            <div class="img-lupa-content" id="img-lupa-content">
+              <a href="pesquisa_by_estado.php"><h1>Pesquisar agora</h1></a>
             </div>
         </div>
 
@@ -74,13 +72,13 @@ require('query_index.php');
                 <div class="box-areia" id="locais-hover"></div>
             </div>
         </div>
-        <div class="cont-locais">
+        <!-- <div class="cont-locais">
             <div class="modalidades">
                 <a href="#">
                     <h3> Pesquisar modalidades </h3>
                 </a>
             </div>
-        </div>
+        </div> -->
         <!-- End content-prin -->
 
         <!-- Start sugestao-content -->
@@ -295,10 +293,8 @@ require('query_index.php');
     <!-- End footer -->
 
 
-
-
-
-
+    <script src="js/script.js"></script>
+   
     <!--  Script estava influenciando o mal uso do menu.. O menu ja puxa o script
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
