@@ -39,8 +39,9 @@ if( !isset($_SESSION['login']) ){
 
 if($_SESSION['login'] == true){
   echo "<a class=nav-link href=cad_local.php>Divulgue seu local</a>";
+  echo "<a class=nav-link id=dif href=#.php>Perfil</a>";
   echo "<span class=login-span><a class=nav-link id=dif href=logoff.php>Sair</a></span>";
-  echo "<h2 class=nome-cliente> Olá $_SESSION[nome] </h2>";
+  echo "<h2 class=nome-cliente>Olá, $_SESSION[nome] <img src=imgs/trofeu.png></h2>";
   
 }else{
   echo "<span class=login-span><a class=nav-link id=dif href=login.php>Login</a></span>";

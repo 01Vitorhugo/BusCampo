@@ -43,8 +43,9 @@
                     unset($_SESSION['msg']);
                 }
             ?>
-            </div>
+           
         </div>
+            </div>
                     <p>email <input type="text" name="email" required></p>
                     <p>senha <input type="password" name="senha" required></p>
                     <p><input type="submit" id="botao" value="Entrar"></p>

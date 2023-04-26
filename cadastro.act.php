@@ -15,5 +15,5 @@
     session_start();
         $_SESSION['msg'] = $msg;
 
-    header("location:cadastro.php");
+    header("location:login.php");
 ?>
