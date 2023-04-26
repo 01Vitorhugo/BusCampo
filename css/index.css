@@ -19,10 +19,10 @@ body{
     height: 600px;
 }
 .content-prin{
-    height: 2600px;
+    height: 2450px;
     width: 90%;
     margin-left: 5%;
-    /* background-color: blue; */
+     /* background-color: blue;  */
 }
 .img-content{
     /* background-color: #154704; */
@@ -250,6 +250,8 @@ body{
     background-color: #31a53d;    
     color: #ffd704;
     border-bottom: 3px solid #ffd704;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 .saopedro-texto1{
     /* background-color: aliceblue; */
@@ -260,6 +262,7 @@ body{
 .saopedro-texto1 h1{
     text-align: center;
     color: #ffff;
+    
 }
 .saopedro-texto2{
     margin-top: 50px;
@@ -308,6 +311,8 @@ footer{
     justify-content: center;
     align-items: center;
     margin-top: 300px;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 hr{
     color: black;

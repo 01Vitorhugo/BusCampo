@@ -29,7 +29,7 @@
    font-size: larger;
 }
 .navbar-nav{
-    width: 90%;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -47,7 +47,12 @@
 .nome-cliente{
     color: #ffd704;
     animation: backInRight 2s;
-
+    margin-left: 50px;
 }
+.nome-cliente img{
+    height: 45px;
+    padding-left: 15px;
+}
+
 
 
