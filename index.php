@@ -293,7 +293,7 @@ require('query_index.php');
     <!-- End footer -->
 
 
-    <script src="js/script.js"></script>
+    <script src="js/script-index.js"></script>
    
     <!--  Script estava influenciando o mal uso do menu.. O menu ja puxa o script
 
