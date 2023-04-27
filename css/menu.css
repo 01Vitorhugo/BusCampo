@@ -46,7 +46,7 @@
 }
 .nome-cliente{
     color: #ffd704;
-    animation: fadeInRight 2s;
+    animation: zoomIn 2s;
     margin-left: 50px;
     overflow-x: hidden;
     overflow-y: hidden;

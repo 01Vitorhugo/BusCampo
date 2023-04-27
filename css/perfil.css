@@ -1,0 +1,15 @@
+*{
+    font-family: 'jura'  !important;
+}
+@font-face {
+    font-family: jura;
+    src: url(../JuraDemiBold.ttf);
+}
+body{
+    background-color: #edf2f4;
+    
+}
+h1{
+    text-align: center;
+    margin-top: 150px;
+}
