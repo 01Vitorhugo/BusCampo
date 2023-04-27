@@ -8,6 +8,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/scrollreveal"></script>
     <link rel="stylesheet" href="css/quem-somos.css">
     <title>Quem Somos</title>
 </head>
@@ -36,7 +37,7 @@
     <div class="conteudo-membros">
     <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
-    <div class="carousel-item active" data-bs-interval="1000">
+    <div class="carousel-item active" data-bs-interval="3000">
     <div class="card" style="width: 25rem;">
   <img src="imgs/gustavo.jpeg" class="card-img-top" alt="..." >
   <div class="card-body">
@@ -107,5 +108,7 @@
 </div>
     </div>
 </body>
+
+<script src="js/script-quem-somos.js"></script>
 
 </html>
