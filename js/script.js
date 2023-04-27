@@ -133,10 +133,5 @@ sr.reveal('.servicos-links', {
     scale:  
         0.5,
 });
-
-
-
-
-
-
 // FIM FOOTER
+
