@@ -2,34 +2,46 @@
     border: 0;
     padding: 0;
     margin: 0;
+    font-family: 'jura'  !important;
 }
-
+@font-face {
+    font-family: jura;
+    src: url(../JuraDemiBold.ttf);
+}
+body{
+    background-image: url(../imgs/fundo-quem-somos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #f0f0f0;
+    background-attachment: fixed;
+}
 .texto-apresentacao{
-    height: 300px;
+    height: 500px;
     width: 100%;
-    margin-top: 220px;
+    margin-top: 200px;
     text-align: center;
+    /* background-color: aqua; */
 }
-.texto-apresentacao h1{
-    font-size: 30px;
-}
-.texto-apresentacao .texto-p{
-    height: 70%;
-    width: 50%;
-    margin-left: 25%;
-    display: flex;
+.texto-apresentacao .texto-prin{
+    /* background-color: black;  */
+    height: 50%;
     justify-content: center;
     align-items: center;
-    font-size: 17px;
-    margin-top: 30px;
-
+    display: flex;
+}
+.texto-apresentacao .texto-p{
+    height: 50%;
+    font-size: 23px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* background-color: black; */
 }
 
 .conteudo-membros{
-    /* background-color: black;  */
     height: 600px;
     width: 100%;
-    margin-top: 100px;
+    margin-top: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,15 +53,10 @@
     height: 100%;
 }
 .carousel-item{
-    padding-top: 55px;
+    padding-top: 100px;
     padding-left: 40%;
 }
 .card img{
     height: 300px;
 
 }
-.footer-quem-somos{
-    text-align: center;
-    margin-top: 50px;
-}
- 
