@@ -1,6 +1,5 @@
 window.sr = ScrollReveal({ reset: true });
 
-
 // TEXTO LOCAIS
 sr.reveal('.text-locais', { 
     delay: 200,
@@ -21,7 +20,7 @@ sr.reveal('.campo', {
 });
 
 sr.reveal('.quadra', { 
-    delay: 300,
+    delay: 400,
     duration: 1000,
     reset: true,
     scale:  
@@ -29,7 +28,7 @@ sr.reveal('.quadra', {
 });
 
 sr.reveal('.areia', { 
-    delay: 300,
+    delay: 500,
     duration: 1000,
     reset: true,
     scale:  
