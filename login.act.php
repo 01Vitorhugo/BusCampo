@@ -29,7 +29,7 @@
             $_SESSION['nome'] = $login['nome_cliente'];
             $_SESSION['id'] = $login['id_cliente'];
             $_SESSION['tipo'] = false;
-            $target = "location:local_list.php";
+            $target = "location:index.php";
         }else{
             $target = "location:login.php";
             $msg = "Email ou senha invalidos";
