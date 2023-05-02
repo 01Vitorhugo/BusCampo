@@ -13,8 +13,8 @@
     $destino2 = "imgsquadras/".md5(time()+1).".jpg";
     move_uploaded_file($imagem2['tmp_name'],$destino2);
     
-    if(mysqli_query($con,"INSERT INTO `tb_local` (`id_cliente`,`nome_local`, `id_categoria`,`desc_local`,`telefone`,`cep`,`id_estado`,`img1`,`img2`)
-    VALUES ('$id', '$nome_local', '$id_categoria', '$desc', '$tel', '$cep', '$id_estado', '$destino1', '$destino2')")){
+    if(mysqli_query($con,"INSERT INTO `tb_local` (`id_cliente`,`nome_local`, `id_categoria`,`desc_local`,`telefone`,`rua`,`numero`,`bairro`,`cep`,`id_estado`,`img1`,`img2`)
+    VALUES ('$id', '$nome_local', '$id_categoria', '$desc', '$tel', '$rua', '$numero', '$bairro', '$cep', '$id_estado', '$destino1', '$destino2')")){
         $msg = "Cadastro da quadra concluído";
     }else{
         $msg = "Erro ao cadastrar quadra";

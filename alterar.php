@@ -33,6 +33,12 @@
             <p><input type="text" name="tel" value="<?php echo $quadra['telefone']?>"></p>
             <p>Cep: </p>
             <p><input type="text" name="cep" value="<?php echo $quadra['cep']?>">
+            <p>Rua: </p>
+            <p><input type="text" name="rua" value="<?php echo $quadra['rua']?>">
+            <p>Número: </p>
+            <p><input type="text" name="numero" value="<?php echo $quadra['numero']?>">
+            <p>Bairro: </p>
+            <p><input type="text" name="bairro" value="<?php echo $quadra['bairro']?>">
             <p>Estado: <select name="id_estado">
                 <option value="<?php echo $quadra['id_estado']?>" selected></option>
                 <option value="1">Acre</option>

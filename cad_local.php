@@ -31,6 +31,9 @@
             </select></p>
             <p>Descrição <input type="text" name="desc" required></p>
             <p>Telefone do local <input type="text" name="tel" required></p>
+            <p>Rua <input type="text" name="rua"></p>
+            <p>Número <input type="number" name="numero"></p>
+            <p>bairro <input type="text" name="bairro"></p>
             <p>CEP <input type="text" name="cep" required></p>
             <p>Estado <select name="id_estado">
                 <option>Escolher</option>

@@ -31,7 +31,7 @@ require('menu.php');
         echo "<p id= pag>Nome: $perfil[nome_cliente] </p>";
         echo "<p id= pag>Email: $perfil[email] </p>";
         echo "<p id= pag>Senha: ********** </p>";
-        echo "<a href=>Alterar Perfil</a>";
+        echo "<a href=alterar_perfil.php?id_cliente=$perfil[id_cliente]>Alterar Perfil</a>";
         echo "</div>";
         echo "</div>";
         
