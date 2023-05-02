@@ -31,8 +31,5 @@
     }else{
        header("location:alterar_perfil.php");   
     }
-
-
-
     header("location:perfil.php");   
 ?>

@@ -27,9 +27,7 @@
         <a class="nav-link " aria-current="page" href="quem-somos.php">Quem somos</a>
       </span>
         <a class="nav-link" href="modalidades.php">Modalidades</a>
-        <a class="nav-link" href="contato.php">Contato</a>
-        
-
+        <a class="nav-link" href="contato.php">Contato</a>        
         <?php
 @session_start();
 // @var_dump($_SESSION);
