@@ -28,13 +28,16 @@ require('menu.php');
         
         $perfil = mysqli_fetch_array($perfils);
         echo "<div class =\"sc\">";
-        echo "<p id= pag>Nome: $perfil[nome_cliente] </p>";
-        echo "<p id= pag>Email: $perfil[email] </p>";
-        echo "<p id= pag>Senha: ********** </p>";
-        echo "<a href=alterar_perfil.php?id_cliente=$perfil[id_cliente]>Alterar Perfil</a>";
-        echo "</div>";
-        echo "</div>";
+        echo "<p>Nome: $perfil[nome_cliente] </p>";
+        echo "<p>Email: $perfil[email] </p>";
+        echo "<p>Senha: ********** </p>";
+        echo "<p><a href=alterar_perfil.php?id_cliente=$perfil[id_cliente]>Alterar Perfil</a></p>";
         
+        if($_SESSION['tipo'] == true){
+            echo "<p><a href=>Minhas locações</a></p>";
+          }
+        echo "</div>";
+        echo "</div>";
     ?>
 
 </body>

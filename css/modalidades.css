@@ -8,7 +8,52 @@
     font-family: jura;
     src: url(../JuraDemiBold.ttf);
 }
-h1{
+.sub-menu{
     margin-top: 150px;
-    text-align: center;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #268516;
+}
+
+.sub-menu .nav-sub-menu{
+    width: 50%;
+    height: 100%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.nav-sub-menu ul{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-sub-menu ul li{
+    list-style: none;
+    height: 100%;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
+    transition: 0.5s;
+   
+}
+.nav-sub-menu ul li:hover{
+    background-color: #ffd704;
+    cursor: pointer; 
+}
+.nav-sub-menu ul li a{
+    text-decoration: none;
+    color: #ffff;
+    transition: 1s;
+    font-size: 20px;
+   
+}
+.nav-sub-menu ul li a:hover{
+    color: #268516;
+   
 }

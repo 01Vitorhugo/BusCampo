@@ -11,7 +11,17 @@
     <title>Modalidades</title>
 </head>
 <body>
-    <h1>Modalidades</h1>
+
+  
+<div class="sub-menu">
+    <nav class="nav-sub-menu">
+        <ul>
+            <li><a href="#">Campo</a></li>
+            <li><a href="#">Quadra</a></li>
+            <li><a href="#">Areia</a></li>
+        </ul>
+    </nav>
+</div>
     
 </body>
 </html>

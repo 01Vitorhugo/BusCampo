@@ -9,11 +9,7 @@
     src: url(../JuraDemiBold.ttf);
 }
 body{
-    background-image: url(../imgs/fundo-quem-somos.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #f0f0f0;
-    background-attachment: fixed;
+    background-color: #edf2f4;
 }
 .texto-apresentacao{
     height: 500px;
@@ -29,6 +25,7 @@ body{
     align-items: center;
     display: flex;
 }
+
 .texto-apresentacao .texto-p{
     height: 50%;
     font-size: 23px;
@@ -46,6 +43,8 @@ body{
     justify-content: center;
     align-items: center;
     overflow-y: hidden;
+    background-color: #268516;
+    border: solid 2px #ffd704;
 
 }
 .conteudo-membros #carouselExampleInterval{

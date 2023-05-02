@@ -29,7 +29,7 @@ include('menu.php');
         </div>
         
             <form action="cadastro.act.php" method="post">
-            <p>Nome: <input type="text" name="nome"  required></p>
+            <p>Nome: <input type="text" name="nome" pattern="[a-zA-Z]*" required></p>
             <p>Email: <input type="text" name="email"  required></p>
             <p>Cpf/cnpj: <input type="text" name="doc"  required></p>
             <p>Telefone: <input type="text" name="tel"  required></p>

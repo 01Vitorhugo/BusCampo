@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: yellow;
+    background-color: #edf2f4;
     height: 100vh;
     
 }
@@ -21,10 +21,8 @@ body{
     flex-direction: column;
     align-items: center;
     background-image: url(../imgs/pexels-anastasia-shuraeva-9519543.jpg);
-
     width: 100%;
     height: 100%;
-    background-color: violet;
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -65,15 +63,18 @@ p{
     background-color: yellow;
     height: 40px;
     border: none;
+    transition: 1s;
+}
+#botao:hover{
+    border-radius: 10px;
+    transition: 1s;
+    cursor: pointer;
 }
 button{
-    
     border: none;
-
-   
     right: 1%;
     color: red;
-background-color: rgba(255, 255, 0, 0);
+    background-color: rgba(255, 255, 0, 0);
 }
 select{
     width: 250%;

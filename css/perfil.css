@@ -14,5 +14,37 @@ h1{
     margin-top: 150px;
 }
 .box{
-    margin-top: 200px;
+    margin-top: 100px;
+    height: 500px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.box .sc{
+    background-color: #268516;
+    color: #ffd704;
+    height: 100%;
+    width: 50%;
+    border-radius: 10px;
+    transition: 1s;
+}
+.box .sc:hover{
+    transition: 1s;
+    font-size: 25px;
+}
+.box .sc p{
+    padding-top: 20px;
+    padding-bottom: 30px;
+
+}
+.sc a{
+    height: 300px;
+    text-decoration: none;
+    color: #edf2f4;
+    transition: 1s;
+    
+}
+.sc a:hover{
+    font-size: 29px;
+    transition: 1s;
 }
