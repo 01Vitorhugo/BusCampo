@@ -10,7 +10,7 @@
         $query_senha = mysqli_query($con, "SELECT senha FROM `tb_locador` WHERE `tb_locador`.`id_cliente`;");
         $senha_atual = mysqli_fetch_array($query_senha);
     }else{
-        $query_senha = mysqli_query($con, "SELECT senha FROM `tb_locador` WHERE `tb_locatario`.`id_cliente`;");
+        $query_senha = mysqli_query($con, "SELECT senha FROM `tb_locatario` WHERE `tb_locatario`.`id_cliente`;");
         $senha_atual = mysqli_fetch_array($query_senha);
     }
 
