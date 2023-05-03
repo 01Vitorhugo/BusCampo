@@ -42,18 +42,16 @@
     transition: 0.5s;
    
 }
-.nav-sub-menu ul li:hover{
-    background-color: #ffd704;
-    cursor: pointer; 
+.nav-sub-menu ul li:hover{  
+   cursor: pointer; 
 }
 .nav-sub-menu ul li a{
     text-decoration: none;
     color: #ffff;
-    transition: 1s;
     font-size: 20px;
    
 }
 .nav-sub-menu ul li a:hover{
-    color: #268516;
+    color: #ffd704;
    
 }

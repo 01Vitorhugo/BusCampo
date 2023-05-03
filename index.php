@@ -61,24 +61,17 @@ require('query_index.php');
         <div class="locais">
             <div class="campo">
                 <h3>Campo</h3>
-                <div class="box-campo" id="locais-hover"></div>
+               <a href="local_list.php?id_categoria=1"><div class="box-campo" id="locais-hover"></div></a>
             </div>
             <div class="quadra">
                 <h3>Quadra</h3>
-                <div class="box-quadra" id="locais-hover"></div>
+               <a href="local_list.php?id_categoria=10"><div class="box-quadra" id="locais-hover"></div></a>
             </div>
             <div class="areia">
                 <h3>Areia</h3>
-                <div class="box-areia" id="locais-hover"></div>
+                <a href="local_list.php?id_categoria=6"><div class="box-areia" id="locais-hover"></div></a>
             </div>
         </div>
-        <!-- <div class="cont-locais">
-            <div class="modalidades">
-                <a href="#">
-                    <h3> Pesquisar modalidades </h3>
-                </a>
-            </div>
-        </div> -->
         <!-- End content-prin -->
 
         <!-- Start sugestao-content -->
@@ -274,9 +267,9 @@ require('query_index.php');
                     </a>
                 </div>
                 <div class="servicos-links" id="footer-servicos">
-                    <a href="contato.php">
+                    <!-- <a href="contato.php">
                         <p>Contato</p>
-                    </a>
+                    </a> -->
                     <a href="cad_local.php">
                         <p>Divulgue seu local</p>
                     </a>

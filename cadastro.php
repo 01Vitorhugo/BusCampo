@@ -25,7 +25,7 @@ include('menu.php');
         
         <div class="formula">
         <div class="name-formu">
-            <h2>Cadastro Pessoal</h2>
+            <h2>Cadastro Locador    </h2>
         </div>
         
             <form action="cadastro.act.php" method="post">

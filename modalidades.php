@@ -16,9 +16,11 @@
 <div class="sub-menu">
     <nav class="nav-sub-menu">
         <ul>
-            <li><a href="#">Campo</a></li>
-            <li><a href="#">Quadra</a></li>
-            <li><a href="#">Areia</a></li>
+            <li><a href="local_list.php?id_categoria=1">Futebol</a></li>
+            <li><a href="local_list.php?id_categoria=4">Vôlei</a></li>
+            <li><a href="local_list.php?id_categoria=2">Futsal</a></li>
+            <li><a href="local_list.php?id_categoria=3">Basquete</a></li>
+            <li><a href="local_list.php?id_categoria=5">Poliesportiva</a></li>
         </ul>
     </nav>
 </div>

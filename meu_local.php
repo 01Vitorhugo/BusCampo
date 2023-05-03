@@ -12,7 +12,7 @@ if(!isset($_SESSION['login']) || $_SESSION['login'] != true){
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/list.css">
-    <title>Lista de Quadras</title>
+    <title>Meus Locais</title>
 </head>
 <body>
     <?php
@@ -22,17 +22,11 @@ if(!isset($_SESSION['login']) || $_SESSION['login'] != true){
         }
     ?>
     <?php
-        extract($_GET);
-        if($id_categoria < 10){
-            $sql = "SELECT * FROM `tb_local` INNER JOIN `tb_categoria` ON `tb_local`.`id_categoria` = `tb_categoria`.`id_categoria` INNER JOIN `tb_estado` ON `tb_local`.`id_estado` = `tb_estado`.`id_estado` WHERE `tb_local`.`id_categoria` = '$id_categoria' order by `nome_local`";
-        }else if($id_categoria == 10){
-            $sql = "SELECT * FROM `tb_local` INNER JOIN `tb_categoria` ON `tb_local`.`id_categoria` = `tb_categoria`.`id_categoria` INNER JOIN `tb_estado` ON `tb_local`.`id_estado` = `tb_estado`.`id_estado` WHERE `tb_local`.`id_categoria` = '2' OR `tb_local`.`id_categoria` = '3' OR `tb_local`.`id_categoria` = '4' order by `nome_local`";
-        }
-
         require('connect.php');
+        extract($_GET);
         // var_dump($_GET);    
         echo "<div class =\"box\">";
-        $quadras = mysqli_query($con, $sql);
+        $quadras = mysqli_query($con, "SELECT * FROM `tb_local` INNER JOIN `tb_categoria` ON `tb_local`.`id_categoria` = `tb_categoria`.`id_categoria` INNER JOIN `tb_estado` ON `tb_local`.`id_estado` = `tb_estado`.`id_estado` WHERE `tb_local`.`id_cliente` = '$id_cliente' order by `nome_local`");
         while($quadra = mysqli_fetch_array($quadras)){
         echo "<div class =\"sc\">";
         echo "<p id= pag>Nome: $quadra[nome_local] </p>";

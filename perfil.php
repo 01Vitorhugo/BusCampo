@@ -34,7 +34,7 @@ require('menu.php');
         echo "<p><a href=alterar_perfil.php?id_cliente=$perfil[id_cliente]>Alterar Perfil</a></p>";
         
         if($_SESSION['tipo'] == true){
-            echo "<p><a href=>Minhas locações</a></p>";
+            echo "<p><a href=meu_local?id_cliente=$perfil[id_cliente]>Minhas locações</a></p>";
           }
         echo "</div>";
         echo "</div>";

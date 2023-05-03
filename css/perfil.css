@@ -30,21 +30,21 @@ h1{
 }
 .box .sc:hover{
     transition: 1s;
-    font-size: 25px;
+    
 }
 .box .sc p{
     padding-top: 20px;
     padding-bottom: 30px;
+    font-size: 25px;
 
 }
 .sc a{
     height: 300px;
     text-decoration: none;
     color: #edf2f4;
-    transition: 1s;
     
 }
 .sc a:hover{
-    font-size: 29px;
-    transition: 1s;
+   color: #ffd704;
+    
 }

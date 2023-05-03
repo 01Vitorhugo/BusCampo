@@ -5,7 +5,7 @@
 
     require('connect.php');
         if(!$texto == ""){
-            $quadras = mysqli_query($con, "SELECT * FROM `tb_local` INNER JOIN `tb_categoria` ON `tb_local`.`id_categoria` = `tb_categoria`.`id_categoria` INNER JOIN `tb_estado` ON `tb_local`.`id_estado` = `tb_estado`.`id_estado` where `nome_estado` like '%$texto%' order by `nome_local`");
+            $quadras = mysqli_query($con, "SELECT * FROM `tb_local` INNER JOIN `tb_categoria` ON `tb_local`.`id_categoria` = `tb_categoria`.`id_categoria` INNER JOIN `tb_estado` ON `tb_local`.`id_estado` = `tb_estado`.`id_estado` where `nome_estado` like '%$texto%' OR `rua` like '%$texto%' OR `bairro` like '%$texto%' order by `nome_local`");
 
             echo "<div class = \"box\">";
             while($quadra = mysqli_fetch_array($quadras)){

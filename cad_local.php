@@ -28,6 +28,7 @@
                 <option value="3">Vôlei</option>
                 <option value="4">Basquete</option>
                 <option value="5">Poliesportiva</option>
+                <option value="6">Areia</option>
             </select></p>
             <p>Descrição <input type="text" name="desc" required></p>
             <p>Telefone do local <input type="text" name="tel" required></p>

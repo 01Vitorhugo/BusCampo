@@ -66,6 +66,11 @@ p{
     background-color: yellow;
     height: 40px;
     border: none;
+    border-radius: 10px;
+    transition: 1s;
+}
+#botao:hover{
+    border-radius: 20px;
 }
 select{
     width: 250%;
