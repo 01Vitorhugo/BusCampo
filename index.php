@@ -252,11 +252,11 @@ require('query_index.php');
                     <p>Copyright 2023 ©</p>
                 </div>
                 <div class="conteudo-footer-box3" id="box-footer">
-                    <a href="#"><img src="imgs/seta-para-cima.png" alt=""></a>
+                    <a href="#"><img src="imgs/refazer.png" alt=""></a>
                 </div>
             </div>
             <hr>
-            <div class="footer-servicos">
+            <div class="footer-servicos" id="footer">
                 <div class="servicos-contato" id="footer-servicos">
                     <a href="https://www.instagram.com/etecitaquera/">
                         <p>@BusCampo</p>

@@ -13,6 +13,8 @@
                 echo "<p id= pag>$quadra[nome_local] </p>";
                 echo "<p id= pag>$quadra[desc_local] </p>";
                 echo "<p id= pag>$quadra[desc_categoria] </p>";
+                echo "<p id= pag>$quadra[bairro]</p>";
+                echo "<p id= pag>$quadra[rua]</p>";
                 echo "<p id= pag>$quadra[nome_estado] </p>";
                 echo "<p id= pagimg><img src=$quadra[img1]></p>";
                 // if(!isset($_SESSION['login']) || $_SESSION['login'] != true){

@@ -336,23 +336,33 @@ hr{
     align-items: center;
 }
 .conteudo-footer-box3 img{
-    height: 60px;
-    transition-duration: 1s;
+    height: 40px;
+    transition: 1s;
     
 }
 
 .conteudo-footer-box2 p{
     font-size: 30px;
 }
-.conteudo-footer-box3 img:hover{
+.conteudo-footer-box3 img{
     cursor: pointer;
-    transform: translate(-1px, -1px) rotate(-40deg);
-    transition: 1s ease-in;
+    transform: translateY(1px, 1px) rotate(40deg);
+    animation: seta 0.3s infinite alternate;
 }
 
 .conteudo-footer-box1 img{
     height: 150px;
     width: 73%;
+}
+
+@keyframes seta{
+    from {
+        transform: translatey(10px);
+      }
+      to {
+        transform: translatey(0);
+      }
+   
 }
 .footer-servicos{
     height: 45%;
