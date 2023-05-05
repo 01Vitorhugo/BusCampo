@@ -69,6 +69,7 @@
     position: fixed;
     right: 17%;
     bottom: 2%;
+    display: none;
 }
 .seta-cima a{
     display: flex;
@@ -99,7 +100,7 @@
     color: #ffff;
 }
 .conteudo-modalidades .conteudo{
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     width: 50%;
     height: 100%;
     font-size: 20px;

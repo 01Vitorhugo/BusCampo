@@ -50,9 +50,11 @@ require('query_index.php');
     <!-- Start content-prin -->
     <div class="content-prin">
         <div class="img-content">
+        <a href="pesquisa_by_estado.php">
             <div class="img-lupa-content" id="img-lupa-content">
-              <a href="pesquisa_by_estado.php"><h1>Pesquisar agora</h1></a>
+              Pesquisar agora
             </div>
+            </a>
         </div>
 
         <div class="text-locais">
@@ -60,15 +62,15 @@ require('query_index.php');
         </div>
         <div class="locais">
             <div class="campo">
-                <h3>Campo</h3>
+                <h3 class="campo-h3">Campo</h3>
                <a href="local_list.php?id_categoria=1"><div class="box-campo" id="locais-hover"></div></a>
             </div>
             <div class="quadra">
-                <h3>Quadra</h3>
+                <h3 class="quadra-h3">Quadra</h3>
                <a href="local_list.php?id_categoria=10"><div class="box-quadra" id="locais-hover"></div></a>
             </div>
             <div class="areia">
-                <h3>Areia</h3>
+                <h3 class="areia-h3">Areia</h3>
                 <a href="local_list.php?id_categoria=6"><div class="box-areia" id="locais-hover"></div></a>
             </div>
         </div>

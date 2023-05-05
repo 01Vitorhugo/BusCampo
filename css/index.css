@@ -34,22 +34,34 @@ body{
     align-items: center;
     overflow-y: hidden;
 }
-.img-content .img-lupa-content{
+.img-content a{
     background-color: #268516;
+    color: #ffd704;
     height: 70%;
     width: 60%;
     border-radius: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: bounceInUp 1.8s;
-}
-.img-lupa-content a{
+    /* animation: bounceInUp 1.8s; */
     text-decoration: none;
+    font-size: 35px;
+    transition: 1s;
 }
-.img-lupa-content h1{
+/* .img-lupa-content:hover{
+    background-color: #ffd704;
+    color: #ffd704;
+} */
+.img-content a:hover{
+    background-color: #ffd704;
+    color: #268516;
+    
+}
+
+
+/* .img-lupa-content h1{
    color: #ffd704;
-}
+} */
 
 
 .img-lupa-content .img-lupa{
@@ -125,8 +137,8 @@ body{
 #locais-hover:hover{
     transition: 500ms linear; 
     cursor: pointer;
-    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
-    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    -webkit-filter: drop-shadow(5px 3px 2px rgba(0,0,0,.5));
+    filter: drop-shadow( 5px 3px 2px rgba(0,0,0,.5));
 }
 
 
@@ -384,7 +396,6 @@ hr{
 }
 #footer-servicos a:hover{
     text-decoration: underline;
-    color: #000;
 }
 
 

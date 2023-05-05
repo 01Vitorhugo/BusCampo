@@ -11,25 +11,25 @@ sr.reveal('.text-locais', {
 // FIM TEXTO LOCAIS
 
 // DIV LOCAIS
-sr.reveal('.campo', { 
+sr.reveal('.campo-h3', { 
+    delay: 100,
+    duration: 500,
+    reset: true,
+    scale:  
+    0.5,
+});
+
+sr.reveal('.quadra-h3', { 
+    delay: 200,
+    duration: 600,
+    reset: true,
+    scale:  
+    0.5,
+});
+
+sr.reveal('.areia-h3', { 
     delay: 300,
-    duration: 1000,
-    reset: true,
-    scale:  
-    0.5,
-});
-
-sr.reveal('.quadra', { 
-    delay: 400,
-    duration: 1000,
-    reset: true,
-    scale:  
-    0.5,
-});
-
-sr.reveal('.areia', { 
-    delay: 500,
-    duration: 1000,
+    duration: 700,
     reset: true,
     scale:  
     0.5,

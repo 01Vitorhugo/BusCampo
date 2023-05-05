@@ -8,6 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/modalidades.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
     <title>Modalidades</title>
 </head>
 <body>
@@ -24,7 +25,7 @@
         </nav>
     </div>
 
-    <div class="seta-cima">
+    <div class="seta-cima" id="seta">
        <a href="#sub-menu"><img src="imgs/seta-para-cima.png" alt=""></a>
     </div>
 
@@ -111,6 +112,8 @@
 
         </div>
     </div>
+
+    <script src="js/script-modalidades.js"></script>
     
 </body>
 </html>

@@ -27,7 +27,15 @@
         <a class="nav-link " aria-current="page" href="quem-somos.php">Quem somos</a>
       </span>
         <a class="nav-link" href="modalidades.php">Modalidades</a>
-        <a class="nav-link" href="#footer">Contato</a>
+
+        <?php
+          $menu_index = $_SERVER['REQUEST_URI'];
+          //  var_dump($menu_index);
+          if($menu_index == "/buscampo/index.php"){
+            echo '<a class=nav-link href=#footer>Contato</a>';
+          }          
+        ?>
+
         <?php
 @session_start();
 // @var_dump($_SESSION);

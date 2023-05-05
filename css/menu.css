@@ -28,6 +28,10 @@
     align-items: center;
    font-size: larger;
 }
+.navbar-nav a:hover{
+    color: #268516;
+
+}
 .navbar-nav{
     width: 100%;
     display: flex;
@@ -41,9 +45,10 @@
     justify-content: center;
     align-items: center;
 }
-.login-span{
-    background-color: black;
-}
+
+.login-span a:hover{
+    color: #268516;
+} 
 .nome-cliente{
     color: #ffd704;
     animation: zoomIn 2s;
