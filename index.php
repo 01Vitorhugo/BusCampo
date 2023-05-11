@@ -12,7 +12,7 @@ require('query_index.php');
     <script src="https://unpkg.com/scrollreveal"></script>
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/query-index.css">
+    <link rel="stylesheet" href="css/query-index2.css">
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -84,7 +84,7 @@ require('query_index.php');
 
             <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="2500">
+                    <div class="carousel-item active" data-bs-interval="2000500">
                         <div class="BD-element">
                             <div class="BD-box-left">
                                 <div class="BD-box-left-text">
@@ -258,6 +258,7 @@ require('query_index.php');
                 </div>
             </div>
             <hr>
+            
             <div class="footer-servicos" id="footer">
                 <div class="servicos-contato" id="footer-servicos">
                     <a href="https://www.instagram.com/etecitaquera/">
