@@ -20,6 +20,11 @@ if(!isset($_SESSION['login']) || $_SESSION['login'] != true){
             echo $_SESSION['msg'];
             unset($_SESSION['msg']);
         }
+
+        if(!isset($_SESSION['tipo'])){
+            $_SESSION['tipo'] = false;
+
+        }
     ?>
     <?php
         extract($_GET);
@@ -48,6 +53,9 @@ if(!isset($_SESSION['login']) || $_SESSION['login'] != true){
         echo "<p><img src=$quadra[img2]></p>";}
         if($_SESSION['tipo'] == true && $_SESSION['id'] == $quadra['id_cliente']){
             echo"<p><a href=alterar.php?id_local=$quadra[id_local]>Alterar</a></p>";
+        }
+        if($_SESSION['tipo'] == false){
+            echo"<p><a href=aluggar.php?id_local=$quadra[id_local]>Alugar</a></p>";
         }
         echo "</div>";
         }
