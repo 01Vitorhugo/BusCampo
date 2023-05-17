@@ -10,6 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://unpkg.com/scrollreveal"></script>
     <link rel="stylesheet" href="css/quem-somos.css">
+    <link rel="stylesheet" href="css/query-quem-somos.css">
     <title>Quem Somos</title>
 </head>
 

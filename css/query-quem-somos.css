@@ -1,0 +1,540 @@
+@media (max-width: 439px){
+   .texto-apresentacao{
+    margin-top: 200px;
+    height: 500px;
+   }
+   .texto-apresentacao .texto-prin{
+    display: flex;
+    justify-content: flex-start;
+    align-items:  flex-start;
+    height: 30%;
+    text-align: left;
+    
+   }
+   .texto-prin h1{
+    font-size: 16px;
+}
+
+    .texto-apresentacao .texto-p{
+    height: 50%;
+    text-align: left;
+}
+    .texto-p p{
+    font-size: 12px;
+}
+.conteudo-membros{
+    background-color: transparent;
+    border: none;
+    height: 400px;
+}
+
+.carousel-item{
+    padding-top: 1px;
+    padding-left: 0;
+}
+}
+@media (min-width: 440px) and (max-width: 489px){
+    .texto-apresentacao{
+     margin-top: 200px;
+     height: 500px;
+    }
+    .texto-apresentacao .texto-prin{
+     display: flex;
+     justify-content: flex-start;
+     align-items:  flex-start;
+     height: 30%;
+     text-align: left;
+     
+    }
+    .texto-prin h1{
+     font-size: 16px;
+ }
+ 
+     .texto-apresentacao .texto-p{
+     height: 50%;
+     text-align: left;
+ }
+     .texto-p p{
+     font-size: 12px;
+ }
+ .conteudo-membros{
+     background-color: transparent;
+     border: none;
+     height: 400px;
+ }
+ 
+ .carousel-item{
+     padding-top: 1px;
+     padding-left: 5%;
+ }
+
+ }
+ @media (min-width: 490px) and (max-width: 523px){
+    .texto-apresentacao{
+     margin-top: 200px;
+     height: 500px;
+    }
+    .texto-apresentacao .texto-prin{
+     display: flex;
+     justify-content: flex-start;
+     align-items:  flex-start;
+     height: 30%;
+     text-align: left;
+     
+    }
+    .texto-prin h1{
+     font-size: 16px;
+ }
+ 
+     .texto-apresentacao .texto-p{
+     height: 50%;
+     text-align: left;
+ }
+     .texto-p p{
+     font-size: 12px;
+ }
+    .conteudo-membros{
+     background-color: transparent;
+     border: none;
+     height: 400px;
+ }
+ 
+    .carousel-item{
+     padding-top: 1px;
+     padding-left: 10%;
+ }
+    .carousel-control-prev{
+    margin-left: 48px;
+ }
+    .carousel-control-next{
+        margin-right: 40px;
+
+ }
+ }
+ @media (min-width: 524px ) and (max-width: 564px){
+    .texto-apresentacao{
+     margin-top: 200px;
+     height: 600px;
+    }
+    .texto-apresentacao .texto-prin{
+     display: flex;
+     justify-content: flex-start;
+     align-items:  flex-start;
+     text-align: left;
+     height: 30%;
+     
+    }
+    .texto-prin h1{
+     font-size: 20px;
+ }
+ 
+     .texto-apresentacao .texto-p{
+     height: 50%;
+     text-align: left;
+ }
+     .texto-p p{
+     font-size: 17px;
+ }
+    .conteudo-membros{
+     background-color: transparent;
+     border: none;
+     height: 400px;
+
+ }
+ 
+    .carousel-item{
+     padding-top: 1px;
+     padding-left: 11%;
+ }
+    .carousel-control-prev{
+    margin-left: 60px;
+ }
+    .carousel-control-next{
+    margin-right: 68px;
+
+ }
+ }
+ @media (min-width: 565px) and (max-width: 612px){
+    .texto-apresentacao{
+     margin-top: 200px;
+     height: 600px;
+    }
+    .texto-apresentacao .texto-prin{
+     display: flex;
+     justify-content: flex-start;
+     align-items:  flex-start;
+     text-align: left;
+     height: 30%;
+     
+    }
+    .texto-prin h1{
+     font-size: 20px;
+ }
+ 
+     .texto-apresentacao .texto-p{
+     height: 50%;
+     text-align: left;
+ }
+     .texto-p p{
+     font-size: 17px;
+ }
+    .conteudo-membros{
+    background-color: transparent;
+     border: none;
+     height: 400px;
+
+ }
+ 
+    .carousel-item{
+     padding-top: 1px;
+     padding-left: 15%;
+ }
+    .carousel-control-prev{
+    margin-left: 85px;
+ }
+    .carousel-control-next{
+    margin-right: 80px;
+ }
+ }
+ @media (min-width: 613px) and (max-width: 659px){
+    .texto-apresentacao{
+     margin-top: 200px;
+     height: 600px;
+    }
+    .texto-apresentacao .texto-prin{
+     display: flex;
+     justify-content: flex-start;
+     align-items:  flex-start;
+     text-align: left;
+     height: 30%;
+     
+    }
+    .texto-prin h1{
+     font-size: 20px;
+ }
+ 
+     .texto-apresentacao .texto-p{
+     height: 50%;
+     text-align: left;
+ }
+     .texto-p p{
+     font-size: 17px;
+ }
+    .conteudo-membros{
+        background-color: transparent;
+     border: none;
+     height: 400px;
+
+ }
+ 
+    .carousel-item{
+     padding-top: 1px;
+     padding-left: 17%;
+ }
+    .carousel-control-prev{
+    margin-left: 100px;
+ }
+    .carousel-control-next{
+        margin-right: 105px;
+
+ }
+ }
+ @media (min-width: 660px) and (max-width: 717px){
+    .texto-apresentacao{
+     margin-top: 200px;
+     height: 600px;
+    }
+    .texto-apresentacao .texto-prin{
+     display: flex;
+     justify-content: flex-start;
+     align-items:  flex-start;
+     text-align: left;
+     height: 30%;
+     
+    }
+    .texto-prin h1{
+     font-size: 20px;
+ }
+ 
+     .texto-apresentacao .texto-p{
+     height: 50%;
+     text-align: left;
+ }
+     .texto-p p{
+     font-size: 17px;
+ }
+    .conteudo-membros{
+        background-color: transparent;
+     border: none;
+     height: 400px;
+
+ }
+ 
+    .carousel-item{
+     padding-top: 1px;
+     padding-left: 20%;
+ }
+    .carousel-control-prev{
+    margin-left: 130px;
+ }
+    .carousel-control-next{
+        margin-right: 125px;
+ }
+ }
+ @media (min-width: 718px) and (max-width:780px){
+    .texto-apresentacao{
+     margin-top: 200px;
+     height: 600px;
+    }
+    .texto-apresentacao .texto-prin{
+     display: flex;
+     justify-content: flex-start;
+     align-items:  flex-start;
+     text-align: left;
+     height: 30%;
+     
+    }
+    .texto-prin h1{
+     font-size: 20px;
+ }
+ 
+     .texto-apresentacao .texto-p{
+     height: 50%;
+     text-align: left;
+ }
+     .texto-p p{
+     font-size: 17px;
+ }
+    .conteudo-membros{
+        background-color: transparent;
+     border: none;
+     height: 400px;
+
+ }
+ 
+    .carousel-item{
+     padding-top: 1px;
+     padding-left: 20%;
+ }
+    .carousel-control-prev{
+    margin-left: 145px;
+ }
+    .carousel-control-next{
+        margin-right: 175px;
+
+ }
+ }
+ @media (min-width: 781px) and (max-width: 856px){
+    .texto-apresentacao{
+     margin-top: 200px;
+     height: 600px;
+    }
+    .texto-apresentacao .texto-prin{
+     display: flex;
+     justify-content: flex-start;
+     align-items:  flex-start;
+     text-align: left;
+     height: 30%;
+     
+    }
+    .texto-prin h1{
+     font-size: 20px;
+ }
+ 
+     .texto-apresentacao .texto-p{
+     height: 50%;
+     text-align: left;
+ }
+     .texto-p p{
+     font-size: 17px;
+ }
+    .conteudo-membros{
+        background-color: transparent;
+     border: none;
+     height: 400px;
+
+ }
+ 
+    .carousel-item{
+     padding-top: 1px;
+     padding-left: 20%;
+ }
+    .carousel-control-prev{
+    margin-left: 160px;
+ }
+    .carousel-control-next{
+        margin-right: 228px;
+ }
+ }
+ @media (min-width: 857px) and (max-width: 948px){
+    .texto-apresentacao{
+     margin-top: 200px;
+     height: 600px;
+    }
+    .texto-apresentacao .texto-prin{
+     display: flex;
+     justify-content: flex-start;
+     align-items:  flex-start;
+     text-align: left;
+     height: 30%;
+     
+    }
+    .texto-prin h1{
+     font-size: 20px;
+ }
+ 
+     .texto-apresentacao .texto-p{
+     height: 50%;
+     text-align: left;
+ }
+     .texto-p p{
+     font-size: 17px;
+ }
+    .conteudo-membros{
+        background-color: transparent;
+     border: none;
+     height: 400px;
+
+ }
+ 
+    .carousel-item{
+     padding-top: 1px;
+     padding-left: 30%;
+ }
+    .carousel-control-prev{
+    margin-left: 260px;
+ }
+    .carousel-control-next{
+        margin-right: 200px;
+ }
+ }
+ @media (min-width: 949px) and (max-width: 1066px){
+    .texto-apresentacao{
+     margin-top: 200px;
+     height: 600px;
+    }
+    .texto-apresentacao .texto-prin{
+     display: flex;
+     justify-content: flex-start;
+     align-items:  flex-start;
+     text-align: left;
+     height: 30%;
+     
+    }
+    .texto-prin h1{
+     font-size: 20px;
+ }
+ 
+     .texto-apresentacao .texto-p{
+     height: 50%;
+     text-align: left;
+ }
+     .texto-p p{
+     font-size: 17px;
+ }
+    .conteudo-membros{
+        background-color: transparent;
+     border: none;
+     height: 400px;
+
+ }
+ 
+    .carousel-item{
+     padding-top: 1px;
+     padding-left: 30%;
+ }
+    .carousel-control-prev{
+    margin-left: 290px;
+ }
+    .carousel-control-next{
+        margin-right: 270px;
+ }
+ }
+ @media (min-width: 1067px) and (max-width: 1130px){
+    .texto-apresentacao{
+     margin-top: 200px;
+     height: 600px;
+    }
+    .texto-apresentacao .texto-prin{
+     display: flex;
+     justify-content: flex-start;
+     align-items:  flex-start;
+     text-align: left;
+     height: 30%;
+     
+    }
+    .texto-prin h1{
+     font-size: 25px;
+ }
+ 
+     .texto-apresentacao .texto-p{
+     height: 50%;
+     text-align: left;
+ }
+     .texto-p p{
+     font-size: 20px;
+ }
+    .conteudo-membros{
+        background-color: transparent;
+     border: none;
+     height: 400px;
+
+ }
+ 
+    .carousel-item{
+     padding-top: 1px;
+     padding-left: 30%;
+ }
+    .carousel-control-prev{
+    margin-left: 320px;
+    width: 100px;
+ }
+    .carousel-control-next{
+    margin-right: 350px;
+    width: 100px;
+ }
+ }
+ @media (min-width: 1131px) and (max-width: 1202px){
+    .texto-apresentacao{
+     margin-top: 200px;
+     height: 600px;
+    }
+    .texto-apresentacao .texto-prin{
+     display: flex;
+     justify-content: flex-start;
+     align-items:  flex-start;
+     text-align: left;
+     height: 30%;
+     
+    }
+    .texto-prin h1{
+     font-size: 25px;
+ }
+ 
+     .texto-apresentacao .texto-p{
+     height: 50%;
+     text-align: left;
+ }
+     .texto-p p{
+     font-size: 20px;
+ }
+    .conteudo-membros{
+        background-color: transparent;
+     border: none;
+     height: 400px;
+
+ }
+ 
+    .carousel-item{
+     padding-top: 1px;
+     padding-left: 35%;
+ }
+    .carousel-control-prev{
+    margin-left: 398px;
+    width: 100px;
+ }
+    .carousel-control-next{
+    margin-right: 340px;
+    width: 100px;
+ }
+ }
