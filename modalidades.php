@@ -12,18 +12,10 @@
     <title>Modalidades</title>
 </head>
 <body>
+    <?php
+    @include('menu_local_list.php');
+    ?>
 
-    <div class="sub-menu" id="sub-menu">
-        <nav class="nav-sub-menu">
-            <ul>
-                <li><a href="local_list.php?id_categoria=1">Futebol</a></li>
-                <li><a href="local_list.php?id_categoria=4">Vôlei</a></li>
-                <li><a href="local_list.php?id_categoria=2">Futsal</a></li>
-                <li><a href="local_list.php?id_categoria=3">Basquete</a></li>
-                <li><a href="local_list.php?id_categoria=5">Poliesportiva</a></li>
-            </ul>
-        </nav>
-    </div>
 
     <div class="seta-cima" id="seta">
        <a href="#sub-menu"><img src="imgs/seta-para-cima.png" alt=""></a>

@@ -16,6 +16,10 @@ if(!isset($_SESSION['login']) || $_SESSION['login'] != true){
 </head>
 <body>
     <?php
+    @include('menu_local_list.php');
+    ?>
+
+    <?php
         if(isset($_SESSION['msg'])){
             echo $_SESSION['msg'];
             unset($_SESSION['msg']);
@@ -62,5 +66,12 @@ if(!isset($_SESSION['login']) || $_SESSION['login'] != true){
         echo "</div>";
         
     ?>
+
+    
+    <div class="seta-fixed" id="seta">
+        <a href="#"><img src="imgs/seta-para-cima.png" alt=""></a>
+    </div>
+
+    <script src="js/script-local_list.js"></script>
 </body>
 </html>
