@@ -59,7 +59,7 @@ if(!isset($_SESSION['login']) || $_SESSION['login'] != true){
             echo"<p><a href=alterar.php?id_local=$quadra[id_local]>Alterar</a></p>";
         }
         if($_SESSION['tipo'] == false){
-            echo"<p><a href=aluggar.php?id_local=$quadra[id_local]>Alugar</a></p>";
+            echo"<p><a href=alugar.php?id_local=$quadra[id_local]>Alugar</a></p>";
         }
         echo "</div>";
         }
