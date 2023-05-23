@@ -6,7 +6,7 @@
         height: 200px;
     }
     .content-prin{
-        height: 2800px;
+        height: 2600px;
     }
     .img-content{
         height: 80px;
@@ -98,14 +98,15 @@
 
     /* SAO PEDRO */
     .saopedro-content-end{
-        margin-top: 50px;
+        margin-top: 25px;
         height: 550px;
     }
     .saopedro{
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-        height: 100px !important;
+        background-attachment: local    ;
+        height: 300px !important;
     }
     .saopedro-texto1 h1{
         font-size: 25px;
@@ -488,7 +489,7 @@
         height: 400px;
     }
     .content-prin{
-        height: 4300px; 
+        height: 3200px; 
     }
     .img-content{
         height: 80px;
@@ -503,25 +504,25 @@
         font-size: 28px;
     }
     .locais{
-        height: 2400px; 
-        display: block;
+        height: 1300px; 
+        display: grid;
+        grid-template-columns: 2fr 2fr;
     }
     .locais h3{
         font-size: 25px;
     }
     .locais .campo{
-        height: 750px;
-        width: 100%;
-        margin-bottom: 30px;
+        height: 600px;
+        width: 95%;    
     }
     .locais .quadra{
-        height: 750px;
-        width: 100%;
-        margin-bottom: 30px;
+        height: 600px;
+        width: 95%;
     }
     .locais .areia{
-        height: 750px;
-        width: 100%;
+        height: 600px;
+        width: 95%;
+        
     }
 
     /* CARROSEL CONTEUDO PHP */
@@ -663,14 +664,16 @@
         font-size: 28px;
     }
     .locais{
-        height: 2400px; 
-        display: block;
+        height: 1300px; 
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+    
     }
     .locais h3{
         font-size: 25px;
     }
     .locais .campo{
-        height: 750px;
+        height: 600px;
         width: 90%;
         margin-bottom: 30px; 
         margin-left:  auto;
@@ -678,14 +681,14 @@
         
     }
     .locais .quadra{
-        height: 750px;
+        height: 600px;
         width: 90%;
         margin-bottom: 30px;
         margin-left:  auto;
         margin-right: auto;
     }
     .locais .areia{
-        height: 750px;
+        height: 600px;
         width: 90%;
         margin-left:  auto;
         margin-right: auto;
@@ -830,85 +833,47 @@
         font-size: 28px;
     }
     .locais{
-        height: 2400px; 
-        display: block;
+        height: 1300px; 
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+
     }
     .locais h3{
         font-size: 25px;
     }
     .locais .campo{
-        height: 750px;
+        height: 600px;
         width: 90%;
         margin-bottom: 30px;
         margin-left:  auto;
         margin-right: auto;
     }
     .locais .quadra{
-        height: 750px;
+        height: 600px;
         width: 90%;
         margin-bottom: 30px;
         margin-left:  auto;
         margin-right: auto;
     }
     .locais .areia{
-        height: 750px;
+        height: 600px;
         width: 90%;
         margin-left:  auto;
         margin-right: auto;
     }
 
     /* CARROSEL CONTEUDO PHP */
-    .sugestao-content{
-        height: 1148px;
-    }
-    .sugestao-content h3{
-        font-size: 20px;
-        padding: 20px;
-        margin: 0;
-    }
-    .sugestao-content a{
-        font-size: 20px;
-    }
-    .link-contato-BD{
-        margin-top: 10px;      
-
-    }
     #carouselExampleInterval{
-        height: 98%; 
+        height: 85%;
     }
-    .carousel-inner{
-        height: 100%; 
-    }
-    .carousel-item{
-        height: 100% !important;
-
-    }
-   
-    .BD-element{
-       display: block !important;
-       height: 100% !important;
-    }
-    .link-contato-BD{
-        margin-top: 0 !important;
-        height: 50px !important;
-    }
-    .link-contato-BD a{
-        font-size: 20px;
-    }
-    .BD-box-left{
-        width: 100%;
-        height: 34%;
-    }
-    
     .BD-box-right{
-        width: 100%;
-        height: 50%;
+        height: 100%;
     }
     .BD-box-right-img1{
-        height: 708px  !important;
+        height: 700px  !important;
     }
     .BD-box-right-img1 img{
-        height: 708px  !important;
+        height: 700px  !important;
     }
     /* CARROSEL CONTEUDO PHP FIM */
     
@@ -981,7 +946,7 @@
         height: 600px;
     }
     .content-prin{
-        height: 4750px;
+        height: 2500px;
 
     }
     .img-content{
@@ -996,88 +961,35 @@
     .text-locais h1{
         font-size: 28px;
     }
-    .locais{
-        height: 2500px; 
-        display: block;
+    .locais{ 
+        height: 650px; 
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr;
     }
     .locais h3{
         font-size: 25px;
     }
     .locais .campo{
-        height: 800px;
-        width: 80%;
+        height: 600px;
+        width: 95%;
         margin-bottom: 30px;
         margin-left:  auto;
         margin-right: auto;
     }
     .locais .quadra{
-        height: 800px;
-        width: 80%;;
+        height: 600px;
+        width: 99%;;
         margin-bottom: 30px;
         margin-left:  auto;
         margin-right: auto;
     }
     .locais .areia{
-        height: 800px;
-        width: 80%;
+        height: 600px;
+        width: 95%;
         margin-left:  auto;
         margin-right: auto;
     }
 
-    /* CARROSEL CONTEUDO PHP */
-    .sugestao-content{
-        height: 1148px;
-    }
-    .sugestao-content h3{
-        font-size: 20px;
-        padding: 20px;
-        margin: 0;
-    }
-    .sugestao-content a{
-        font-size: 20px;
-    }
-    .link-contato-BD{
-        margin-top: 10px;      
-
-    }
-    #carouselExampleInterval{
-        height: 98%; 
-    }
-    .carousel-inner{
-        height: 100%; 
-    }
-    .carousel-item{
-        height: 100% !important;
-
-    }
-   
-    .BD-element{
-       display: block !important;
-       height: 100% !important;
-    }
-    .link-contato-BD{
-        margin-top: 0 !important;
-        height: 50px !important;
-    }
-    .link-contato-BD a{
-        font-size: 20px;
-    }
-    .BD-box-left{
-        width: 100%;
-        height: 34%;
-    }
-    
-    .BD-box-right{
-        width: 100%;
-        height: 50%;
-    }
-    .BD-box-right-img1{
-        height: 708px  !important;
-    }
-    .BD-box-right-img1 img{
-        height: 708px  !important;
-    }
-    /* CARROSEL CONTEUDO PHP FIM */
     
     .trabalhe-conosco{
         height: 500px;
