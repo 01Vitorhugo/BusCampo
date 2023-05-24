@@ -28,5 +28,5 @@
       $msg = "Erro na alteração";
     }
     $_SESSION['msg'] = $msg;                              
-    header("location:local_list.php");   
+    header("location:local_list?id_categoria=10.php");   
 ?>

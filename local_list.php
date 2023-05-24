@@ -18,7 +18,6 @@ if(!isset($_SESSION['login']) || $_SESSION['login'] != true){
     <?php
     @include('menu_local_list.php');
     ?>
-
     <?php
         if(isset($_SESSION['msg'])){
             echo $_SESSION['msg'];

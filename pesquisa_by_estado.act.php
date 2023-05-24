@@ -23,7 +23,7 @@
                 //     echo"<p><a href=alterar.php?cod=$skin[codigo]>Alterar</a></p>";
                 //     echo"<p><a href=javascript:confirmar($skin[codigo])>Excluir</a></p>";
                 // }
-                //echo "</div>";
+                echo "</div>";
                 }
                 echo "</div>";
                 
