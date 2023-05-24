@@ -42,11 +42,24 @@ if(!isset($_SESSION['login']) || $_SESSION['login'] != true){
         echo "<p><img src=$quadra[img2]></p>";}
         if($_SESSION['tipo'] == true && $_SESSION['id'] == $quadra['id_cliente']){
             echo"<p><a href=alterar.php?id_local=$quadra[id_local]>Alterar</a></p>";
+            echo"<p><button onclick=confirmar($quadra[id_local])>Deletar</button></p>";
         }
         echo "</div>";
         }
-        echo "</div>";
-        
+        echo "</div>"; 
     ?>
+    <script>
+        function confirmar(id_local){
+            resposta = confirm("Deseja excluir o registro" +" "+id_local+"?");
+
+            if(resposta == true){
+                window.location = "excluir_local.act.php?id_local="+id_local;
+            }
+
+        }
+    </script>
+
+
+
 </body>
 </html>

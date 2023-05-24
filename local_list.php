@@ -58,8 +58,8 @@ if(!isset($_SESSION['login']) || $_SESSION['login'] != true){
         if($_SESSION['tipo'] == true && $_SESSION['id'] == $quadra['id_cliente']){
             echo"<p><a href=alterar.php?id_local=$quadra[id_local]>Alterar</a></p>";
         }
-        if($_SESSION['tipo'] == false){
-            echo"<p><a href=alugar.php?id_local=$quadra[id_local]>Alugar</a></p>";
+        if($_SESSION['tipo'] == true){
+            echo "<p><a href=alugar.php?id_local=$quadra[id_local]>Alugar</a></p>";
         }
         echo "</div>";
         }

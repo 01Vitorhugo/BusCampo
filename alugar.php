@@ -8,6 +8,7 @@
     <title>Aluguel de quadra</title>
 </head>
 <body>
+    <a href="local_list.php?id_categoria=10">voltar</a>
     <div class="check">
         <div class="check-img">
             <img src="imgs/check.png" alt="">

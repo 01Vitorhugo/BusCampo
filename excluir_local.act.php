@@ -8,7 +8,6 @@
     }else{
         $msg = "<p class = erro>Erro ao excluir!</p>";
     }
-
     @session_start();
     $_SESSION['msg'] = $msg;
 

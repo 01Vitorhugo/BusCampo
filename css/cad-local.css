@@ -4,19 +4,19 @@
     border: 0;
     margin: 0;
     box-sizing: border-box;
-    
 }
-
 body{
     position: relative;
     top: 100px;
     height: 870px;
     
 }
+
 @font-face {
     font-family: jura;
     src: url(../JuraDemiBold.ttf);
 }
+
 .formu-cad{
     display: flex;
     justify-content: center;
@@ -30,6 +30,7 @@ body{
     background-repeat: no-repeat;
     margin-top: 5px;
 }
+
 .formu{
     display: flex;
     justify-content: center;
@@ -41,27 +42,30 @@ body{
     border-radius: 30px;
     background-color: #ffffff9c;
 }
+
 .formu input{
     width: 250%;
-  
     border-bottom: #000000 solid 0.5px;
- 
 }
-p{
-    position: relative;
-    right: 5%;
-  
-    width: 40%;
-    
 
+p{
+
+    right: 5%;
+    width: 40%;
+    height: 40px;
 }
+
 .name-formu h2{
     font-size: 40px;
     color: #fff;
     top: 50%;
     position: relative;
 }
+#select{
+    height: 30px;
+}
 #botao{
+    margin-top: 10px;
     text-align: center;
     background-color: yellow;
     height: 40px;
@@ -69,9 +73,11 @@ p{
     border-radius: 10px;
     transition: 1s;
 }
+
 #botao:hover{
     border-radius: 20px;
 }
+
 select{
     width: 250%;
 

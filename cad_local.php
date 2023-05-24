@@ -21,7 +21,7 @@
         <div class="formu">
             <form action="cad_local.act.php" method="post" enctype="multipart/form-data">
             <p>Nome do local <input type="text" name="nome_local" required></p>
-            <p>Categoria <select name="id_categoria">
+            <p>Categoria <select name="id_categoria" id="select">
             <option>Escolher</option>
                 <option value="1">Futebol</option>
                 <option value="2">Futsal</option>
@@ -36,7 +36,7 @@
             <p>Número <input type="number" name="numero"></p>
             <p>bairro <input type="text" name="bairro"></p>
             <p>CEP <input type="text" name="cep" required></p>
-            <p>Estado <select name="id_estado">
+            <p>Estado <select name="id_estado" id="select">
                 <option>Escolher</option>
                 <option value="1">Acre</option>
                 <option value="2">Alagoas</option>
