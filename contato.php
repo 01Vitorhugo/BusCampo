@@ -11,14 +11,7 @@
     <title>Contato</title>
 </head>
 <body>
-<h1>Contato</h1>
 
-<div class="box-conteudo">
-    <div class="conteudo">
-  
-    </div>
-
-</div>
-    
+ 
 </body>
 </html>

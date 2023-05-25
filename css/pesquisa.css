@@ -14,8 +14,10 @@ input[type="text"]{
     color: #268516;
 } 
 input[type="text"]:focus{
-  
-   border: solid #268516;
+   transition: 2s;
+   background-color: #268516;
+   color: #ffd704;
+   font-size: 20px;
 } 
 input[type="text"]::placeholder{
    font-size: 20px;

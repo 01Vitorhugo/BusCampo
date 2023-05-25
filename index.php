@@ -99,7 +99,7 @@ require('query_index.php');
                                     echo "<h3 id= pag>$quadra1[nome_estado] </h3>";
                                     ?>
                                     <div class="link-contato-BD">
-                                        <a href="#">Contato</a>
+                                        <a href="contato.php">Contato</a>
                                     </div>
                                 </div>
 
@@ -134,7 +134,7 @@ require('query_index.php');
                                     echo "<h3 id= pag>$quadra2[nome_estado] </h3>";
                                     ?>
                                     <div class="link-contato-BD">
-                                        <a href="#">Contato</a>
+                                        <a href="contato.php">Contato</a>
                                     </div>
                                 </div>
 
@@ -169,7 +169,7 @@ require('query_index.php');
                                     echo "<h3 id= pag>$quadra3[nome_estado] </h3>";
                                     ?>
                                     <div class="link-contato-BD">
-                                        <a href="#">Contato</a>
+                                        <a href="contato.php">Contato</a>
                                     </div>
                                 </div>
 
