@@ -96,7 +96,7 @@ require('query_index.php');
                                     <?php
                                     echo "<h3 id= pag>Proprietário: $quadra1[nome_cliente] </h3>";
                                     echo "<h3 id= pag>$quadra1[desc_local] </h3>";
-                                    echo "<h3 id= pag>$quadra1[nome_estado] </h3>";
+                                    echo "<h3 id= pag>$quadra1[estado] </h3>";
                                     ?>
                                     <div class="link-contato-BD">
                                         <a href="contato.php">Contato</a>
@@ -131,7 +131,7 @@ require('query_index.php');
                                     <?php
                                     echo "<h3 id= pag>Proprietário: $quadra2[nome_cliente] </h3>";
                                     echo "<h3 id= pag>$quadra2[desc_local] </h3>";
-                                    echo "<h3 id= pag>$quadra2[nome_estado] </h3>";
+                                    echo "<h3 id= pag>$quadra2[estado] </h3>";
                                     ?>
                                     <div class="link-contato-BD">
                                         <a href="contato.php">Contato</a>
@@ -166,7 +166,7 @@ require('query_index.php');
                                     <?php
                                     echo "<h3 id= pag>Proprietário: $quadra3[nome_cliente] </h3>";
                                     echo "<h3 id= pag>$quadra3[desc_local] </h3>";
-                                    echo "<h3 id= pag>$quadra3[nome_estado] </h3>";
+                                    echo "<h3 id= pag>$quadra3[estado] </h3>";
                                     ?>
                                     <div class="link-contato-BD">
                                         <a href="contato.php">Contato</a>

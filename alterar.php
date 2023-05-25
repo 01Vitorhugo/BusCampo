@@ -32,43 +32,17 @@
             <p>Telefone do local: </p>
             <p><input type="text" name="tel" value="<?php echo $quadra['telefone']?>"></p>
             <p>Cep: </p>
-            <p><input type="text" name="cep" value="<?php echo $quadra['cep']?>">
+            <p><input type="text" name="cep" maxlenght="9" onblur="pesquisacep(this.value);" required value="<?php echo $quadra['cep']?>">
             <p>Rua: </p>
-            <p><input type="text" name="rua" value="<?php echo $quadra['rua']?>">
+            <p><input type="text" name="rua" id="rua" value="<?php echo $quadra['rua']?>">
             <p>Número: </p>
             <p><input type="text" name="numero" value="<?php echo $quadra['numero']?>">
             <p>Bairro: </p>
-            <p><input type="text" name="bairro" value="<?php echo $quadra['bairro']?>">
-            <p>Estado: <select name="id_estado">
-                <option value="<?php echo $quadra['id_estado']?>" selected></option>
-                <option value="1">Acre</option>
-                <option value="2">Alagoas</option>
-                <option value="3">Amapá</option>
-                <option value="4">Amazonas</option>
-                <option value="5">Bahia</option>
-                <option value="6">Ceará</option>
-                <option value="7">Espírito Santo</option>
-                <option value="8">Goiás</option>
-                <option value="9">Maranhão</option>
-                <option value="10">Mato Grosso</option>
-                <option value="11">Mato Grosso do Sul</option>
-                <option value="12">Minas Gerais</option>
-                <option value="13">Pará</option>
-                <option value="14">Paraíba</option>
-                <option value="15">Paraná</option>
-                <option value="16">Pernambuco</option>
-                <option value="17">Piauí</option>
-                <option value="18">Rio de Janeiro</option>
-                <option value="19">Rio Grande do Norte</option>
-                <option value="20">Rio Grande do Sul</option>
-                <option value="21">Rondônia</option>
-                <option value="22">Roraima</option>
-                <option value="23">Santa Catarina</option>
-                <option value="24">São Paulo</option>
-                <option value="25">Sergipe</option>
-                <option value="26">Tocantins</option>
-                <option value="27">Distrito Federal</option>
-            </select></p>
+            <p><input type="text" name="bairro" id="bairro" value="<?php echo $quadra['bairro']?>">
+            <p>Cidade: </p>
+            <p><input type="text" name="cidade" id="cidade" value="<?php echo $quadra['bairro']?>">
+            <p>Estado: </p>
+            <p><input type="text" name="estado" id="estado" value="<?php echo $quadra['estado']?>">
             <p>Imagem 1 </p>
             <p><input type="file" name="imagem1"></p>
             <p>Imagem 2 </p>
@@ -87,6 +61,68 @@
             }
         }
         
-        
+        function limpa_formulário_cep() {
+            //Limpa valores do formulário de cep.
+            document.getElementById('rua').value=("");
+            document.getElementById('bairro').value=("");
+            document.getElementById('cidade').value=("");
+            document.getElementById('estado').value=("");
+    }
+function meu_callback(conteudo) {
+        if (!("erro" in conteudo)) {
+            //Atualiza os campos com os valores.
+            document.getElementById('rua').value=(conteudo.logradouro);
+            document.getElementById('bairro').value=(conteudo.bairro);
+            document.getElementById('cidade').value=(conteudo.localidade);
+            document.getElementById('estado').value=(conteudo.uf);
+        } //end if.
+        else {
+            //CEP não Encontrado.
+            limpa_formulário_cep();
+            alert("CEP não encontrado.");
+        }
+    }
+
+function pesquisacep(valor) {
+
+//Nova variável "cep" somente com dígitos.
+var cep = valor.replace(/\D/g, '');
+
+//Verifica se campo cep possui valor informado.
+if (cep != "") {
+
+    //Expressão regular para validar o CEP.
+    var validacep = /^[0-9]{8}$/;
+
+    //Valida o formato do CEP.
+    if(validacep.test(cep)) {
+
+        //Preenche os campos com "..." enquanto consulta webservice.
+        document.getElementById('rua').value="...";
+        document.getElementById('bairro').value="...";
+        document.getElementById('cidade').value="...";
+        document.getElementById('estado').value="...";
+
+        //Cria um elemento javascript.
+        var script = document.createElement('script');
+
+        //Sincroniza com o callback.
+        script.src = 'https://viacep.com.br/ws/'+ cep + '/json/?callback=meu_callback';
+
+        //Insere script no documento e carrega o conteúdo.
+        document.body.appendChild(script);
+
+    } //end if.
+    else {
+        //cep é inválido.
+        limpa_formulário_cep();
+        alert("Formato de CEP inválido.");
+    }
+} //end if.
+else {
+    //cep sem valor, limpa formulário.
+    limpa_formulário_cep();
+}
+};
  </script>
 </html>

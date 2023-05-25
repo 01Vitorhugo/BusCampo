@@ -32,9 +32,11 @@ if(!isset($_SESSION['login']) || $_SESSION['login'] != true){
     <?php
         extract($_GET);
         if($id_categoria < 10){
-            $sql = "SELECT * FROM `tb_local` INNER JOIN `tb_categoria` ON `tb_local`.`id_categoria` = `tb_categoria`.`id_categoria` INNER JOIN `tb_estado` ON `tb_local`.`id_estado` = `tb_estado`.`id_estado` WHERE `tb_local`.`id_categoria` = '$id_categoria' order by `nome_local`";
+            $sql = "SELECT * FROM `tb_local` INNER JOIN `tb_categoria` ON `tb_local`.`id_categoria` = `tb_categoria`.`id_categoria` WHERE `tb_local`.`id_categoria` = '$id_categoria' order by `nome_local`";
         }else if($id_categoria == 10){
-            $sql = "SELECT * FROM `tb_local` INNER JOIN `tb_categoria` ON `tb_local`.`id_categoria` = `tb_categoria`.`id_categoria` INNER JOIN `tb_estado` ON `tb_local`.`id_estado` = `tb_estado`.`id_estado` WHERE `tb_local`.`id_categoria` = '2' OR `tb_local`.`id_categoria` = '3' OR `tb_local`.`id_categoria` = '4' order by `nome_local`";
+            $sql = "SELECT * FROM `tb_local` INNER JOIN `tb_categoria` ON `tb_local`.`id_categoria` = `tb_categoria`.`id_categoria` WHERE `tb_local`.`id_categoria` = '2' OR `tb_local`.`id_categoria` = '3' OR `tb_local`.`id_categoria` = '4' order by `nome_local`";
+        }else if($id_categoria == 11){
+            $sql = "SELECT * FROM `tb_local` INNER JOIN `tb_categoria` ON `tb_local`.`id_categoria` = `tb_categoria`.`id_categoria`";
         }
 
         require('connect.php');
@@ -49,7 +51,8 @@ if(!isset($_SESSION['login']) || $_SESSION['login'] != true){
         echo "<p id= pag>Telefone: $quadra[telefone] </p>";
         echo "<p id= pag>Cep: $quadra[cep] </p>";
         echo "<p id= pag>Rua: $quadra[rua] </p>";
-        echo "<p id= pag>Estado: $quadra[nome_estado] </p>";
+        echo "<p id= pag>Cidade: $quadra[cidade] </p>";
+        echo "<p id= pag>Estado: $quadra[estado] </p>";
         if($quadra['img1'] != ""){
         echo "<p><img src=$quadra[img1]></p>";}
         if($quadra['img2'] != ""){

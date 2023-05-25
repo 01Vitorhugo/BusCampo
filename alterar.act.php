@@ -22,11 +22,11 @@
       move_uploaded_file($imagem2['tmp_name'],$endereco2);
     }
 
-    if(mysqli_query($con, "UPDATE `tb_local` SET `nome_local` = '$nome_local', `desc_local` = '$desc', `telefone` = '$tel', `rua` = '$rua',`numero` = '$numero', `bairro` = '$bairro', `cep` = '$cep', `id_estado` = '$id_estado' , `img1` = '$endereco1' , `img2` = '$endereco2' WHERE `tb_local`.`id_local` = '$id_local';")){
+    if(mysqli_query($con, "UPDATE `tb_local` SET `nome_local` = '$nome_local', `desc_local` = '$desc', `telefone` = '$tel', `rua` = '$rua',`numero` = '$numero', `bairro` = '$bairro', `cep` = '$cep',`cidade` = '$cidade', `estado` = '$estado' , `img1` = '$endereco1' , `img2` = '$endereco2' WHERE `tb_local`.`id_local` = '$id_local';")){
       $msg = "Alterado com sucesso";
     }else{
       $msg = "Erro na alteração";
     }
     $_SESSION['msg'] = $msg;                              
-    header("location:local_list?id_categoria=10.php");   
+    header("location:local_list.php?id_categoria=11");   
 ?>

@@ -26,7 +26,7 @@ if(!isset($_SESSION['login']) || $_SESSION['login'] != true){
         extract($_GET);
         // var_dump($_GET);    
         echo "<div class =\"box\">";
-        $quadras = mysqli_query($con, "SELECT * FROM `tb_local` INNER JOIN `tb_categoria` ON `tb_local`.`id_categoria` = `tb_categoria`.`id_categoria` INNER JOIN `tb_estado` ON `tb_local`.`id_estado` = `tb_estado`.`id_estado` WHERE `tb_local`.`id_cliente` = '$id_cliente' order by `nome_local`");
+        $quadras = mysqli_query($con, "SELECT * FROM `tb_local` INNER JOIN `tb_categoria` ON `tb_local`.`id_categoria` = `tb_categoria`.`id_categoria` WHERE `tb_local`.`id_cliente` = '$id_cliente' order by `nome_local`");
         while($quadra = mysqli_fetch_array($quadras)){
         echo "<div class =\"sc\">";
         echo "<p id= pag>Nome: $quadra[nome_local] </p>";
@@ -35,7 +35,7 @@ if(!isset($_SESSION['login']) || $_SESSION['login'] != true){
         echo "<p id= pag>Telefone: $quadra[telefone] </p>";
         echo "<p id= pag>Cep: $quadra[cep] </p>";
         echo "<p id= pag>Rua: $quadra[rua] </p>";
-        echo "<p id= pag>Estado: $quadra[nome_estado] </p>";
+        echo "<p id= pag>Estado: $quadra[estado] </p>";
         if($quadra['img1'] != ""){
         echo "<p><img src=$quadra[img1]></p>";}
         if($quadra['img2'] != ""){
