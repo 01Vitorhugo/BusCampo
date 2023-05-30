@@ -47,6 +47,10 @@ body{
     /* border: solid 2px #ffd704; */
 
 }
+.conteudo-membros .carousel{
+    width: 30%;
+    height: 100%;
+}
 .carousel-inner{
     background-color: aqua;
 }
@@ -58,3 +62,18 @@ body{
 .carousel-item{
     background-color: black;
 }
+.carousel-inner h5{
+    color: #edf2f4;
+}
+.carousel-inner p{
+    color: #edf2f4;
+}
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.507);
+    border-radius: 15px;
+    transition: 1s;
+}
+.carousel-caption:hover{
+    background-color: rgba(0, 0, 0, 0.767);
+}
+

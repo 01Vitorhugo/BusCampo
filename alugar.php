@@ -1,3 +1,4 @@
+<?php require('sec.php');?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

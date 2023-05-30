@@ -50,7 +50,7 @@
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="10000">
           <img src="imgs/vitor.jpeg" class="d-block w-100" alt="..."> 
-          <div class="carousel-caption d-none d-md-block">
+          <div class="carousel-caption ">
             <h5>Vitor Hugo Santos</h5>
             <p>Desenvolvedor Front-End.</p>
           </div>
@@ -58,7 +58,7 @@
 
         <div class="carousel-item" data-bs-interval="2000">
           <img src="imgs/gustavo.jpeg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
+          <div class="carousel-caption">
             <h5>Gustavo Henrique Santos</h5>
             <p>Desenvolvedor Back-End.</p>
           </div>
@@ -66,15 +66,15 @@
 
         <div class="carousel-item">
           <img src="imgs/henrique.jpeg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
+          <div class="carousel-caption">
             <h5>Henrique Batista Gonzales</h5>
             <p>Desgin.</p>
           </div>
         </div>
 
         <div class="carousel-item">
-          <img src="imgs/carlos.jpeg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
+          <img src="imgs/carlos.jpg" class="d-block w-100">
+          <div class="carousel-caption">
             <h5>Carlos Manoel</h5>
             <p>Desgin.</p>
           </div>
@@ -82,7 +82,7 @@
 
         <div class="carousel-item">
           <img src="imgs/igor.jpeg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
+          <div class="carousel-caption ">
             <h5>Igor Samuel Nascimento</h5>
             <p>Desenvolvedor Mobile.</p>
           </div>
@@ -90,7 +90,7 @@
 
         <div class="carousel-item">
           <img src="imgs/breno.jpeg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
+          <div class="carousel-caption">
             <h5>Breno Guimaraes Oliveira </h5>
             <p>Desenvolvedor Mobile.</p>
           </div>
