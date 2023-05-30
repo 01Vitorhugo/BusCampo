@@ -12,6 +12,13 @@
 </head>
 <body>
 
+<div class="centro">
+    <div class="esq">
+        <H1><P id="con">CONTATE-</P></H1>
+        <H1><P id="nos">NOS</P></H1>
+    </div>
+    <div class="dir"></div>
+</div>
  
 </body>
 </html>
