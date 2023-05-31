@@ -10,43 +10,57 @@ body{
 }
 .box{
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     width: 100%;
 }
-.box-1{
-    border: #040504 3px solid;
-    width: 50%;
-    height: 100%;
-}
-.box-2{
-    border: #268516 3px solid;
-    width: 50%;
-    height: 100%;
-}
+
 .sc{
     font-size: 23px;
     display: flex;
-    width: 1200px;
-    /* height: 600px; */
-    margin-top: 100px;
+    width: 600px;
+    height: 1000px; 
     margin: 10px;
-    /* position: relative; */
-    text-align: center;
-    align-items: center;
+    background-color: #f0f0f0;
     justify-content: space-between;
     flex-direction: column;
-    border: #268516 solid 5px;
+    box-shadow: 2px 2px 5px 2px #268516;
     border-radius: 15px;
+    overflow-y: hidden;
 }
 .sc p{
-    padding: 5px;
-    overflow-y: hidden;
+    padding: 10px;
     color: #268516;
 }
-p img{
-    width: 300px;
-    border: 2px solid #000 ;
+.sc p img{
+    width: 50%;
+    border: 3px solid #268516;
+    transition: 1s;
 }
+.sc p img:hover{
+    transform: scale(2);
+    cursor: zoom-in;
+}
+.sc a{
+    color: #268516;
+    text-decoration: none;
+}
+.sc a:hover{
+    text-decoration: underline;
+}
+.box-end{
+    width: 100%;
+    
+}
+
+.box-end #pag{
+    text-align: left;
+    padding: 0px;
+    padding-left: 20px;
+
+}
+
 
 .seta-fixed{
     height: 100px;
@@ -60,7 +74,7 @@ p img{
     align-items: center; */
     animation: seta 0.3s infinite alternate;
     position: fixed;
-    right: 5%;
+    right: 2%;
     bottom: 2%;
     display: none;
     

@@ -15,8 +15,7 @@ input[type="text"]{
 } 
 input[type="text"]:focus{
    transition: 2s;
-   background-color: #268516;
-   color: #ffd704;
+   color: #268516;
    font-size: 20px;
 } 
 input[type="text"]::placeholder{
@@ -32,6 +31,7 @@ input[type="text"]::placeholder{
 }
 
 .box{
+    margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -51,14 +51,39 @@ input[type="text"]::placeholder{
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
-    border: #268516 solid 5px;
+    box-shadow: 2px 2px 5px 2px #268516;
+    overflow-y: hidden;
     border-radius: 15px;
 }
 .sc p{
-    padding: 5px;
-    overflow-y: hidden;
+    padding: 0px;
     color: #268516;
 }
 p img{
-    width: 300px;
+    width: 50%;
+    border: 3px solid #268516;
+    transition: 1s;
+}
+
+.sc p img:hover{
+    transform: scale(1.7);
+    cursor: zoom-in;
+}
+.sc a{
+    color: #268516;
+    text-decoration: none;
+}
+.sc a:hover{
+    text-decoration: underline;
+}
+.box-end{
+    width: 100%;
+    
+}
+
+.box-end #pag{
+    text-align: left;
+    padding: 0px;
+    padding-left: 20px;
+
 }

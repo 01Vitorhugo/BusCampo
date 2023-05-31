@@ -10,20 +10,25 @@
             echo "<div class = \"box\">";
             while($quadra = mysqli_fetch_array($quadras)){
                 echo "<div class =\"sc\">";
+
+                echo "<p id= pag>$quadra[desc_categoria] </p>";
                 echo "<p id= pag>$quadra[nome_local] </p>";
                 echo "<p id= pag>$quadra[desc_local] </p>";
-                echo "<p id= pag>$quadra[desc_categoria] </p>";
+                echo "<p id= pagimg><img src=$quadra[img1]></p>";
+                 echo "<p id= pagimg><img src=$quadra[img2]></p>";
+
+                echo "<div class =\"box-end\">";
                 echo "<p id= pag>$quadra[rua]</p>";
                 echo "<p id= pag>$quadra[bairro]</p>";
                 echo "<p id= pag>$quadra[cidade]</p>";
                 echo "<p id= pag>$quadra[estado] </p>";
-                echo "<p id= pagimg><img src=$quadra[img1]></p>";
-                // if(!isset($_SESSION['login']) || $_SESSION['login'] != true){
-                    
-                // }else{
-                //     echo"<p><a href=alterar.php?cod=$skin[codigo]>Alterar</a></p>";
-                //     echo"<p><a href=javascript:confirmar($skin[codigo])>Excluir</a></p>";
-                // }
+                echo "</div>";
+                
+        if($_SESSION['tipo'] == true && $_SESSION['id'] == $quadra['id_cliente']){
+            echo"<p><a href=alterar.php?id_local=$quadra[id_local]>Alterar</a></p>";
+        }else{
+        echo "<p><a href=alugar.php?id_local=$quadra[id_local]>Contato</a></p>";
+        }
                 echo "</div>";
                 }
                 echo "</div>";

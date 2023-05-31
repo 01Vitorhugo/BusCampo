@@ -52,10 +52,10 @@ body{
     height: 100%;
 }
 .carousel-inner{
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 .carousel-inner img{
-    background-color: aqua;
+    /* background-color: aqua; */
     height: 500px;
     width: 500px;
 }
