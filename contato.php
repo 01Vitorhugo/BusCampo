@@ -21,14 +21,14 @@ $quadra = mysqli_fetch_array($quadra);
 
 <div class="lista">
 
-    <h3><p>Proprietário</p>            </h3>    
+    <h3><p>Proprietário</p></h3>    
     <h5><p><?php echo $quadra['nome_cliente'] ?></p> </h4>
 
-    <h3><p> Ligue para nós: </p>  </h3>    
-    <h5><p><?php echo $quadra['4'] ?></p>     </h5>
+    <h3><p> Ligue para nós: </p></h3>    
+    <h5><p><?php echo $quadra['4'] ?></p></h5>
 
-    <h3><p> Localização: </p>     </h3>  
-    <h5><p><?php echo "$quadra[bairro]  -  $quadra[cidade]"?></p>     </h4>
+    <h3><p> Localização: </p></h3>  
+    <h5><p><?php echo "$quadra[bairro]  -  $quadra[cidade]"?></p></h4>
 
 </div>
 
@@ -36,21 +36,9 @@ $quadra = mysqli_fetch_array($quadra);
    
     <div class="dir">
         <div class="conteudo">
-
-        <div class="cont">
-            <h1>CONTATE-NOS</h1>
-
-        </div>
-        <div class="inp">
-            <p>Insira seu nome:</p>
-            <p><input type="text"></p>
-
-            <p>Insira seu E-mail:</p>
-            <p><input type="text"></p>
-
-            <p><textarea name="text" id="text" cols="30" rows="5"> deixe sua avaliação: </textarea></p>
-            <p><button>enviar</button></p>
-
+            <?php
+            echo  "<img src=$quadra[img1]>"
+            ?>
 
         </div>
 

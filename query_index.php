@@ -5,7 +5,7 @@ $quadras = mysqli_query($con, "SELECT * FROM `tb_local` INNER JOIN `tb_categoria
 
 $quadra1 = mysqli_fetch_array($quadras);
 
-$quadras = mysqli_query($con, "SELECT * FROM `tb_local` INNER JOIN `tb_categoria` ON `tb_local`.`id_categoria` = `tb_categoria`.`id_categoria` INNER JOIN `tb_locador` ON `tb_local`.`id_cliente` = `tb_locador`.`id_cliente` WHERE `id_local` = 2");
+$quadras = mysqli_query($con, "SELECT * FROM `tb_local` INNER JOIN `tb_categoria` ON `tb_local`.`id_categoria` = `tb_categoria`.`id_categoria` INNER JOIN `tb_locador` ON `tb_local`.`id_cliente` = `tb_locador`.`id_cliente` WHERE `id_local` = 19");
 
 $quadra2 = mysqli_fetch_array($quadras);
 
