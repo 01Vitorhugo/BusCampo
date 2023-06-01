@@ -32,7 +32,7 @@
         if($_SESSION['tipo'] == true && $_SESSION['id'] == $quadra['id_cliente']){
             echo"<p><a href=alterar.php?id_local=$quadra[id_local]>Alterar</a></p>";
         }else{
-        echo "<p><a href=alugar.php?id_local=$quadra[id_local]>Contato</a></p>";
+        echo "<p><a href=contato.php?id_local=$quadra[id_local]>Contato</a></p>";
         }
                 echo "</div>";
                 }
