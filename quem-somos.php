@@ -23,13 +23,17 @@
   <div class="texto-conteudo">
     <div class="texto-1">
       <h2>Se você é um entusiasta do esporte e busca uma empresa que compartilha sua paixão pela atividade física e pelo estilo de vida saudável, então você está no lugar certo. 
-        Bem-vindo à BusCampo, uma empresa líder no ramo esportivo, dedicada a ajudar pessoas de todas as idades e habilidades a alcançar seu máximo potencial atlético.</h2>
+        Bem-vindo à <span>BusCampo</span>, uma empresa líder no ramo esportivo, dedicada a ajudar pessoas de todas as idades e habilidades a alcançar seu máximo potencial atlético.</h2>
     </div>
     <div class="texto-2">
-      <h2>Com a BusCampo voçê consegue encontrar qualquer local em qualquer região. Chama os amigos e vem alugar um local que combine com vocês.</h2>
+      <h2>Com a <span>BusCampo</span> voçê consegue encontrar qualquer local em qualquer região, chama os amigos e vem.</h2>
     </div>
-    <div class="texto-3">
-      <div class="insta">
+    
+
+  </div>
+  
+</div>
+<div class="insta">
         <a href="">
         <h3>Siga nosso Instagram</h3>
         </a>
@@ -38,10 +42,7 @@
         </a>
         
       </div>
-    </div>
 
-  </div>
-</div>
 </body>
 
 <script src="js/script-quem-somos.js"></script>
