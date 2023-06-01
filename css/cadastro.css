@@ -10,10 +10,10 @@
     src: url(../JuraDemiBold.ttf);
 }
 
-@font-face {
+/* @font-face {
     font-family: jura;
     src: url(../JuraDemiBold.ttf);
-}
+} */
 
 body{
     width: 100%;

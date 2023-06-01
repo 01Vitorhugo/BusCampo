@@ -16,17 +16,17 @@
     <?php
     $menu_index = $_SERVER['REQUEST_URI'];
     if($menu_index == "/buscampo/local_list.php"){
-      echo '<div class=sub-menu id=sub-menu >';
-      echo  '<nav class=nav-sub-menu>';
-      echo  '<ul>';
-      echo   '<li><a href=local_list.php?id_categoria=1>Futebol</a></li>';
-      echo   '<li><a href=local_list.php?id_categoria=4>Vôlei</a></li>';
-      echo   '<li><a href=local_list.php?id_categoria=2>Futsal</a></li>';
-      echo   '<li><a href=local_list.php?id_categoria=3>Basquete</a></li>';
-      echo   '<li><a href=local_list.php?id_categoria=5>Poliesportiva</a></li>';
-      echo   '</ul>';
-      echo   '</nav>';
-      echo   '</div>';
+      echo "<div class=sub-menu id=sub-menu >";
+      echo  "<nav class=nav-sub-menu>";
+      echo  "<ul>";
+      echo  "<li><a href=local_list.php?id_categoria=1>Futebol</a></li>";
+      echo   "<li><a href=local_list.php?id_categoria=4>Vôlei</a></li>";
+      echo   "<li><a href=local_list.php?id_categoria=2>Futsal</a></li>";
+      echo   "<li><a href=local_list.php?id_categoria=3>Basquete</a></li>";
+      echo   "<li><a href=local_list.php?id_categoria=5>Poliesportiva</a></li>";
+      echo   "</ul>";
+      echo   "</nav>";
+      echo   "</div>";
     }          
     ?>
 <div class="sub-menu" id="sub-menu">
