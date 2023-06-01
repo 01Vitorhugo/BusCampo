@@ -25,8 +25,8 @@
             <option>Escolher</option>
                 <option value="1">Futebol</option>
                 <option value="2">Futsal</option>
-                <option value="3">Vôlei</option>
-                <option value="4">Basquete</option>
+                <option value="4">Vôlei</option>
+                <option value="3">Basquete</option>
                 <option value="5">Poliesportiva</option>
                 <option value="6">Areia</option>
             </select></p>

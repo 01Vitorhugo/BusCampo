@@ -76,10 +76,12 @@ input[type="text"]::placeholder{
 }
 .sc p img{
     width: 80%;
+    height: 300px;
     border: 5px solid #268516;
     transition: 1s;
     border-radius: 15px;
     border: 2px solid #ffbc04e7;
+    overflow-y: hidden;
 }
 
 .sc p img:hover{

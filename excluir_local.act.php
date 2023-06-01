@@ -11,5 +11,5 @@
     @session_start();
     $_SESSION['msg'] = $msg;
 
-    header("location: local_list.php");
+    header("location: local_list.php?id_categoria=11");
 ?>

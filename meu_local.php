@@ -23,6 +23,7 @@ if(!isset($_SESSION['login']) || $_SESSION['login'] != true){
     ?>
     <?php
         require('connect.php');
+        @include('menu.php');
         extract($_GET);
         // var_dump($_GET);    
         echo "<div class =\"box\">";

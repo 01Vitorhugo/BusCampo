@@ -20,13 +20,23 @@ body{
     align-items: center;
     flex-wrap: wrap;
     width: 100%;
+    margin-top: 120px;
 }
-
+.box button{
+    border: none;
+    color: #ffbc04e7;
+    background-color: transparent;
+    cursor: pointer;
+}
+.box button:hover{
+    text-decoration: underline;
+}
 .sc{
+    
     font-size: 23px;
     display: flex;
     width: 600px;
-    height: 750px; 
+    height: 770px; 
     margin: 10px;
     background-color: #198b35;
     justify-content: space-between;
@@ -49,9 +59,11 @@ body{
 }
 .sc p img{
     width: 80%;
+    height: 300px;
     transition: 1s;
     border-radius: 15px;
     border: 2px solid #ffbc04e7;
+    overflow-y: hidden;
 }
 .sc p img:hover{
     transform: scale(1.2);

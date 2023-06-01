@@ -10,30 +10,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://unpkg.com/scrollreveal"></script>
   <link rel="stylesheet" href="css/quem-somos.css">
-  <link rel="stylesheet" href="css/query-quem-somos.css">
+  <!-- <link rel="stylesheet" href="css/query-quem-somos.css"> -->
   <title>Quem Somos</title>
 </head>
 
 <body>
-  <div class="texto-apresentacao">
-    <div class="texto-prin">
-      <h1>
-        Bem-vindo à página Quem-Somos do nosso projeto de TCC, Somos uma equipe apaixonada e comprometida em realizar um trabalho de alta qualidade,
-        trazendo soluções inovadoras e criativas para o nosso tema.
-      </h1>
-    </div>
-    <div class="texto-p">
-      <p>
-        Nossa equipe é composta por 7 membros, todos com habilidades e formações distintas que, juntas, formam um time altamente capacitado e
-        diversificado.
-        <br>
-        A equipe se reúne regularmente para discutir ideias e trocar conhecimentos, sempre mantendo o foco no objetivo principal do projeto.
-        Cada membro tem uma função específica e trabalha em colaboração com os demais para atingir os resultados esperados.
-        <br>
-        Estamos entusiasmados em trabalhar neste projeto e esperamos que você possa acompanhar nossa jornada e se inspirar com nossas soluções criativas e inovadoras.
-      </p>
-    </div>
+<div class="conteudo">
+  <div class="img-conteudo">
+    <img src="imgs/quem-somos.jpeg" alt="">
+
   </div>
+  <div class="texto-conteudo">
+    <div class="texto-1">
+      <h2>Se você é um entusiasta do esporte e busca uma empresa que compartilha sua paixão pela atividade física e pelo estilo de vida saudável, então você está no lugar certo. 
+        Bem-vindo à BusCampo, uma empresa líder no ramo esportivo, dedicada a ajudar pessoas de todas as idades e habilidades a alcançar seu máximo potencial atlético.</h2>
+    </div>
+    <div class="texto-2">
+      <h2>Com a BusCampo voçê consegue encontrar qualquer local em qualquer região. Chama os amigos e vem alugar um local que combine com vocês.</h2>
+    </div>
+    <div class="texto-3">
+      <div class="insta">
+        <a href="">
+        <h3>Siga nosso Instagram</h3>
+        </a>
+        <a href="">
+        <img src="imgs/instagram.png" alt="">
+        </a>
+        
+      </div>
+    </div>
+
+  </div>
+</div>
 </body>
 
 <script src="js/script-quem-somos.js"></script>

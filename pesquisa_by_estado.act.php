@@ -2,6 +2,11 @@
     @session_start();
 
     $texto = $_GET['texto'];
+    
+    if(!isset($_SESSION['tipo'])){
+        $_SESSION['tipo'] = false;
+
+    }
 
     require('connect.php');
         if(!$texto == ""){

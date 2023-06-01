@@ -24,6 +24,7 @@
       echo   "<li><a href=local_list.php?id_categoria=2>Futsal</a></li>";
       echo   "<li><a href=local_list.php?id_categoria=3>Basquete</a></li>";
       echo   "<li><a href=local_list.php?id_categoria=5>Poliesportiva</a></li>";
+      echo   "<li><a href=local_list.php?id_categoria=6>Areia</a></li>";
       echo   "</ul>";
       echo   "</nav>";
       echo   "</div>";
@@ -37,6 +38,7 @@
                 <li><a href="local_list.php?id_categoria=2">Futsal</a></li>
                 <li><a href="local_list.php?id_categoria=3">Basquete</a></li>
                 <li><a href="local_list.php?id_categoria=5">Poliesportiva</a></li>
+                <li><a href="local_list.php?id_categoria=6">Areia</a></li>
             </ul>
         </nav>
     </div>
