@@ -20,8 +20,8 @@
         </div>
         <div class="formu">
             <form action="cad_local.act.php" method="post" enctype="multipart/form-data">
-            <p>Nome do local <input type="text" name="nome_local" required></p>
-            <p>Categoria <select name="id_categoria" id="select">
+            <p>NOME DO LOCAL <input type="text" name="nome_local" required></p>
+            <p>CATEGORIA <select name="id_categoria" id="select">
             <option>Escolher</option>
                 <option value="1">Futebol</option>
                 <option value="2">Futsal</option>
@@ -30,14 +30,14 @@
                 <option value="5">Poliesportiva</option>
                 <option value="6">Areia</option>
             </select></p>
-            <p>Descrição <input type="text" name="desc" required></p>
-            <p>Telefone do local <input type="text" name="tel" required></p>
+            <p>DESCRIÇÃO <input type="text" name="desc" required></p>
+            <p>TELEFONE <input type="text" name="tel" required></p>
             <p>CEP <input type="text" name="cep" maxlenght="9" onblur="pesquisacep(this.value);" required></p>
-            <p>Rua <input type="text" name="rua" id="rua"></p>
-            <p>Número <input type="number" name="numero"></p>
-            <p>bairro <input type="text" name="bairro" id="bairro"></p>
-            <p>cidade <input type="text" name="cidade" id="cidade"></p>
-            <p>estado <input type="text" name="estado" id="estado"></p>
+            <p>RUA <input type="text" name="rua" id="rua"></p>
+            <p>NÚMERO <input type="number" name="numero"></p>
+            <p>BAIRRO <input type="text" name="bairro" id="bairro"></p>
+            <p>CIDADE <input type="text" name="cidade" id="cidade"></p>
+            <p>ESTADO <input type="text" name="estado" id="estado"></p>
             <p>Imagem 1 <input type="file" name="imagem1" required></p>
             <p>Imagem 2 <input type="file" name="imagem2" required></p>
             <p><input type="submit" id="botao" value="Cadastrar-Se" required></p>
