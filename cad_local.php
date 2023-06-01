@@ -22,11 +22,11 @@
             <form action="cad_local.act.php" method="post" enctype="multipart/form-data">
             <p>Nome do local <input type="text" name="nome_local" required></p>
             <p>Categoria <select name="id_categoria" id="select">
-            <option>Escolher</option>
+            <option  required>Escolher</option>
                 <option value="1">Futebol</option>
                 <option value="2">Futsal</option>
-                <option value="3">Vôlei</option>
-                <option value="4">Basquete</option>
+                <option value="4">Vôlei</option>
+                <option value="3">Basquete</option>
                 <option value="5">Poliesportiva</option>
                 <option value="6">Areia</option>
             </select></p>

@@ -23,6 +23,7 @@ if(!isset($_SESSION['login']) || $_SESSION['login'] != true){
     ?>
     <?php
         require('connect.php');
+        @include('menu.php');
         extract($_GET);
         // var_dump($_GET);    
         echo "<div class =\"box\">";
@@ -34,7 +35,8 @@ if(!isset($_SESSION['login']) || $_SESSION['login'] != true){
           if($quadra['img1'] != ""){
         echo "<p><img src=$quadra[img1]></p>";}
         if($quadra['img2'] != ""){
-        echo "<p><img src=$quadra[img2]></p>";}
+        // echo "<p><img src=$quadra[img2]></p>";
+    }
 
          echo "<div class =\"box-end\">";
         //echo "<p id= pag>Local: $quadra[desc_local] </p>"
