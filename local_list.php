@@ -49,7 +49,8 @@ if(!isset($_SESSION['login']) || $_SESSION['login'] != true){
         echo "<p id= pag>$quadra[nome_local] </p>";
         if($quadra['img1'] != ""){
         echo "<p><img src=$quadra[img1]></p>";
-        echo "<p><img src=$quadra[img2]></p>";}
+        // echo "<p><img src=$quadra[img2]></p>";
+    }
         
 
         echo "<div class =\"box-end\">";
