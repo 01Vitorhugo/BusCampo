@@ -16,14 +16,15 @@ body{
     width: 100%;
     margin-top: 200px;
     text-align: left;
-    /* background-color: aqua; */
+    /* background-color: aqua;  */
 }
 .texto-apresentacao .texto-prin{
-    /* background-color: black;  */
+    /* background-color: black;   */
     height: 50%;
     justify-content: center;
     align-items: center;
     display: flex;
+    text-align: center;
 }
 
 .texto-apresentacao .texto-p{
@@ -75,5 +76,12 @@ body{
 }
 .carousel-caption:hover{
     background-color: rgba(0, 0, 0, 0.767);
+}
+
+.carousel-control-prev{
+    background-color:  #edf2f471;
+}
+.carousel-control-next{
+    background-color:  #edf2f471;
 }
 
