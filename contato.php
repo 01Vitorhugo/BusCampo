@@ -1,6 +1,6 @@
 <?php
 @include('menu.php');
-@require('sec.php');
+@require('sec_login.php');
 require('connect.php');
 
 extract($_GET);
