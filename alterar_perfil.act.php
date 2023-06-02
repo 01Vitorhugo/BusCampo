@@ -2,6 +2,16 @@
     session_start();                         
     require('connect.php');
     extract($_POST);
+    extract($_FILES);
+
+    if($old_img == ""){
+      $endereco = "imgsquadras/".md5(time()).".jpg";
+    }else{
+      $endereco = $old_img; 
+    }
+    if($imagem['name'] != ""){
+      move_uploaded_file($imagem['tmp_name'],$endereco);
+    }
 
     if($old_senha != ""){
         $old_senha = md5($old_senha);
@@ -12,7 +22,7 @@
 
     if($old_senha == ""){
         if($_SESSION['tipo'] == true){
-            if(mysqli_query($con, "UPDATE `tb_locador` SET `nome_cliente` = '$nome_cliente', `email` = '$email', `telefone` = '$tel', `doc` = '$doc' WHERE `tb_locador`.`id_cliente` = '$id_cliente';")){
+            if(mysqli_query($con, "UPDATE `tb_locador` SET `nome_cliente` = '$nome_cliente', `email` = '$email', `telefone` = '$tel', `doc` = '$doc', `imagem` = '$endereco' WHERE `tb_locador`.`id_cliente` = '$id_cliente';")){
                 $msg = "Alterado com sucesso";
                 header("location:perfil.php");   
               }else{
@@ -20,7 +30,7 @@
                 header("location:alterar_perfil.php");   
               }
         }else if($_SESSION['tipo'] == false){
-            if(mysqli_query($con, "UPDATE `tb_locatario` SET `nome_cliente` = '$nome_cliente', `email` = '$email' WHERE `tb_locatario`.`id_cliente` = '$id_cliente';")){
+            if(mysqli_query($con, "UPDATE `tb_locatario` SET `nome_cliente` = '$nome_cliente', `email` = '$email', `imagem` = '$endereco' WHERE `tb_locatario`.`id_cliente` = '$id_cliente';")){
                 $msg = "Alterado com sucesso";
                 header("location:perfil.php");   
               }else{
@@ -40,13 +50,13 @@
 
     if($senha_atual['senha'] == $old_senha && $new_senha != ""){
         if($_SESSION['tipo'] == true){
-            if(mysqli_query($con, "UPDATE `tb_locador` SET `nome_cliente` = '$nome_cliente', `email` = '$email', `telefone` = '$tel', `doc` = '$doc', `senha` = '$new_senha' WHERE `tb_locador`.`id_cliente` = '$id_cliente';")){
+            if(mysqli_query($con, "UPDATE `tb_locador` SET `nome_cliente` = '$nome_cliente', `email` = '$email', `telefone` = '$tel', `doc` = '$doc', `imagem` = '$endereco', `senha` = '$new_senha' WHERE `tb_locador`.`id_cliente` = '$id_cliente';")){
                 $msg = "Alterado com sucesso";
               }else{
                 $msg = "Erro na alteração";
               }
         }else if($_SESSION['tipo'] == false){
-            if(mysqli_query($con, "UPDATE `tb_locatario` SET `nome_cliente` = '$nome_cliente', `email` = '$email', `senha` = '$new_senha' WHERE `tb_locatario`.`id_cliente` = '$id_cliente';")){
+            if(mysqli_query($con, "UPDATE `tb_locatario` SET `nome_cliente` = '$nome_cliente', `email` = '$email', `imagem` = '$endereco', `senha` = '$new_senha' WHERE `tb_locatario`.`id_cliente` = '$id_cliente';")){
                 $msg = "Alterado com sucesso";
               }else{
                 $msg = "Erro na alteração";

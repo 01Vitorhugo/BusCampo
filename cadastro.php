@@ -28,12 +28,13 @@ include('menu.php');
             <h2>Cadastro Locador    </h2>
         </div>
         
-            <form action="cadastro.act.php" method="post">
+            <form action="cadastro.act.php" method="post" enctype="multipart/form-data">
             <p>Nome: <input type="text" name="nome"" required></p>
-            <p>Email: <input type="text" name="email"  required></p>
-            <p>Cpf/cnpj: <input type="text" name="doc"  required></p>
-            <p>Telefone: <input type="text" name="tel"  required></p>
-            <p>Senha: <input type="password" name="senha"  required></p>
+            <p>Email: <input type="text" name="email" required></p>
+            <p>Cpf/cnpj: <input type="text" name="doc" required></p>
+            <p>Telefone: <input type="text" name="tel" required></p>
+            <p>Senha: <input type="password" name="senha" required></p>
+            <p>Imagem para perfil: <input type="file" name="imagem" required></p>
             <p><input type="submit" id="botao" value="Cadastrar"></p>
             </form>
         </div>

@@ -28,6 +28,7 @@
         <div class="formu">
             <form action="alterar_perfil.act.php" method="post" enctype="multipart/form-data">
             <input type="hidden" name="id_cliente" value="<?php echo $id_cliente?>">
+            <input type="hidden" name="old_img" value="<?php echo $perfil['imagem']?>">
             <p>Nome: </p>
             <p><input type="text" name="nome_cliente" value="<?php echo $perfil['nome_cliente']?>"></p>
             <p>email: </p>
@@ -44,6 +45,8 @@
             <p><input type="password" name="old_senha"></p> 
             <p>Nova senha: </p>
             <p><input type="password" name="new_senha"></p>     
+            <p>Foto de perfil: </p>
+            <p><input type="file" name="imagem"></p>
             <p><input type="submit" id="botao" value="Alterar"></p>
             </form>
         </div>

@@ -28,10 +28,11 @@ include('menu.php');
             <h2>Cadastro Locatário</h2>
         </div>
         
-            <form action="cadastro_locatario.act.php" method="post">
+            <form action="cadastro_locatario.act.php" method="post" enctype="multipart/form-data">
             <p>Nome: <input type="text" name="nome"  required></p>
             <p>Email: <input type="text" name="email"  required></p>
             <p>Senha: <input type="password" name="senha"  required></p>
+            <p>Imagem para perfil: <input type="file" name="imagem" required></p>
             <p><input type="submit" id="botao" value="Cadastrar"></p>
             </form>
         </div>

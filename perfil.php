@@ -30,7 +30,7 @@ require('menu.php');
         echo "<div class =\"sc\">";
         echo "<p>Nome: $perfil[nome_cliente] </p>";
         echo "<p>Email: $perfil[email] </p>";
-        echo "<p>Senha: ********** </p>";
+        echo "<p><img src=$perfil[imagem]></p>";
         echo "<p><a href=alterar_perfil.php?id_cliente=$perfil[id_cliente]>Alterar Perfil</a></p>";
         
         if($_SESSION['tipo'] == true){
