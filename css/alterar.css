@@ -52,11 +52,17 @@ p{
     
 
 }
+.name-formu {
+    height: 100px;
+    width: 100%;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .name-formu h2{
     font-size: 40px;
-    color: #fff;
-    top: 50%;
-    position: relative;
+    color: #000;
 }
 #botao{
     text-align: center;
@@ -89,7 +95,4 @@ button:hover{
 select{
     width: 250%;
 
-}
-.msg{
-    background-color: aqua;
 }

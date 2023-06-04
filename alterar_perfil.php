@@ -20,12 +20,11 @@
 ?>
 <body>
     <div class="formu-cad">
+
+        <div class="formu">
         <div class="name-formu">
             <h2>Alteração de Perfil</h2>
         </div>
-
-
-        <div class="formu">
             <form action="alterar_perfil.act.php" method="post" enctype="multipart/form-data">
             <input type="hidden" name="id_cliente" value="<?php echo $id_cliente?>">
             <input type="hidden" name="old_img" value="<?php echo $perfil['imagem']?>">
