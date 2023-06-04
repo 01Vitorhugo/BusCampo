@@ -5,10 +5,6 @@
     font-family: jura;
     src: url(../JuraDemiBold.ttf);
 }
-body{
-    background: linear-gradient(90deg,  #edf2f4 10%, #268516 40%,#ffd704 100%);
-    
-}
 h1{
     text-align: center;
     margin-top: 150px;
