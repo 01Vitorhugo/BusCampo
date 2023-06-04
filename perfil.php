@@ -20,10 +20,7 @@ require('menu.php');
 
 <?php
         require('connect.php');
-        echo "<div class =\"box\">";
-        echo "<div class =foto-perfil>";
-        echo "<p><img src=$perfil[imagem]></p>";
-        echo "</div>";
+        
         if($_SESSION['tipo'] == true){
             $perfils = mysqli_query($con, "SELECT * FROM `tb_locador` WHERE `tb_locador`.`id_cliente` = '$_SESSION[id]'");
         }else if($_SESSION['tipo'] == false){
@@ -31,6 +28,12 @@ require('menu.php');
         }
         
         $perfil = mysqli_fetch_array($perfils);
+
+        echo "<div class =\"box\">";
+        echo "<div class =foto-perfil>";
+        echo "<p><img src=$perfil[imagem]></p>";
+        echo "</div>";
+        
         echo "<div class =\"sc\">";
         echo "<p>Nome: $perfil[nome_cliente] </p>";
         echo "<p>Email: $perfil[email] </p>";
