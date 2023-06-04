@@ -20,25 +20,41 @@ $quadra = mysqli_fetch_array($quadra);
 <body>
 
 <div class="lista">
-
-    <h3><p>Proprietário</p></h3>    
-    <h5><p><?php echo $quadra['nome_cliente'] ?></p> </h4>
-
-    <h3><p> Ligue para nós: </p></h3>    
-    <h5><p><?php echo $quadra['4'] ?></p></h5>
-
-    <h3><p> Localização: </p></h3>  
-    <h5><p><?php echo "$quadra[bairro]  -  $quadra[cidade]"?></p></h4>
-
+    <div class="box-lista">
+    <h1>Proprietário</h1>    
+    <h3><?php echo $quadra['nome_cliente'] ?></h3>
+    <h1>Ligue para nós</h1>    
+    <h3><?php echo $quadra['4'] ?></h3>
+    <h1>Localização</h1>  
+    <h3><?php echo "$quadra[bairro]  -  $quadra[cidade]"?></h3>
+    </div>
 </div>
 
 
    
     <div class="dir">
         <div class="conteudo">
-            <?php
-            echo  "<img src=$quadra[img1]>"
-            ?>
+        <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src=<?php echo  "$quadra[img1]>"?> 
+    </div>
+    <div class="carousel-item">
+      <img src=<?php echo  "$quadra[img2]>"?> 
+    </div>
+
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+            
+            
 
         </div>
 
