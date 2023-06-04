@@ -16,10 +16,14 @@ require('menu.php');
         echo "<h1>Perfil de $_SESSION[nome] </h1>";
         ?>
     </div>
+    <img src=>
 
 <?php
         require('connect.php');
         echo "<div class =\"box\">";
+        echo "<div class =foto-perfil>";
+        echo "<p><img src=$perfil[imagem]></p>";
+        echo "</div>";
         if($_SESSION['tipo'] == true){
             $perfils = mysqli_query($con, "SELECT * FROM `tb_locador` WHERE `tb_locador`.`id_cliente` = '$_SESSION[id]'");
         }else if($_SESSION['tipo'] == false){
@@ -30,7 +34,6 @@ require('menu.php');
         echo "<div class =\"sc\">";
         echo "<p>Nome: $perfil[nome_cliente] </p>";
         echo "<p>Email: $perfil[email] </p>";
-        echo "<p><img src=$perfil[imagem]></p>";
         echo "<p><a href=alterar_perfil.php?id_cliente=$perfil[id_cliente]>Alterar Perfil</a></p>";
         
         if($_SESSION['tipo'] == true){
