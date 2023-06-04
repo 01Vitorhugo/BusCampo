@@ -4,6 +4,9 @@
     extract($_POST);
     extract($_FILES);
 
+    // error_reporting(E_ALL);
+    // ini_set('display_errors',1);
+
     if($old_img == ""){
       $endereco = "imgsclientes/".md5(time()).".jpg";
     }else{
@@ -24,7 +27,7 @@
         if($_SESSION['tipo'] == true){
             if(mysqli_query($con, "UPDATE `tb_locador` SET `nome_cliente` = '$nome_cliente', `email` = '$email', `telefone` = '$tel', `doc` = '$doc', `imagem` = '$endereco' WHERE `tb_locador`.`id_cliente` = '$id_cliente';")){
                 $msg = "Alterado com sucesso";
-                header("location:perfil.php");   
+                eader("location:perfil.php");   
               }else{
                 $msg = "Erro na alteração";
                 header("location:alterar_perfil.php");   
@@ -63,7 +66,7 @@
               }
         }
     }else{
-       header("location:alterar_perfil.php");   
+      //  header("location:alterar_perfil.php");   
     }
-    header("location:perfil.php");   
+    // header("location:perfil.php");   
 ?>
