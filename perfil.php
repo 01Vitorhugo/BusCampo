@@ -11,12 +11,6 @@ require('menu.php');
     <title>Meu perfil</title>
 </head>
 <body>
-    <div class="nome-cliente-perfil">
-        <?php
-        echo "<h1>Perfil de $_SESSION[nome] </h1>";
-        ?>
-    </div>
-    <img src=>
 
 <?php
         require('connect.php');

@@ -57,15 +57,9 @@
 } 
 .nome-cliente{
     color: #ffd704;
-    animation: zoomIn 2s;
-    margin-left: 50px;
+    /* animation: zoomIn 2s; */
+    /* margin-left: 50px; */
     overflow-x: hidden;
     overflow-y: hidden;
+    text-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5); 
 }
-.nome-cliente img{
-    height: 45px;
-    padding-left: 15px;
-}
-
-
-

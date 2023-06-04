@@ -13,7 +13,7 @@
       $endereco = $old_img; 
     }
     if($imagem['name'] != ""){
-      move_uploaded_file($imagem['tmp_name'],$endereco);
+      move_uploaded_file($imagem['tmp_name'], $endereco);
     }
 
     if($old_senha != ""){
@@ -27,7 +27,7 @@
         if($_SESSION['tipo'] == true){
             if(mysqli_query($con, "UPDATE `tb_locador` SET `nome_cliente` = '$nome_cliente', `email` = '$email', `telefone` = '$tel', `doc` = '$doc', `imagem` = '$endereco' WHERE `tb_locador`.`id_cliente` = '$id_cliente';")){
                 $msg = "Alterado com sucesso";
-                eader("location:perfil.php");   
+                header("location:perfil.php");   
               }else{
                 $msg = "Erro na alteração";
                 header("location:alterar_perfil.php");   
@@ -66,7 +66,7 @@
               }
         }
     }else{
-      //  header("location:alterar_perfil.php");   
+      header("location:alterar_perfil.php");   
     }
-    // header("location:perfil.php");   
+    header("location:perfil.php");   
 ?>
