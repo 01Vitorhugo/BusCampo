@@ -5,7 +5,7 @@
     extract($_FILES);
 
     if($old_img == ""){
-      $endereco = "imgsquadras/".md5(time()).".jpg";
+      $endereco = "imgsclientes/".md5(time()).".jpg";
     }else{
       $endereco = $old_img; 
     }
