@@ -56,7 +56,7 @@ input[type="text"]::placeholder{
     height: 750px;  
     justify-content: space-between;
     flex-direction: column;
-    box-shadow: 2px 2px 5px 2px #268516;
+    /* box-shadow: 2px 2px 5px 2px #268516; */
     /* background-image: url(../imgs/listesporte.png);
     background-repeat: no-repeat; */
     background-size: 700px;
