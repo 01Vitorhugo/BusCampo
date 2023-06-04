@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 01-Jun-2023 às 08:24
+-- Tempo de geração: 04-Jun-2023 às 02:13
 -- Versão do servidor: 10.4.27-MariaDB
 -- versão do PHP: 8.2.0
 
@@ -58,6 +58,7 @@ CREATE TABLE `tb_locador` (
   `email` varchar(50) NOT NULL,
   `doc` varchar(20) NOT NULL,
   `telefone` varchar(15) NOT NULL,
+  `imagem` varchar(60) NOT NULL,
   `senha` varchar(40) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
@@ -65,12 +66,13 @@ CREATE TABLE `tb_locador` (
 -- Extraindo dados da tabela `tb_locador`
 --
 
-INSERT INTO `tb_locador` (`id_cliente`, `nome_cliente`, `email`, `doc`, `telefone`, `senha`) VALUES
-(2, 'Jorge Quebra Mola', 'jorginhodelas@gmail.com', '', '11940028922', '202cb962ac59075b964b07152d234b70'),
-(3, 'Gustavo Henrique', 'gustavo329886@gmail.com', '414124124', '1414214', '202cb962ac59075b964b07152d234b70'),
-(4, 'José', 'joselindo@gmail.com', '123445', '1341414', '202cb962ac59075b964b07152d234b70'),
-(5, 'Pabllo Vittar', 'pabllonoitada@gmail.com', '10390466277', '117762883928', '81dc9bdb52d04dc20036dbd8313ed055'),
-(6, 'Vitor Hugo', 'vitorhhugo0031@gmail.com', '112323734', '112223890274238', '202cb962ac59075b964b07152d234b70');
+INSERT INTO `tb_locador` (`id_cliente`, `nome_cliente`, `email`, `doc`, `telefone`, `imagem`, `senha`) VALUES
+(2, 'Jorge Quebra Mola', 'jorginhodelas@gmail.com', '', '11940028922', '', '202cb962ac59075b964b07152d234b70'),
+(3, 'Gustavo Henrique', 'gustavo329886@gmail.com', '414124124', '1414214', '', '202cb962ac59075b964b07152d234b70'),
+(4, 'José', 'joselindo@gmail.com', '123445', '1341414', '', '202cb962ac59075b964b07152d234b70'),
+(5, 'Pabllo Vittar', 'pabllonoitada@gmail.com', '10390466277', '117762883928', '', '81dc9bdb52d04dc20036dbd8313ed055'),
+(6, 'Vitor Hugo', 'vitorhhugo0031@gmail.com', '112323734', '112223890274238', '', '202cb962ac59075b964b07152d234b70'),
+(7, 'Bianca', 'bia@email.com', '123', '40028922', '', '202cb962ac59075b964b07152d234b70');
 
 -- --------------------------------------------------------
 
@@ -102,7 +104,7 @@ CREATE TABLE `tb_local` (
 
 INSERT INTO `tb_local` (`id_local`, `nome_local`, `id_categoria`, `desc_local`, `telefone`, `cep`, `rua`, `numero`, `bairro`, `cidade`, `estado`, `id_cliente`, `img1`, `img2`, `img3`) VALUES
 (1, 'Quadra Futsal', 1, 'Bater aquela bolinha de cria', '11940028922', '08485430', 'Avenida Jabaquara', 0, 'Jabaquara', 'São Paulo', 'SP', 2, 'imgsquadras/765ccd5d13a6d7fa8d08396a5b11fa84.jpg', 'imgsquadras/765ccd5d13a6d7fa8d08396a5b11fa84.jpg', ''),
-(2, 'Mário kart quadras', 2, 'Melhor lugar pra tirar a ponta do dedo', '123123421', '48500000', 'R. Antônio Andrade Souza', 10, 'Euclides da Cunha', 'Euclides da Cunha', 'BA', 4, 'imgsquadras/3a97d149928a59eb30713eaf3194f16f.jpg', 'imgsquadras/3a97d149928a59eb30713eaf3194f16f.jpg', ''),
+(2, 'Mário kart quadras', 2, 'Melhor lugar pra tirar a ponta do dedo', '123123421', '48500000', 'R. Antônio Andrade Souza', 10, 'Euclides da Cunha', 'Salvador', 'BA', 4, 'imgsquadras/3a97d149928a59eb30713eaf3194f16f.jpg', 'imgsquadras/3a97d149928a59eb30713eaf3194f16f.jpg', ''),
 (17, 'Quadrinha', 3, 'de areia', '1111222', '24900355', 'Rua José Alves da Costa', 123, 'Centro', 'Maricá', 'RJ', 3, 'imgsquadras/0339be6c103e396db084949d7c8b85c2.jpg', 'imgsquadras/0339be6c103e396db084949d7c8b85c2.jpg', ''),
 (19, 'Quadra de Areia Itapevi', 6, 'Areia e Alegria nos pés', '40028922', '08260220', 'Rua Alfredo Catalani', 31, 'Jardim Cibele', 'São Paulo', 'SP', 3, 'imgsquadras/71592b0a764c32244d6b6a084f36ae84.jpg', 'imgsquadras/71592b0a764c32244d6b6a084f36ae84.jpg', ''),
 (20, 'Liberdade FC', 1, 'Campo de Futebol', '11967169254', '08260-005', 'Avenida Jacu-Pêssego', 0, 'José Bonifácio', 'São Paulo', 'SP', 3, 'imgsquadras/b089319b7a9832c72745ca8ec22485e4.jpg', 'imgsquadras/5a179684fd0d8ec0cefedb6131839657.jpg', ''),
@@ -140,6 +142,7 @@ CREATE TABLE `tb_locatario` (
   `id_cliente` int(11) NOT NULL,
   `nome_cliente` varchar(32) NOT NULL,
   `email` varchar(50) NOT NULL,
+  `imagem` varchar(60) NOT NULL,
   `senha` varchar(40) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
@@ -147,10 +150,10 @@ CREATE TABLE `tb_locatario` (
 -- Extraindo dados da tabela `tb_locatario`
 --
 
-INSERT INTO `tb_locatario` (`id_cliente`, `nome_cliente`, `email`, `senha`) VALUES
-(1, 'Breno', 'breno.oliveira79@gmail.com', '827ccb0eea8a706c4c34a16891f84e7b'),
-(2, 'Joao', 'jojinhodelas@gmail.com', '202cb962ac59075b964b07152d234b70'),
-(3, 'João', 'joaozinho@email.com', '202cb962ac59075b964b07152d234b70');
+INSERT INTO `tb_locatario` (`id_cliente`, `nome_cliente`, `email`, `imagem`, `senha`) VALUES
+(1, 'Breno', 'breno.oliveira79@gmail.com', '', '827ccb0eea8a706c4c34a16891f84e7b'),
+(2, 'Joao', 'jojinhodelas@gmail.com', '', '202cb962ac59075b964b07152d234b70'),
+(3, 'João', 'joaozinho@email.com', '', '202cb962ac59075b964b07152d234b70');
 
 --
 -- Índices para tabelas despejadas
@@ -196,7 +199,7 @@ ALTER TABLE `tb_categoria`
 -- AUTO_INCREMENT de tabela `tb_locador`
 --
 ALTER TABLE `tb_locador`
-  MODIFY `id_cliente` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id_cliente` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- AUTO_INCREMENT de tabela `tb_local`
@@ -376,7 +379,7 @@ CREATE TABLE `pma__recent` (
 --
 
 INSERT INTO `pma__recent` (`username`, `tables`) VALUES
-('root', '[{\"db\":\"bd_buscampo\",\"table\":\"tb_categoria\"},{\"db\":\"bd_buscampo\",\"table\":\"tb_local\"},{\"db\":\"bd_buscampo\",\"table\":\"tb_locador\"},{\"db\":\"bd_buscampo\",\"table\":\"tb_locatario\"},{\"db\":\"bd_buscampo\",\"table\":\"tb_estado\"}]');
+('root', '[{\"db\":\"bd_buscampo\",\"table\":\"tb_locatario\"},{\"db\":\"bd_buscampo\",\"table\":\"tb_locador\"},{\"db\":\"bd_buscampo\",\"table\":\"tb_local\"},{\"db\":\"bd_buscampo\",\"table\":\"tb_categoria\"},{\"db\":\"bd_buscampo\",\"table\":\"tb_estado\"}]');
 
 -- --------------------------------------------------------
 
@@ -445,7 +448,7 @@ CREATE TABLE `pma__table_uiprefs` (
 --
 
 INSERT INTO `pma__table_uiprefs` (`username`, `db_name`, `table_name`, `prefs`, `last_update`) VALUES
-('root', 'bd_buscampo', 'tb_locador', '{\"sorted_col\":\"`tb_locador`.`cpf\\/cnpj` ASC\"}', '2023-05-02 00:55:31');
+('root', 'bd_buscampo', 'tb_locador', '[]', '2023-05-31 22:41:40');
 
 -- --------------------------------------------------------
 
@@ -483,7 +486,7 @@ CREATE TABLE `pma__userconfig` (
 --
 
 INSERT INTO `pma__userconfig` (`username`, `timevalue`, `config_data`) VALUES
-('root', '2023-06-01 03:50:55', '{\"Console\\/Mode\":\"collapse\",\"lang\":\"pt\"}');
+('root', '2023-06-04 00:13:40', '{\"Console\\/Mode\":\"collapse\",\"lang\":\"pt\"}');
 
 -- --------------------------------------------------------
 
