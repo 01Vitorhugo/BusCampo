@@ -52,7 +52,6 @@ if($_SESSION['login'] == true){
   echo "<a class=nav-link id=dif href=perfil.php>Meu perfil</a>";  
 }else{
   echo "<span class=login-span><a class=nav-link id=dif href=login.php>Login</a></span>";
-
 }
  ?>
       
@@ -61,6 +60,7 @@ if($_SESSION['login'] == true){
   </div>
 </nav>
 </div>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 
 
