@@ -7,7 +7,7 @@ if(!isset($_SESSION['login']) || $_SESSION['login'] != true){
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="css/listcad.css">
+    <!-- <link rel="stylesheet" href="css/listcad.css"> -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,6 +15,13 @@ if(!isset($_SESSION['login']) || $_SESSION['login'] != true){
     <title>Meus Locais</title>
 </head>
 <body>
+    <div class="container-fluid" id="container">
+        <div class="row">
+            <div class="col-12">
+                <h1>Minhas locações</h1>
+            </div>
+        </div>
+    </div>
     <?php
         if(isset($_SESSION['msg'])){
             echo $_SESSION['msg'];

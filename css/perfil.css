@@ -1,5 +1,6 @@
 *{
     font-family: 'jura'  !important;
+    
 }
 @font-face {
     font-family: jura;
@@ -37,8 +38,9 @@
     transition: 1s;
     box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
     padding-top: 130px;
-
-
+    background-image: url(../imgs/buscampopattern10.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .box .sc:hover{
     transition: 1s;

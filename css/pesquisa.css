@@ -56,10 +56,9 @@ input[type="text"]::placeholder{
     height: 750px;  
     justify-content: space-between;
     flex-direction: column;
-    /* box-shadow: 2px 2px 5px 2px #268516; */
-    /* background-image: url(../imgs/listesporte.png);
-    background-repeat: no-repeat; */
-    background-size: 700px;
+    background-image: url(../imgs/buscampopattern10.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     overflow-y: hidden;
     border-radius: 15px;
     background-color: #198b35;

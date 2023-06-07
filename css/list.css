@@ -20,7 +20,7 @@ body{
     align-items: center;
     flex-wrap: wrap;
     width: 100%;
-    margin-top: 120px;
+    margin-top: 80px;
 }
 .box button{
     border: none;
@@ -45,10 +45,10 @@ body{
     border-radius: 15px;
     overflow-y: hidden;
     /* box-shadow: 2px 2px 5px 2px #268516; */
-    /* background-image: url(../imgs/listesporte.png);
+    background-image: url(../imgs/buscampopattern10.png);
     background-repeat: no-repeat;
-    background-size: 700px;
-    */
+    background-size: cover;
+    
 } 
 .sc p{
     font-size: 30px;
@@ -82,8 +82,7 @@ body{
 .box-end{
     width: 100%;
     height: 300px;
-   
-    /* background-color: #f0f0f0; */
+    /* background-color: #f0f0f021;   */
     
 }
 
@@ -131,4 +130,12 @@ body{
         transform: translatey(0);
       }
    
+}
+#container{
+    background-color: transparent;
+    margin-top: 150px;
+}
+#container .col-12{
+    /* border: solid 5px #198b35; */
+    text-align: center;
 }
