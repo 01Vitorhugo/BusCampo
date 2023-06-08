@@ -1,29 +1,8 @@
-@media (max-width: 1500px){
-    .conteudo-modalidades{
-        height: 1900px;
-        color: tomato;
+
+@media  (max-width: 1500px){
+    .conteudo{
+        background-color: tomato;
+        height: 700px;
     }
-    .conteudo-modalidades .conteudo{
-        width: 60%;
-        height: 100%;
-    }
-    .conteudo .quadra{
-        height: 400px;
-    }
-    .quadra img{
-        height: 80%;
-    }
-    .campo{
-        height: 400px;
-    }
-    .volei{
-        height: 400px;
-    }
-    .basquete{
-        height: 400px;
-    }
-    .poliesportiva{
-        height: 400px;
-    }
-    
+
 }
