@@ -46,8 +46,9 @@ if( !isset($_SESSION['login']) ){
 
 if($_SESSION['login'] == true){
   echo "<a class=nav-link href=cad_local.php>Divulgue seu local</a>";
-  echo "<span class=login-span><a class=nav-link id=dif href=logoff.php>Sair</a></span>";         
   echo "<a class=nav-link id=dif href=perfil.php>Meu perfil</a>";  
+  echo "<span class=login-span><a class=nav-link id=dif href=logoff.php>Sair</a></span>";         
+ 
 }else{
   echo "<span class=login-span><a class=nav-link id=dif href=login.php>Login</a></span>";
 }
