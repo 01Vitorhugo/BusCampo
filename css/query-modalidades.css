@@ -1,7 +1,7 @@
-@media (max-width: 1334px){
+@media (max-width: 1500px){
     .conteudo-modalidades{
-        background-color: aqua;
         height: 1900px;
+        color: tomato;
     }
     .conteudo-modalidades .conteudo{
         width: 60%;

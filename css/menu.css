@@ -35,7 +35,7 @@
    font-size: larger;
 }
 .navbar-nav a:hover{
-    color: #268516;
+    color: #ffd704;
 
 }
 .navbar-nav{
@@ -53,12 +53,12 @@
 }
 
 .login-span a:hover{
-    color: #268516;
-} 
-.nome-cliente{
     color: #ffd704;
-    /* animation: zoomIn 2s; */
-    /* margin-left: 50px; */
+} 
+/* .nome-cliente{
+    color: #ffd704;
+    animation: zoomIn 2s;
+     margin-left: 50px; 
     overflow-x: hidden;
     overflow-y: hidden;    
-}
+} */

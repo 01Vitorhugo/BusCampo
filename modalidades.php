@@ -7,10 +7,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/modalidades.css">
-    <link rel="stylesheet" href="css/query-modalidades.css">
     <script src="https://unpkg.com/scrollreveal"></script>
     <title>Modalidades</title>
+    <link rel="stylesheet" href="css/query-modalidades.css">
+    <link rel="stylesheet" href="css/modalidades.css">
 </head>
 <body>
 

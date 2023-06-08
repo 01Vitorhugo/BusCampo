@@ -18,11 +18,7 @@ body{
     width: 100%;
     height: 800px;
     margin-top: 140px;
-    display: flex;
-    background-image: url('../imgs/listesporte.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-size: 1200px;   
+    display: flex;   
 }
 
 .conteudo .img-conteudo{

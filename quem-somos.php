@@ -8,17 +8,15 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://unpkg.com/scrollreveal"></script>
-  <link rel="stylesheet" href="css/quem-somos.css">
-  <!-- <link rel="stylesheet" href="css/query-quem-somos.css"> -->
   <title>Quem Somos</title>
+  <link rel="stylesheet" href="css/quem-somos.css">
+  <link rel="stylesheet" href="css/query-quem-somos.css"> 
 </head>
 
 <body>
 <div class="conteudo">
   <div class="img-conteudo">
     <img src="imgs/quem-somos.jpeg" alt="">
-
   </div>
   <div class="texto-conteudo">
     <div class="texto-1">
