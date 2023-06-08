@@ -11,6 +11,11 @@ require('menu.php');
     <title>Meu perfil</title>
 </head>
 <body>
+    <div class="nome-cliente">
+        <?php
+          echo "<h1> $_SESSION[nome] </h1>"; 
+        ?>
+    </div>
 
 <?php
         require('connect.php');

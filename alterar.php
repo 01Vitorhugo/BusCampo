@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +9,7 @@
     <title>Alterar informações</title>
 </head>
 <?php
+    @include('menu.php');
     require('connect.php');
     $id_local = $_GET['id_local'];
     $quadras = mysqli_query($con, "select * from `tb_local` where `id_local` = '$id_local'");

@@ -2,8 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/menu.css">
-    <link rel="stylesheet" href="css/query-menu.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
@@ -11,6 +9,8 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
+  <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/query-menu.css">
 </head>
 
 <body>
@@ -47,8 +47,7 @@ if( !isset($_SESSION['login']) ){
 
 if($_SESSION['login'] == true){
   echo "<a class=nav-link href=cad_local.php>Divulgue seu local</a>";
-  echo "<span class=login-span><a class=nav-link id=dif href=logoff.php>Sair</a></span>";
-  echo "<h2 class=nome-cliente> $_SESSION[nome] </h2>";          
+  echo "<span class=login-span><a class=nav-link id=dif href=logoff.php>Sair</a></span>";         
   echo "<a class=nav-link id=dif href=perfil.php>Meu perfil</a>";  
 }else{
   echo "<span class=login-span><a class=nav-link id=dif href=login.php>Login</a></span>";

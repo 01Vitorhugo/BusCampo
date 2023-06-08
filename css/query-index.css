@@ -811,6 +811,10 @@
     }
 }
 @media (min-width: 1301px) and (max-width: 1500px){
+    .content-prin{
+        height: 2000px !important;
+        /* background-color: black; */
+    }
     .carousel{
         height: 500px;
     }
@@ -833,47 +837,62 @@
         font-size: 28px;
     }
     .locais{
-        height: 1300px; 
-        display: grid;
-        grid-template-columns: 2fr 2fr;
+        height: 440px; 
+        /* background-color: aqua; */
+        padding: 10px 10px;
 
     }
     .locais h3{
         font-size: 25px;
     }
     .locais .campo{
-        height: 600px;
+        height: 400px;
         width: 90%;
-        margin-bottom: 30px;
+        padding: 0 10px;
+        /* margin-bottom: 30px;
         margin-left:  auto;
-        margin-right: auto;
+        margin-right: auto; */
     }
     .locais .quadra{
-        height: 600px;
+        height: 400px;
         width: 90%;
-        margin-bottom: 30px;
+        padding: 0 10px;
+        /* margin-bottom: 30px;
         margin-left:  auto;
-        margin-right: auto;
+        margin-right: auto; */
     }
     .locais .areia{
-        height: 600px;
+        height: 400px;
         width: 90%;
-        margin-left:  auto;
-        margin-right: auto;
+        padding: 0 10px;
+        /* margin-left:  auto;
+        margin-right: auto; */
     }
 
     /* CARROSEL CONTEUDO PHP */
+    .sugestao-content{
+        height: 610px;
+    }
     #carouselExampleInterval{
-        height: 85%;
+        height: 84%;
     }
     .BD-box-right{
         height: 100%;
     }
+    .BD-box-left{
+        height: 100%;
+        overflow-y: hidden;
+        /* background-color: aqua; */
+    }
+    .BD-element{
+        height: 100%;
+        /* background-color: aqua; */
+    }
     .BD-box-right-img1{
-        height: 700px  !important;
+        height: 510px  !important;
     }
     .BD-box-right-img1 img{
-        height: 700px  !important;
+        height: 510px  !important;
     }
     /* CARROSEL CONTEUDO PHP FIM */
     
