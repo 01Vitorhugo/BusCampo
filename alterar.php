@@ -2,14 +2,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="css/alterar.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alterar informações</title>
+    <link rel="stylesheet" href="css/alterar.css"> 
+        <link rel="stylesheet" href="css/query-alterar.css"> 
 </head>
 <?php
-    @include('menu.php');
+    // @include('menu.php');
     require('connect.php');
     $id_local = $_GET['id_local'];
     $quadras = mysqli_query($con, "select * from `tb_local` where `id_local` = '$id_local'");

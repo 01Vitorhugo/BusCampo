@@ -1,0 +1,15 @@
+@media (max-width: 1500px){
+    .name-formu{
+        margin-bottom: 0px;
+    }
+    .name-formu h2{
+        font-size: 40px;
+        color: #000;
+    }
+    .formu{
+        margin-top: 10px;
+    }
+    button{
+        width: 50%;
+    }
+}

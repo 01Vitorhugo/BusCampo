@@ -32,7 +32,6 @@
     align-items: center;
     margin-top: 3px;
     transition: 0.5s;
-   
 }
 .nav-sub-menu ul li:hover{  
    cursor: pointer; 

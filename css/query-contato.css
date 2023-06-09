@@ -1,0 +1,14 @@
+@media (max-width: 1500px){
+.lista .box-lista{
+    /* background-color: yellowgreen; */
+    padding: 2px 0;
+    margin-left: 50px;
+}
+.conteudo{
+    height: 500px;
+    width: 800px;
+}
+.box-lista h1{
+    padding: 5px;
+}
+}

@@ -1,4 +1,7 @@
 *{
+    margin: 0;
+    padding: 0;
+    border: 0;
     font-family: 'jura' ;
 }
 @font-face {
@@ -7,12 +10,13 @@
 }
 body{
         background-image: url(../imgs/pexels-anastasia-shuraeva-9519543.jpg);
-        background-size: 100% 100%;
+        background-size: contain;
         justify-content: center;
         background-position: bottom;
         background-repeat: no-repeat;
-        align-items: center;
+        /* align-items: center; */
         display: flex;
+
     
 }
 .conteudo{

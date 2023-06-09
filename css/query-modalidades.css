@@ -1,8 +1,12 @@
 
 @media  (max-width: 1500px){
-    .conteudo{
-        background-color: tomato;
-        height: 700px;
+    .conteudo-modalidades{
+        height: 100px;
     }
-
+    .conteudo-modalidades .conteudo{
+        width: 60%;
+    }
+    .seta-cima{
+        right: 10%;
+    }
 }
