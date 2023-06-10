@@ -32,7 +32,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-   font-size: larger;
+   font-size: 30px;
 }
 .navbar-nav a:hover{
     color: #ffd704;

@@ -10,7 +10,8 @@
     <script src="https://unpkg.com/scrollreveal"></script>
     <link rel="stylesheet" href="css/modalidades.css">
     <link rel="stylesheet" href="css/query-modalidades.css">
-    <title>Modalidades</title>
+    <title>Modalidades</title><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Teko:wght@600&display=swap" rel="stylesheet">
 
 </head>
 <body>

@@ -10,6 +10,8 @@ include('menu.php');
     <link rel="stylesheet" href="css/query-tela_cad.css">
     <link rel="stylesheet" href="css/tela_cad.css">
     <title>Cadastro</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Teko:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="conteudo">
