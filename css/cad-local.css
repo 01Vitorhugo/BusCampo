@@ -5,16 +5,15 @@
     margin: 0;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: jura;
+    src: url(../JuraDemiBold.ttf);
+}
 body{
     position: relative;
     /* top: 150px; */
     height: 1080px;
     
-}
-
-@font-face {
-    font-family: jura;
-    src: url(../JuraDemiBold.ttf);
 }
 
 .formu-cad{

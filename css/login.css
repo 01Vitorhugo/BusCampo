@@ -83,6 +83,9 @@ form p{
     width: 80%;
     height: 80%;
 }
+.name-formu{
+    padding: 30px 0;
+}
 
 .dados input{
     
@@ -116,7 +119,7 @@ form p{
 }
 .msg{
     width: 50%;
-    height: 100px;
+    height: 50px;
     display: flex;
     /* background-color: #ffd704; */
     justify-content: center;

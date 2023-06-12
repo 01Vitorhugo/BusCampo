@@ -18,10 +18,28 @@ if(!isset($_SESSION['login']) || $_SESSION['login'] != true){
     <div class="container-fluid" id="container">
         <div class="row">
             <div class="col-12">
-                <h1>Minhas locações</h1>
+                <h1 >Minhas locações</h1>
             </div>
         </div>
     </div>
+
+    <div class="seta-cima" id="seta">
+       <a href="#container"><img src="imgs/seta-para-cima.png" alt=""></a>
+    </div>
+
+    <script>
+        window.addEventListener("scroll", function() {
+    var elemento = document.getElementById("seta");
+    var posicao = window.scrollY;
+    if (posicao > 350) {
+      elemento.style.display = "block";
+    } else {
+      elemento.style.display = "none";
+    }
+  });
+    </script>
+
+
     <?php
         if(isset($_SESSION['msg'])){
             echo $_SESSION['msg'];

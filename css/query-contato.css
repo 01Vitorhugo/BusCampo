@@ -1,8 +1,8 @@
 @media (max-width: 1500px){
 .lista .box-lista{
-    /* background-color: yellowgreen; */
-    padding: 2px 0;
-    margin-left: 50px;
+    /* background-color: yellowgreen;  */
+    margin-left: 60px;
+    width: 500px;
 }
 .conteudo{
     height: 500px;
@@ -10,5 +10,9 @@
 }
 .box-lista h1{
     padding: 5px;
+    font-size: 30px;
+}
+.box-lista h3{
+    font-size: 25px;
 }
 }
