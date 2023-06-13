@@ -32,7 +32,11 @@ require('menu.php');
 
         echo "<div class =\"box\">";
         echo "<div class =foto-perfil>";
-        echo "<p><img src=$perfil[imagem]></p>";
+        if($perfil['imagem'] == ""){
+            echo "<p><img src=imgsclientes/avatar.jpg></p>";
+        }else{
+            echo "<p><img src=$perfil[imagem]></p>";
+        }
         echo "</div>";
         
         echo "<div class =\"sc\">";
