@@ -38,6 +38,6 @@
         $target = "location:login.php";
         $msg = "Email ou senha invalidos";
     }
-    $_SESSION['msg'] = $msg;
+    $_SESSION['msg_false'] = $msg;
     header($target);
 ?>

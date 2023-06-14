@@ -37,17 +37,28 @@
                 </div>
                 <form action="login.act.php" method="post">
 
-                <div class="msg">
-                    <div class="msg-error">
+                
+            
             <?php
-                if(isset($_SESSION['msg'])){
-                    echo $_SESSION['msg'];
-                    unset($_SESSION['msg']);
+                if(isset($_SESSION['msg_true'])){
+                    echo "<div class=msg>";
+                    echo "<div class=msg-true>";
+                    echo $_SESSION['msg_true'];
+                    echo "</div>";
+                    echo "</div>";
+                    unset($_SESSION['msg_true']);
+
+                }else if(isset($_SESSION['msg_false'])){
+                    echo "<div class=msg>";
+                    echo "<div class=msg-error>";
+                    echo $_SESSION['msg_false'];
+                    echo "</div>";
+                    echo "</div>";
+                    unset($_SESSION['msg_false']);
+
                 }
             ?>
            
-        </div>
-            </div>
                     <p>email <input type="text" name="email" required></p>
                     <p>senha <input type="password" name="senha" required></p>
                     <p><input type="submit" id="botao" value="Entrar"></p>

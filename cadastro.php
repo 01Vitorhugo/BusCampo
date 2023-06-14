@@ -36,7 +36,7 @@ include('menu.php');
             <p>Cpf/cnpj <input type="text" name="doc" required></p>
             <p>Telefone <input type="text" name="tel" required></p>
             <p>Senha <input type="password" name="senha" required></p>
-            <p>Imagem para perfil <input type="file" name="imagem" required></p>
+            <p>Imagem para perfil <input type="file" name="imagem"></p>
             <p><input type="submit" id="botao" value="Cadastrar"></p>
             </form>
         </div>

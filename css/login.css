@@ -129,3 +129,10 @@ form p{
     color: red;
 
 }
+.msg .msg-true{
+    animation: backInUp;
+    animation-duration: 1s;
+    color: blue;
+
+}
+
