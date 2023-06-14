@@ -1,18 +1,18 @@
 *{
-    font-family: jura !important;
+    font-family: 'Teko', sans-serif;
     border: 0;
     margin: 0;
     box-sizing: border-box;
-    font-size: 18px;
+    font-size: 20px;
 }
-@font-face {
+/* @font-face {
     font-family: jura;
     src: url(../JuraDemiBold.ttf);
-}
+} */
 
 body{
     background-color: #edf2f4;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .formu-cad{
@@ -21,8 +21,8 @@ body{
     flex-direction: column;
     align-items: center;
     background-image: url(../imgs/pexels-anastasia-shuraeva-9519543.jpg);
-    /* width: 100%;
-    height: 100%; */
+    /* width: 100%; */
+    height: 1080px; 
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -78,13 +78,14 @@ p{
 }
 button{
     border: none;
-    width: 56%;
-    margin-right: 20px;
+    width: 85%;
+    margin-right: 25px;
     color: red;
     height: 40px;
     background-color: red;
     color: white;
     transition: 1s;
+    padding: 1px 6px    ;
 }
 button:hover{
     border-radius: 10px;
@@ -95,4 +96,16 @@ button:hover{
 select{
     width: 250%;
 
+}
+#button-cancelar{
+    background-color: transparent;
+    padding: 0;
+    margin-bottom: 5px;
+}
+#button-cancelar a{
+    text-decoration: none;
+    color: #000;
+}
+#button-cancelar a:hover{
+    color: blue;
 }

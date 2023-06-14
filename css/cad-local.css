@@ -1,14 +1,14 @@
 
 *{
-    font-family: jura;
+    font-family: 'Teko', sans-serif;
     border: 0;
     margin: 0;
     box-sizing: border-box;
 }
-@font-face {
+/* @font-face {
     font-family: jura;
     src: url(../JuraDemiBold.ttf);
-}
+} */
 body{
     position: relative;
     /* top: 150px; */

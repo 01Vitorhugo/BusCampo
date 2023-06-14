@@ -1,11 +1,9 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Teko', sans-serif;}
-@font-face {
-    font-family: jura;
-    src: url(../JuraDemiBold.ttf);
+    font-family: 'Teko', sans-serif;
 }
+
 .seta-cima{
     height: 100px;
     width: 100px;

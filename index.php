@@ -102,7 +102,7 @@ require('query_index.php');
                                     echo "<h3 id= pag>$quadra1[estado] </h3>";
                                     ?>
                                     <div class="link-contato-BD">
-                                    <?php echo "<a href=contato.php?id_local=$quadra1[id_local]>Contato</a>" ?>
+                                    <?php echo "<a href=contato.php?id_local=$quadra1[id_local]>Contato</a>"?>
                                     </div>
                                 </div>
 

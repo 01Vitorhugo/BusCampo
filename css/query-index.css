@@ -894,6 +894,9 @@
     .BD-box-right-img1 img{
         height: 510px  !important;
     }
+    .conteudo-BD-left .link-contato-BD{
+        margin: 0;
+    }
     /* CARROSEL CONTEUDO PHP FIM */
     
     .trabalhe-conosco{

@@ -2,10 +2,7 @@
     font-family: 'Teko', sans-serif;
     
 }
-@font-face {
-    font-family: jura;
-    src: url(../JuraDemiBold.ttf);
-}
+
 .nome-cliente{
     margin-top: 120px;
     /* background-color: #ffd704; */

@@ -4,18 +4,16 @@
     border: 0;
     font-family: 'Teko', sans-serif;
 }
-@font-face {
-    font-family: jura;
-    src: url(../JuraDemiBold.ttf);
-}
+
 body{
         background-image: url(../imgs/pexels-anastasia-shuraeva-9519543.jpg);
-        background-size: contain;
+        background-size: cover;
         justify-content: center;
-        background-position: bottom;
+        background-position: center;
         background-repeat: no-repeat;
         /* align-items: center; */
         display: flex;
+        width: 100%;
 
     
 }

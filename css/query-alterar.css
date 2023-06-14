@@ -6,8 +6,12 @@
         font-size: 40px;
         color: #000;
     }
+    .formu-cad{
+        height: 767px;
+    }
     .formu{
         margin-top: 10px;
+        width: 60%;
     }
     button{
         width: 50%;
