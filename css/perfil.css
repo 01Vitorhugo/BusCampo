@@ -16,8 +16,8 @@
    margin: 0;
 }
 .box{
-    margin-top: 80px;
-    height: 500px;
+    margin-top: 20px;
+    height: 410px;
     text-align: center;
     justify-content: space-around;
     display: flex;
@@ -46,7 +46,7 @@
     border-radius: 10px;
     transition: 1s;
     box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
-    padding-top: 130px;
+    padding-top: 80px;
     background-image: url(../imgs/buscampopattern10.png);
     background-repeat: no-repeat;
     background-size: cover;

@@ -64,7 +64,7 @@
                     <p><input type="submit" id="botao" value="Entrar"></p>
 
                     </form>
-                    <div class="logar">Não tem cadastro?<a href="tela_cad.php"> Cadastrar</a></div>
+                    <div class="logar">Não tem cadastro?<a href="tela_cad.php">Cadastrar</a></div>
             </div>
             
            

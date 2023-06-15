@@ -16,3 +16,20 @@
     font-size: 25px;
 }
 }
+@media (min-width: 1101px) and (max-width: 1300px){
+    .dir{
+        /* background-color: aqua; */
+        height: 400px;
+        padding-top: 250px;
+    }
+    .conteudo{
+        height: 400px;
+        width: 500px;
+    }
+    
+    .box-lista h1{
+        padding: 0;
+        margin: 0;
+    }
+    
+}

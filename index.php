@@ -97,7 +97,7 @@ require('query_index.php');
                                 </div>
                                 <div class="conteudo-BD-left">
                                     <?php
-                                    echo "<h3 id= pag>Proprietário: $quadra1[nome_cliente] </h3>";
+                                    echo "<h3 id= pag>Proprietário $quadra1[nome_cliente]</h3>";
                                     echo "<h3 id= pag>$quadra1[desc_local] </h3>";
                                     echo "<h3 id= pag>$quadra1[estado] </h3>";
                                     ?>

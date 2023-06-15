@@ -46,3 +46,20 @@
         color: #268516;
     }
 }
+@media (min-width: 1101px) and (max-width: 1300px){
+    .conteudo{
+        /* background-color: #55814d; */
+        height: 600px;
+        margin-top: 120px;
+    }
+    .img-conteudo{
+        height: 600px !important; 
+    }
+    .img-conteudo img{
+        height: 500px !important;
+    }
+    .texto-conteudo{
+        height: 500px !important;
+        margin: 50px !important;
+    }
+}

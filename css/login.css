@@ -81,7 +81,9 @@ form p{
     height: 80%;
 }
 .name-formu{
-    padding: 30px 0;
+    margin-top: 30px;
+    /* background-color: #ffd704; */
+    height: 50px;
 }
 
 .dados input{
@@ -93,7 +95,7 @@ form p{
 }
 #botao{
     position: relative;
-    top: 40%;
+    top: 50%;
     left: 25%;
     height: 50px;
     width: 50%;
@@ -108,13 +110,16 @@ form p{
     transition: 1s;
 }
 .logar{
-    height: 100px;
+    height: 50px;
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    /* background-color: #ffd704;   */
+
 }
 .msg{
+    margin-top: 150px;
     width: 50%;
     height: 50px;
     display: flex;
@@ -122,6 +127,7 @@ form p{
     justify-content: center;
     align-items: center;
     overflow-y: hidden;
+    position: fixed;
 }
 .msg .msg-error{
     animation: backInUp;
