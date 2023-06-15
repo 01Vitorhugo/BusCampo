@@ -10,3 +10,17 @@
 }
 
 }
+@media (min-width: 1101px) and (max-width: 1300px){
+    .conteudo{
+        height: 400px;
+    }
+    .conteudo .botao1{
+        margin-top: 150px;
+    }
+    .botao1 h2{
+        width: 250px;
+    }
+    .botao2 h2{
+        width: 250px;
+    }
+}
