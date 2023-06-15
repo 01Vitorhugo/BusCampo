@@ -1,0 +1,8 @@
+@media (min-width: 1101px) and (max-width: 1300px){
+    .container-fluid{
+        height: 80px;
+    }
+    .navbar-brand img{
+        width: 140px;
+    }
+}
