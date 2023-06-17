@@ -1,6 +1,14 @@
 <?php
 include('menu.php');
 require('query_index.php');
+
+if(!isset($_SESSION['tipo'])){
+    $_SESSION['tipo'] = false;
+
+}
+if(!isset($_SESSION['id'])){
+    $_SESSION['id'] = null;
+}
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
