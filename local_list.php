@@ -57,7 +57,7 @@ if(!isset($_SESSION['login']) || $_SESSION['login'] != true){
         
 
         echo "<div class =\"box-end\">";
-        echo "<p id= pag>Telefone: $quadra[telefone] </p>";
+        if($_SESSION['login'] == true){echo "<p id= pag>Telefone: $quadra[telefone] </p>";}
         echo "<p id= pag>Cep: $quadra[cep] </p>";
         echo "<p id= pag>Rua: $quadra[rua] </p>";
         echo "<p id= pag>Cidade: $quadra[cidade] </p>";
