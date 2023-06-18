@@ -34,7 +34,7 @@ include('menu.php');
             <p>Nome <input type="text" name="nome"  required></p>
             <p>Email <input type="text" name="email"  required></p>
             <p>Senha <input type="password" name="senha"  required></p>
-            <p>Imagem para perfil: <input type="file" name="imagem" required></p>
+            <p>Imagem para perfil: <input type="file" name="imagem"></p>
             <p><input type="submit" id="botao" value="Cadastrar"></p>
             </form>
         </div>

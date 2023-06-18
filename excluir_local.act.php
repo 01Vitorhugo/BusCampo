@@ -1,5 +1,5 @@
 <?php
-    require('sec.php');
+    require('sec_locador.php');
     $id_local = $_GET['id_local'];
     require('connect.php');
 

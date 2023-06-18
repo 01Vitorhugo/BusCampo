@@ -1,7 +1,4 @@
-<?php @session_start(); ?>
-<?php
-@include('menu.php');
-?>
+<?php @session_start();@include('menu.php');?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -40,6 +37,7 @@
                 
             
             <?php
+                extract($_GET);
                 if(isset($_SESSION['msg_true'])){
                     echo "<div class=msg>";
                     echo "<div class=msg-true>";
@@ -57,8 +55,12 @@
                     unset($_SESSION['msg_false']);
 
                 }
+                extract($_GET);
+                if(!isset($backup)){
+                    $backup = NULL;
+                }
             ?>
-           
+                    <input type="hidden" name="backup" value="<?php echo $backup ?>">
                     <p>email <input type="text" name="email" required></p>
                     <p>senha <input type="password" name="senha" required></p>
                     <p><input type="submit" id="botao" value="Entrar"></p>

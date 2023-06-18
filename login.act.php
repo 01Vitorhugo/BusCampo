@@ -39,5 +39,10 @@
         $msg = "Email ou senha invalidos";
     }
     $_SESSION['msg_false'] = $msg;
+
+    if(isset($backup) && $backup != NULL && $_SESSION['login'] == true){
+        $target = "location:contato.php?id_local=$backup";
+        
+    }
     header($target);
 ?>

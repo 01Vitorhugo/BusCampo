@@ -1,4 +1,4 @@
-<?php require('sec.php'); @session_start();?>
+<?php require('sec_locador.php'); @session_start();?>
 <?php
 @include('menu.php'); 
 ?>

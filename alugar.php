@@ -1,4 +1,4 @@
-<?php require('sec.php');?>
+<?php require('sec_locatario.php');?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

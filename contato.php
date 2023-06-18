@@ -21,7 +21,7 @@ $quadra = mysqli_fetch_array($quadra);
 <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Teko:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
-<div class="img-locador"></div>
+<?php if($_SESSION['login'] == true){echo "<div class=img-locador></div>";}?>
 <div class="lista">
     <div class="box-lista">
     <h1>Proprietário</h1>    
@@ -39,7 +39,7 @@ $quadra = mysqli_fetch_array($quadra);
       echo "<a href=# class=logado><img src=imgs/gmail.png></a>";
    
     }else{
-     echo "<h3 classh3-logado><a href=login.php>Ver Mais</a></h3>";
+     echo "<h3 classh3-logado><a href=login.php?backup=$id_local>Ver Mais</a></h3>";
     }
     ?>
   
