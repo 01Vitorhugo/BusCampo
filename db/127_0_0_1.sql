@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 05-Jun-2023 às 01:29
+-- Tempo de geração: 18-Jun-2023 às 21:49
 -- Versão do servidor: 10.4.27-MariaDB
 -- versão do PHP: 8.2.0
 
@@ -67,13 +67,15 @@ CREATE TABLE `tb_locador` (
 --
 
 INSERT INTO `tb_locador` (`id_cliente`, `nome_cliente`, `email`, `doc`, `telefone`, `imagem`, `senha`) VALUES
-(1, 'Jorge Quebra Mola', 'jorginhodelas@gmail.com', '', '11940028922', '', '202cb962ac59075b964b07152d234b70'),
-(2, 'Gustavo Henrique', 'gustavo329886@gmail.com', '414124124', '1414214', 'imgsclientes/422bebcb12c4c989b2e9a65a9ecf1ba1.jpg', '202cb962ac59075b964b07152d234b70'),
+(1, 'Jorge', 'jorginhodelas@gmail.com', '', '11940028922', '', '202cb962ac59075b964b07152d234b70'),
+(2, 'Gustavo Henrique', 'gustavo329886@gmail.com', '414124124', '1414214', '', '202cb962ac59075b964b07152d234b70'),
 (3, 'Bianca', 'bia@email.com', '123', '40028922', '', '202cb962ac59075b964b07152d234b70'),
 (4, 'José', 'joselindo@gmail.com', '123445', '1341414', '', '202cb962ac59075b964b07152d234b70'),
-(5, 'Pabllo Vittar', 'pabllonoitada@gmail.com', '10390466277', '117762883928', '', '81dc9bdb52d04dc20036dbd8313ed055'),
+(5, 'Carlos', 'carlos@gmail.com', '10390466277', '117762883928', '', '202cb962ac59075b964b07152d234b70'),
 (6, 'Vitor Hugo', 'vitorhhugo0031@gmail.com', '112323734', '112223890274238', '', '202cb962ac59075b964b07152d234b70'),
-(7, 'Hiury', 'hiury@email.com', '123', '1234', 'imgsclientes/1053626c123cf936cdfe45fe03f36233.jpg', '202cb962ac59075b964b07152d234b70');
+(7, 'Hiury', 'hiury@email.com', '123', '1234', '', '202cb962ac59075b964b07152d234b70'),
+(8, 'Cliente', 'clientelocador@email.com', '999.999.999.00', '40028922', '', '202cb962ac59075b964b07152d234b70'),
+(9, 'Leandro', 'leandro@email.com', '999.888.777.09', '40028922', '', '202cb962ac59075b964b07152d234b70');
 
 -- --------------------------------------------------------
 
@@ -154,11 +156,14 @@ CREATE TABLE `tb_locatario` (
 --
 
 INSERT INTO `tb_locatario` (`id_cliente`, `nome_cliente`, `email`, `imagem`, `senha`) VALUES
-(1, 'Breno', 'breno.oliveira79@gmail.com', '', '827ccb0eea8a706c4c34a16891f84e7b'),
-(2, 'Joao', 'jojinhodelas@gmail.com', '', '202cb962ac59075b964b07152d234b70'),
+(1, 'Breno', 'breno.oliveira79@gmail.com', '', '202cb962ac59075b964b07152d234b70'),
+(2, 'Bruna', 'bruna@gmail.com', '', '202cb962ac59075b964b07152d234b70'),
 (3, 'João', 'joaozinho@email.com', '', '202cb962ac59075b964b07152d234b70'),
-(4, 'José', 'jose@email.com', 'imgsclientes/ecd445368ab098c0b4f74bc02505a976.jpg', '202cb962ac59075b964b07152d234b70'),
-(5, 'Gabriel', 'Gabi@email.com', 'imgsclientes/58614815e71dfb2ec0fd9f0cd8c5db90.jpg', '202cb962ac59075b964b07152d234b70');
+(4, 'José', 'jose@email.com', '', '202cb962ac59075b964b07152d234b70'),
+(5, 'Gabriel', 'Gabriel@email.com', '', '202cb962ac59075b964b07152d234b70'),
+(6, 'Cliente', 'clientelocatario@email.com', '', '202cb962ac59075b964b07152d234b70'),
+(7, 'Kleber', 'Kleber@email.com', '', '202cb962ac59075b964b07152d234b70'),
+(8, 'Luiza', 'luiza@email.com', '', '202cb962ac59075b964b07152d234b70');
 
 --
 -- Índices para tabelas despejadas
@@ -204,7 +209,7 @@ ALTER TABLE `tb_categoria`
 -- AUTO_INCREMENT de tabela `tb_locador`
 --
 ALTER TABLE `tb_locador`
-  MODIFY `id_cliente` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id_cliente` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- AUTO_INCREMENT de tabela `tb_local`
@@ -216,7 +221,7 @@ ALTER TABLE `tb_local`
 -- AUTO_INCREMENT de tabela `tb_locatario`
 --
 ALTER TABLE `tb_locatario`
-  MODIFY `id_cliente` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id_cliente` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- Restrições para despejos de tabelas
@@ -384,7 +389,7 @@ CREATE TABLE `pma__recent` (
 --
 
 INSERT INTO `pma__recent` (`username`, `tables`) VALUES
-('root', '[{\"db\":\"bd_buscampo\",\"table\":\"tb_local\"},{\"db\":\"bd_buscampo\",\"table\":\"tb_locador\"},{\"db\":\"bd_buscampo\",\"table\":\"tb_categoria\"},{\"db\":\"bd_buscampo\",\"table\":\"tb_locatario\"},{\"db\":\"bd_buscampo\",\"table\":\"tb_estado\"}]');
+('root', '[{\"db\":\"bd_buscampo\",\"table\":\"tb_locador\"},{\"db\":\"bd_buscampo\",\"table\":\"tb_locatario\"},{\"db\":\"bd_buscampo\",\"table\":\"tb_local\"},{\"db\":\"bd_buscampo\",\"table\":\"tb_categoria\"},{\"db\":\"bd_buscampo\",\"table\":\"tb_estado\"}]');
 
 -- --------------------------------------------------------
 
@@ -492,7 +497,7 @@ CREATE TABLE `pma__userconfig` (
 --
 
 INSERT INTO `pma__userconfig` (`username`, `timevalue`, `config_data`) VALUES
-('root', '2023-06-04 23:29:32', '{\"Console\\/Mode\":\"collapse\",\"lang\":\"pt\"}');
+('root', '2023-06-18 18:23:34', '{\"Console\\/Mode\":\"collapse\",\"lang\":\"pt\"}');
 
 -- --------------------------------------------------------
 
