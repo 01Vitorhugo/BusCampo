@@ -1,6 +1,6 @@
 <?php
 @include('menu.php');
-@require('sec_login.php');
+// @require('sec_login.php');
 require('connect.php');
 
 extract($_GET);
@@ -21,17 +21,32 @@ $quadra = mysqli_fetch_array($quadra);
 <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Teko:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
-
+<div class="img-locador"></div>
 <div class="lista">
     <div class="box-lista">
     <h1>Proprietário</h1>    
     <h3><?php echo $quadra['nome_cliente'] ?></h3>
-    <h1>Ligue para nós</h1>    
-    <h3><?php echo $quadra['4'] ?></h3>
+   
     <h1>Localização</h1>  
     <h3><?php echo "$quadra[bairro]  -  $quadra[cidade]"?></h3>
+
+
+    <?php
+    if($_SESSION['login'] == true){
+      //echo "<h1>Ligue para nós</h1>";
+      //echo "<h3>$quadra[4]</h3>";
+      echo "<a href=# class=logado><img src=imgs/whatsapp.png></a>";
+      echo "<a href=# class=logado><img src=imgs/gmail.png></a>";
+   
+    }else{
+     echo "<h3 classh3-logado><a href=login.php>Ver Mais</a></h3>";
+    }
+    ?>
+  
     </div>
 </div>
+
+
 
 
    

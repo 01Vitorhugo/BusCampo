@@ -31,12 +31,35 @@ body{
     margin-left: 200px;
     text-align: center;
     padding-top: 20px;
-    /* background-color: black; */
+    /* background-color: black;   */
 }
 .box-lista h1{
     padding: 10px;
 }
 
+.box-lista a{
+    color: #268516;
+    text-decoration: none;
+}
+.box-lista a:hover{
+    color: #000000;
+
+}
+
+.logado img{
+    height: 35px;
+    padding: 0 10px;
+
+} 
+.img-locador{
+    height: 150px;
+    width: 220px;
+    background-color: #000000;
+    position: absolute;
+    top: 110px;
+    left: 5px;
+    z-index: 10;
+}
    
 .dir{
     position: relative;
