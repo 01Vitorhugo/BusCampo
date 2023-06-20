@@ -9,7 +9,7 @@ $quadra = mysqli_query($con, "SELECT * FROM `tb_local` INNER JOIN `tb_categoria`
 $quadra = mysqli_fetch_array($quadra);
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">

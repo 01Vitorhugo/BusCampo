@@ -5,7 +5,7 @@ if(!isset($_SESSION['login']) || $_SESSION['login'] != true){
 }
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <!-- <link rel="stylesheet" href="css/listcad.css"> -->
     <meta charset="UTF-8">

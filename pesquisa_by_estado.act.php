@@ -26,10 +26,11 @@
                 //  echo "<p id= pagimg><img src=$quadra[img2]></p>";
 
                 echo "<div class =\"box-end\">";
-                echo "<p id= pag>$quadra[rua]</p>";
-                echo "<p id= pag>$quadra[bairro]</p>";
-                echo "<p id= pag>$quadra[cidade]</p>";
-                echo "<p id= pag>$quadra[estado] </p>";
+                if($_SESSION['login'] == true){echo "<p id= pag>Telefone: $quadra[telefone] </p>";}
+                echo "<p id= pag>CEP: $quadra[cep]</p>";
+                echo "<p id= pag>Rua: $quadra[rua]</p>";
+                echo "<p id= pag>Cidade: $quadra[cidade]</p>";
+                echo "<p id= pag>Estado: $quadra[estado] </p>";
                 echo "</div>";
                 
         if($_SESSION['tipo'] == true && $_SESSION['id'] == $quadra['id_cliente']){
