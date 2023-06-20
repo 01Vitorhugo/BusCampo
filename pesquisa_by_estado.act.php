@@ -13,6 +13,9 @@
             $quadras = mysqli_query($con, "SELECT * FROM `tb_local` INNER JOIN `tb_categoria` ON `tb_local`.`id_categoria` = `tb_categoria`.`id_categoria` where `estado` like '%$texto%' OR `rua` like '%$texto%' OR `bairro` like '%$texto%' OR `cidade` like '%$texto%' order by `nome_local`");
 
             echo "<div class = \"box\">";
+            if(mysqli_num_rows($quadras) == 0 ){
+            echo "<p>Nenhum aquivo encontrado</p>";
+            }
             while($quadra = mysqli_fetch_array($quadras)){
                 echo "<div class =\"sc\">";
 

@@ -90,7 +90,7 @@ if(!isset($_SESSION['id'])){
         <!-- Start sugestao-content -->
         <div class="sugestao-content">
             <div class="text-sugestao">
-                <h1>Sugestões pra você</h1>
+                <h1>Sugestões para você</h1>
             </div>
 
             <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">

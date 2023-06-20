@@ -49,17 +49,11 @@ body{
 .logado img{
     height: 35px;
     padding: 0 10px;
-
 } 
-.img-locador{
-    height: 150px;
-    width: 220px;
-    background-color: #000000;
-    position: absolute;
-    top: 110px;
-    left: 5px;
-    z-index: 10;
-}
+/* .logado img:hover{
+    border: 2px solid #268516;
+    
+} */
    
 .dir{
     position: relative;
