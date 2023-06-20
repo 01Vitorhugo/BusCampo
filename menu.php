@@ -32,7 +32,6 @@
 
         <?php
           $menu_index = $_SERVER['REQUEST_URI'];
-          //  var_dump($menu_index);
           if($menu_index == "/buscampo/index.php" or $menu_index == "/buscampo/"){
             echo '<a class=nav-link href=#footer>Contato</a>';
           }      
@@ -42,7 +41,6 @@
 
         <?php
 @session_start();
-// @var_dump($_SESSION);
 if( !isset($_SESSION['login']) ){
   $_SESSION['login'] = false;
 }

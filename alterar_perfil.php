@@ -13,7 +13,6 @@
 
 <?php
     @session_start();
-    // @include('menu.php');
     require('connect.php');
     $id_cliente = $_GET['id_cliente'];
     if($_SESSION['tipo'] == true){

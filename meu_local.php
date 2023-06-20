@@ -50,7 +50,6 @@ if(!isset($_SESSION['login']) || $_SESSION['login'] != true){
         require('connect.php');
         @include('menu.php');
         extract($_GET);
-        // var_dump($_GET);    
         echo "<div class =\"box\">";
         $quadras = mysqli_query($con, "SELECT * FROM `tb_local` INNER JOIN `tb_categoria` ON `tb_local`.`id_categoria` = `tb_categoria`.`id_categoria` WHERE `tb_local`.`id_cliente` = '$id_cliente' order by `nome_local`");
         while($quadra = mysqli_fetch_array($quadras)){
@@ -59,11 +58,8 @@ if(!isset($_SESSION['login']) || $_SESSION['login'] != true){
         echo "<p id= pag>Nome: $quadra[nome_local] </p>";
           if($quadra['img1'] != ""){
         echo "<p><img src=$quadra[img1]></p>";}
-        // if($quadra['img2'] != ""){
-        // echo "<p><img src=$quadra[img2]></p>";}
 
          echo "<div class =\"box-end\">";
-        //echo "<p id= pag>Local: $quadra[desc_local] </p>"
         echo "<p id= pag>Telefone: $quadra[telefone] </p>";
         echo "<p id= pag>Cep: $quadra[cep] </p>";
         echo "<p id= pag>Rua: $quadra[rua] </p>";

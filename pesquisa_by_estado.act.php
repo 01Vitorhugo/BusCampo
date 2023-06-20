@@ -21,9 +21,7 @@
 
                 echo "<p id= pag>$quadra[desc_categoria] </p>";
                 echo "<p id= pag>$quadra[nome_local] </p>";
-                // echo "<p id= pag>$quadra[desc_local] </p>";
                 echo "<p id= pagimg><img src=$quadra[img1]></p>";
-                //  echo "<p id= pagimg><img src=$quadra[img2]></p>";
 
                 echo "<div class =\"box-end\">";
                 if($_SESSION['login'] == true){echo "<p id= pag>Telefone: $quadra[telefone] </p>";}

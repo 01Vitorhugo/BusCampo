@@ -4,9 +4,6 @@
     extract($_POST);
     extract($_FILES);
 
-    // error_reporting(E_ALL);
-    // ini_set('display_errors',1);
-
     if($old_img == ""){
       $endereco = "imgsclientes/".md5(time()).".jpg";
     }else{

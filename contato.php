@@ -1,6 +1,5 @@
 <?php
 @include('menu.php');
-// @require('sec_login.php');
 require('connect.php');
 
 extract($_GET);
@@ -33,8 +32,6 @@ $quadra = mysqli_fetch_array($quadra);
 
     <?php
     if($_SESSION['login'] == true){
-      //echo "<h1>Ligue para nós</h1>";
-      //echo "<h3>$quadra[4]</h3>";
       echo "<a href=# class=logado><img src=imgs/whatsapp.png></a>";
       echo "<a href=# class=logado><img src=imgs/gmail.png></a>";
    
