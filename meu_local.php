@@ -54,8 +54,8 @@ if(!isset($_SESSION['login']) || $_SESSION['login'] != true){
         $quadras = mysqli_query($con, "SELECT * FROM `tb_local` INNER JOIN `tb_categoria` ON `tb_local`.`id_categoria` = `tb_categoria`.`id_categoria` WHERE `tb_local`.`id_cliente` = '$id_cliente' order by `nome_local`");
         while($quadra = mysqli_fetch_array($quadras)){
         echo "<div class =\"sc\">";
-         echo "<p id= pag>Modalidade: $quadra[desc_categoria] </p>";
-        echo "<p id= pag>Nome: $quadra[nome_local] </p>";
+         echo "<p id= pag>$quadra[desc_categoria] </p>";
+        echo "<p id= pag>$quadra[nome_local] </p>";
           if($quadra['img1'] != ""){
         echo "<p><img src=$quadra[img1]></p>";}
 
