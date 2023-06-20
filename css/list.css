@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap');
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Teko', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .seta-cima{
@@ -58,6 +59,7 @@ body{
     color: #ffbc04e7;
     background-color: transparent;
     cursor: pointer;
+    font-weight: bold;
 }
 .box button:hover{
     text-decoration: underline;
@@ -169,4 +171,8 @@ body{
 #container .col-12{
     /* border: solid 5px #198b35; */
     text-align: center;
+}
+.sucesso{
+    text-align: center;
+    font-size: 25px;
 }

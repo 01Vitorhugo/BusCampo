@@ -15,10 +15,10 @@
     
     if(mysqli_query($con,"INSERT INTO `tb_local` (`id_cliente`,`nome_local`, `id_categoria`,`desc_local`,`telefone`,`rua`,`numero`,`bairro`,`cep`,`estado`,`cidade`,`img1`,`img2`)
     VALUES ('$id', '$nome_local', '$id_categoria', '$desc', '$tel', '$rua', '$numero', '$bairro', '$cep', '$estado','$cidade', '$destino1', '$destino2')")){
-        $msg = "Cadastro da quadra concluído";
+        $msg = "<p class = sucesso>Cadastro da quadra concluído</p>";
         $target = "location:meu_local.php?id_cliente=$id";
     }else{
-        $msg = "Erro ao cadastrar quadra";
+        $msg = "<p class = erro>Erro ao cadastrar quadra</p>";
         $target = "location:cad_local.php";
     }
 
