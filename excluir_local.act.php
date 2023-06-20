@@ -10,6 +10,7 @@
     }
     @session_start();
     $_SESSION['msg'] = $msg;
+    $id = $_SESSION['id'];
 
-    header("location: local_list.php?id_categoria=11");
+    header("location:meu_local.php?id_cliente=$id");
 ?>
