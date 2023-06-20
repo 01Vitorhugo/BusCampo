@@ -129,18 +129,31 @@ form p{
     justify-content: center;
     align-items: center;
     overflow-y: hidden;
+    overflow-X: hidden;
     position: fixed;
 }
 .msg .msg-error{
     animation: backInUp;
     animation-duration: 1s;
     color: red;
+    width: 100%;
+    text-align: center;
+    overflow-y: hidden;
+    overflow-X: hidden;
 
 }
 .msg .msg-true{
     animation: backInUp;
     animation-duration: 1s;
     color: blue;
-
+    width: 100%;
+    text-align: center;
+    overflow-y: hidden;
+    overflow-X: hidden;
+   
+}
+.msg-true .sucesso{
+    text-align: center;
+    width: 100%;
 }
 
